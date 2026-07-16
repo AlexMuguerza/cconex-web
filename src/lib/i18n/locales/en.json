@@ -1,0 +1,336 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "nosotros": "About",
+    "sectores": "Sectors",
+    "servicios": "Services",
+    "proyectos": "Projects",
+    "clientes": "Clients",
+    "contacto": "Contact",
+    "contactanos": "Contact us"
+  },
+  "hero": {
+    "badge": "High-Level Engineering & Consulting",
+    "title1": "Comprehensive Solutions in",
+    "title2": "Engineering,",
+    "title3": "Environment and",
+    "title4": "Industrial Safety",
+    "description": "Regulatory compliance and specialized technical support for mining, construction, industry and infrastructure companies.",
+    "cta": "Request Quote",
+    "cta2": "View Services",
+    "stats": {
+      "proyectos": "Projects",
+      "clientes": "Clients",
+      "anos": "Years",
+      "cobertura": "National Coverage"
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Experience and Commitment to Excellence",
+    "description1": "CCONEX Constructores & Consultores is a Peruvian company with over 10 years of experience providing comprehensive technical solutions to the mining, construction, industry and infrastructure sectors.",
+    "description2": "Our multidisciplinary team of engineers and specialists ensures regulatory compliance and quality in every project, backed by ISO certifications and a solid track record in the national market.",
+    "stats": {
+      "experiencia": "Years of Experience",
+      "proyectos": "Projects",
+      "clientes": "Clients"
+    },
+    "mision": {
+      "title": "Mission",
+      "description": "To provide comprehensive technical solutions in engineering, environment and industrial safety, ensuring regulatory compliance and customer satisfaction."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To be the leading consulting firm in Peru, recognized for our technical excellence, environmental commitment and contribution to the country's sustainable development."
+    },
+    "valores": {
+      "title": "Values",
+      "description": "Punctuality, Commitment and Empathy. These principles guide every project and relationship with our clients and communities."
+    }
+  },
+  "sectors": {
+    "badge": "Sectors",
+    "title": "Sectors We Serve",
+    "description": "Proven experience in Peru's most demanding sectors",
+    "items": {
+      "mineria": {
+        "name": "Mining",
+        "description": "Environmental management and safety for mining operations. Compliance with international standards and national regulations."
+      },
+      "construccion": {
+        "name": "Construction",
+        "description": "Technical consulting for civil works. Environmental impact control and site safety."
+      },
+      "industria": {
+        "name": "Industry",
+        "description": "Integrated management systems and clean production for industrial plants."
+      },
+      "energia": {
+        "name": "Energy",
+        "description": "Environmental impact studies and permits for energy projects."
+      },
+      "retail": {
+        "name": "Retail",
+        "description": "Waste management and regulatory compliance for shopping centers and retail."
+      },
+      "publico": {
+        "name": "Public Sector",
+        "description": "Consulting for government entities. Technical studies and citizen participation."
+      },
+      "infraestructura": {
+        "name": "Infrastructure",
+        "description": "Infrastructure projects with a sustainable focus and environmental compliance."
+      },
+      "manufactura": {
+        "name": "Manufacturing",
+        "description": "Process optimization and industrial waste management for the manufacturing sector."
+      }
+    }
+  },
+  "services": {
+    "badge": "Services",
+    "title": "Our Services",
+    "description": "Specialized technical solutions for every need",
+    "verMas": "Learn more",
+    "items": {
+      "sanitarios": {
+        "title": "Portable Toilets",
+        "description": "Rental of portable toilets for construction sites and projects with regular maintenance and sanitary compliance."
+      },
+      "transporte": {
+        "title": "Waste Transport & Logistics",
+        "description": "Specialized waste transport and logistics service with certified vehicles and trained personnel."
+      },
+      "residuos": {
+        "title": "Waste Management",
+        "description": "Comprehensive solutions for responsible solid waste management, complying with current environmental regulations."
+      },
+      "valorizacion": {
+        "title": "Waste Valorization",
+        "description": "Transformation of waste into raw materials or products with economic and environmental value."
+      },
+      "equipos": {
+        "title": "Equipment",
+        "description": "Rental and sale of specialized equipment for construction, mining and civil works projects."
+      },
+      "ambiental": {
+        "title": "Environmental Management",
+        "description": "Comprehensive environmental consulting and solutions for companies and development projects."
+      },
+      "seguridad": {
+        "title": "Occupational Health & Safety",
+        "description": "OHSAS, Law 29783, SUNAFIL audits, training, emergency plans and industrial safety."
+      },
+      "ingenieria": {
+        "title": "Engineering & Architecture",
+        "description": "Civil engineering, architecture, design, supervision and project management services."
+      }
+    }
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "Featured Projects",
+    "description": "Results that speak for themselves",
+    "verProyecto": "View project",
+    "categories": {
+      "todos": "All",
+      "mineria": "Mining",
+      "construccion": "Construction",
+      "industria": "Industry",
+      "ambiental": "Environmental"
+    },
+    "items": {
+      "plantaTratamiento": {
+        "title": "Mining Treatment Plant",
+        "description": "Implementation of wastewater treatment system for mining operations."
+      },
+      "centroComercial": {
+        "title": "Green Shopping Center",
+        "description": "LEED certification and waste management for sustainable shopping center."
+      },
+      "plantaIndustrial": {
+        "title": "Eco Industrial Plant",
+        "description": "Implementation of clean production and circular economy in manufacturing plant."
+      },
+      "estudioImpacto": {
+        "title": "Environmental Impact Study",
+        "description": "EIA for high national impact road infrastructure project."
+      },
+      "seguridadMinera": {
+        "title": "Comprehensive Mining Safety",
+        "description": "OHSAS implementation and emergency plans for underground mine."
+      },
+      "oficinasCorporativas": {
+        "title": "Corporate Offices",
+        "description": "Design and implementation of integrated management systems for corporate building."
+      }
+    }
+  },
+  "clients": {
+    "badge": "Trust",
+    "title": "Clients who work with us",
+    "description": "Over 50 leading companies trust us"
+  },
+  "stats": {
+    "clientes": {
+      "label": "Satisfied Clients",
+      "description": "Companies that trust us"
+    },
+    "proyectos": {
+      "label": "Completed Projects",
+      "description": "Successfully delivered"
+    },
+    "toneladas": {
+      "label": "Tons Managed",
+      "description": "Of waste processed"
+    },
+    "experiencia": {
+      "label": "Years of Experience",
+      "description": "Of professional trajectory"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Our Clients Say",
+    "description": "Our clients' satisfaction is our best letter of introduction",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "role": "Operations Manager",
+        "company": "Minería del Sur S.A.",
+        "content": "CCONEX transformed our environmental management. Their technical team is exceptional and they met all regulatory deadlines. Highly recommended.",
+        "rating": 5
+      },
+      {
+        "name": "María Fernández",
+        "role": "Environmental Director",
+        "company": "Constructora Andina",
+        "content": "CCONEX's environmental consulting allowed us to obtain all the necessary permits for our infrastructure project. Professionalism and seriousness.",
+        "rating": 5
+      },
+      {
+        "name": "Roberto Sánchez",
+        "role": "Safety Manager",
+        "company": "Industrias del Pacífico",
+        "content": "Thanks to CCONEX we achieved ISO 45001 certification in record time. Their knowledge of Peruvian regulations is unmatched.",
+        "rating": 5
+      },
+      {
+        "name": "Ana Torres",
+        "role": "General Manager",
+        "company": "Energía Renovable S.A.",
+        "content": "CCONEX's waste management service is impeccable. Punctual, professional and committed to the environment.",
+        "rating": 5
+      }
+    ]
+  },
+  "howWeWork": {
+    "badge": "Process",
+    "title": "How We Work",
+    "description": "A structured process that guarantees quality results",
+    "paso": "Step",
+    "steps": {
+      "diagnostico": {
+        "title": "Diagnosis",
+        "description": "Initial project assessment to identify needs, regulatory requirements and work scope."
+      },
+      "inspeccion": {
+        "title": "Technical Inspection",
+        "description": "Technical site visit to collect detailed information on current conditions and specific requirements."
+      },
+      "propuesta": {
+        "title": "Proposal",
+        "description": "Detailed technical and economic proposal with defined timeline and scope."
+      },
+      "ejecucion": {
+        "title": "Execution",
+        "description": "Project development with periodic supervision, quality control and progress reports."
+      },
+      "entrega": {
+        "title": "Delivery & Follow-up",
+        "description": "Results delivery, documentation and post-project follow-up to ensure continued compliance."
+      }
+    }
+  },
+  "certifications": {
+    "badge": "Quality",
+    "title": "Certifications",
+    "description": "Backed by the most demanding international standards",
+    "items": {
+      "iso9001": "Quality Management",
+      "iso14001": "Environmental Management",
+      "iso45001": "Health & Safety",
+      "iso37001": "Anti-bribery",
+      "iso39001": "Road Safety",
+      "iso50001": "Energy Management"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Contact Us",
+    "description": "We are ready to serve your project",
+    "form": {
+      "nombre": "Full name *",
+      "nombrePlaceholder": "Your name",
+      "email": "Email *",
+      "emailPlaceholder": "your@email.com",
+      "telefono": "Phone",
+      "telefonoPlaceholder": "+51 999 999 999",
+      "empresa": "Company",
+      "empresaPlaceholder": "Your company name",
+      "servicio": "Service of interest *",
+      "servicioPlaceholder": "Select a service",
+      "mensaje": "Message *",
+      "mensajePlaceholder": "Tell us about your project...",
+      "enviar": "Send Message",
+      "servicios": {
+        "sanitarios": "Portable Toilets",
+        "transporte": "Waste Transport & Logistics",
+        "residuos": "Waste Management",
+        "valorizacion": "Waste Valorization",
+        "equipos": "Equipment",
+        "ambiental": "Environmental Management",
+        "seguridad": "Occupational Health & Safety",
+        "ingenieria": "Engineering & Architecture",
+        "otro": "Other"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "telefono": "Phone",
+      "email": "Email",
+      "oficinas": "Offices",
+      "horario": "Schedule",
+      "lunesViernes": "Monday - Friday: 8:00 AM - 6:00 PM",
+      "sabados": "Saturday: 8:00 AM - 1:00 PM"
+    }
+  },
+  "footer": {
+    "descripcion": "Comprehensive Solutions in Engineering, Environmental Consulting and Industrial Safety. Over 10 years of experience supporting projects throughout Peru.",
+    "servicios": "Services",
+    "empresa": "Company",
+    "contacto": "Contact",
+    "direccion": "Address:",
+    "direccionValor": "Av. Principal 123, San Isidro, Lima",
+    "telefono": "Phone:",
+    "email": "Email:",
+    "horario": "Schedule:",
+    "horarioValor": "Mon - Fri: 8:00 AM - 6:00 PM",
+    "derechos": "© {year} CCONEX Constructores & Consultores. All rights reserved.",
+    "privacidad": "Privacy Policy",
+    "terminos": "Terms and Conditions",
+    "libroReclamaciones": "COMPLAINTS BOOK",
+    "empresaLinks": {
+      "nosotros": "About Us",
+      "proyectos": "Projects",
+      "clientes": "Clients",
+      "certificaciones": "Certifications",
+      "blog": "Blog",
+      "contacto": "Contact"
+    }
+  },
+  "lang": {
+    "es": "ES",
+    "en": "EN"
+  }
+}

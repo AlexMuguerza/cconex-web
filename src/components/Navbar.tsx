@@ -2,28 +2,27 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone, Globe } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { whatsappLink } from "@/lib/whatsapp";
+import { useI18n } from "@/lib/i18n/context";
 import logo from "@/assets/logo-sin-fondo.png";
 
-const WHATSAPP_LINK = whatsappLink("Hola, me interesa solicitar una cotización de sus servicios.");
-
-const navLinks = [
-	{ name: "Inicio", href: "#inicio" },
-	{ name: "Nosotros", href: "#nosotros" },
-	{ name: "Sectores", href: "#sectores" },
-	{ name: "Servicios", href: "#servicios" },
-	{ name: "Proyectos", href: "#proyectos" },
-	{ name: "Clientes", href: "#clientes" },
-	{ name: "Contacto", href: "#contacto" },
-];
-
 export default function Navbar() {
+	const { locale, setLocale, t } = useI18n();
 	const [isScrolled, setIsScrolled] = useState(false);
 	const [isMobileOpen, setIsMobileOpen] = useState(false);
 	const isGlass = isScrolled || isMobileOpen;
+
+	const navLinks = [
+		{ name: t.nav.inicio, href: "#inicio" },
+		{ name: t.nav.nosotros, href: "#nosotros" },
+		{ name: t.nav.sectores, href: "#sectores" },
+		{ name: t.nav.servicios, href: "#servicios" },
+		{ name: t.nav.proyectos, href: "#proyectos" },
+		{ name: t.nav.clientes, href: "#clientes" },
+		{ name: t.nav.contacto, href: "#contacto" },
+	];
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -32,6 +31,10 @@ export default function Navbar() {
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, []);
+
+	const toggleLocale = () => {
+		setLocale(locale === "es" ? "en" : "es");
+	};
 
 	return (
 		<motion.nav
@@ -53,7 +56,6 @@ export default function Navbar() {
 							className="h-10 w-auto"
 							priority
 						/>
-						
 					</Link>
 
 					<div className="hidden lg:flex items-center gap-8">
@@ -68,14 +70,28 @@ export default function Navbar() {
 						))}
 					</div>
 
-					<div className="hidden lg:block">
-						<a
-							href={WHATSAPP_LINK}
-							target="_blank"
-							rel="noopener noreferrer"
-							className="bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-primary/25"
+					<div className="hidden lg:flex items-center gap-3">
+						<button
+							onClick={toggleLocale}
+							className={`flex items-center gap-1.5 px-3 py-2 rounded-full transition-all duration-200 hover:bg-white/10 ${isGlass ? "text-dark" : "text-white"}`}
 						>
-							Solicitar Cotización
+							<Globe className="w-4 h-4" />
+							<span className="text-sm font-medium">
+								{locale === "es" ? t.lang.es : t.lang.en}
+							</span>
+						</button>
+
+						<a
+							href="tel:+51947609227"
+							className={`flex items-center gap-3 px-4 py-2 rounded-full transition-all duration-200 hover:bg-white/10 ${isGlass ? "text-dark" : "text-white"}`}
+						>
+							<span className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+								<Phone className="w-5 h-5 text-white" />
+							</span>
+							<span className="text-sm font-medium leading-tight">
+								{t.nav.contactanos}<br />
+								<span className="font-bold">947 609 227</span>
+							</span>
 						</a>
 					</div>
 
@@ -107,14 +123,27 @@ export default function Navbar() {
 									{link.name}
 								</Link>
 							))}
+							<div className="pt-4 border-t border-soft-green">
+								<button
+									onClick={toggleLocale}
+									className="flex items-center gap-2 text-gray font-medium hover:text-primary transition-colors"
+								>
+									<Globe className="w-4 h-4" />
+									{locale === "es" ? "English" : "Español"}
+								</button>
+							</div>
 							<a
-								href={WHATSAPP_LINK}
-								target="_blank"
-								rel="noopener noreferrer"
+								href="tel:+51947609227"
 								onClick={() => setIsMobileOpen(false)}
-								className="block bg-primary text-white text-center font-semibold px-6 py-3 rounded-lg"
+								className="flex items-center gap-3 px-4 py-3 bg-background rounded-xl"
 							>
-								Solicitar Cotización
+								<span className="w-10 h-10 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+									<Phone className="w-5 h-5 text-white" />
+								</span>
+								<span className="text-sm font-medium text-dark leading-tight">
+									{t.nav.contactanos}<br />
+									<span className="font-bold">947 609 227</span>
+								</span>
 							</a>
 						</div>
 					</motion.div>

@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { Users, FolderOpen, Weight, Clock } from "lucide-react";
+import { useI18n } from "@/lib/i18n/context";
 
 function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: string }) {
 	const [count, setCount] = useState(0);
@@ -35,38 +36,40 @@ function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: str
 	);
 }
 
-const stats = [
-	{
-		icon: Users,
-		target: 50,
-		suffix: "+",
-		label: "Clientes Satisfechos",
-		description: "Empresas que confían en nosotros",
-	},
-	{
-		icon: FolderOpen,
-		target: 100,
-		suffix: "+",
-		label: "Proyectos Completados",
-		description: "Exitosamente entregados",
-	},
-	{
-		icon: Weight,
-		target: 50000,
-		suffix: "+",
-		label: "Toneladas Gestionadas",
-		description: "De residuos procesados",
-	},
-	{
-		icon: Clock,
-		target: 10,
-		suffix: "+",
-		label: "Años de Experiencia",
-		description: "De trayectoria profesional",
-	},
-];
-
 export default function Stats() {
+	const { t } = useI18n();
+
+	const stats = [
+		{
+			icon: Users,
+			target: 50,
+			suffix: "+",
+			label: t.stats.clientes.label,
+			description: t.stats.clientes.description,
+		},
+		{
+			icon: FolderOpen,
+			target: 100,
+			suffix: "+",
+			label: t.stats.proyectos.label,
+			description: t.stats.proyectos.description,
+		},
+		{
+			icon: Weight,
+			target: 50000,
+			suffix: "+",
+			label: t.stats.toneladas.label,
+			description: t.stats.toneladas.description,
+		},
+		{
+			icon: Clock,
+			target: 10,
+			suffix: "+",
+			label: t.stats.experiencia.label,
+			description: t.stats.experiencia.description,
+		},
+	];
+
 	return (
 		<section className="py-24 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

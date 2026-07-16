@@ -1,0 +1,336 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "nosotros": "Nosotros",
+    "sectores": "Sectores",
+    "servicios": "Servicios",
+    "proyectos": "Proyectos",
+    "clientes": "Clientes",
+    "contacto": "Contacto",
+    "contactanos": "Contactanos"
+  },
+  "hero": {
+    "badge": "Ingeniería & Consultoría de Alto Nivel",
+    "title1": "Soluciones Integrales en",
+    "title2": "Ingeniería,",
+    "title3": "Medio Ambiente y",
+    "title4": "Seguridad Industrial",
+    "description": "Cumplimiento normativo y soporte técnico especializado para empresas de minería, construcción, industria e infraestructura.",
+    "cta": "Solicitar Cotización",
+    "cta2": "Ver Servicios",
+    "stats": {
+      "proyectos": "Proyectos",
+      "clientes": "Clientes",
+      "anos": "Años",
+      "cobertura": "Cobertura Nacional"
+    }
+  },
+  "about": {
+    "badge": "Nosotros",
+    "title": "Experiencia y Compromiso con la Excelencia",
+    "description1": "CCONEX Constructores & Consultores es una empresa peruana con más de 10 años de experiencia brindando soluciones técnicas integrales a los sectores de minería, construcción, industria e infraestructura.",
+    "description2": "Nuestro equipo multidisciplinario de ingenieros y especialistas garantiza el cumplimiento normativo y la calidad en cada proyecto, respaldados por certificaciones ISO y una sólida trayectoria en el mercado nacional.",
+    "stats": {
+      "experiencia": "Años de Experiencia",
+      "proyectos": "Proyectos",
+      "clientes": "Clientes"
+    },
+    "mision": {
+      "title": "Misión",
+      "description": "Brindar soluciones técnicas integrales en ingeniería, medio ambiente y seguridad industrial, garantizando el cumplimiento normativo y la satisfacción de nuestros clientes."
+    },
+    "vision": {
+      "title": "Visión",
+      "description": "Ser la consultora líder en el Perú, reconocida por nuestra excelencia técnica, compromiso ambiental y contribución al desarrollo sostenible del país."
+    },
+    "valores": {
+      "title": "Valores",
+      "description": "Puntualidad, Compromiso y Empatía. Estos principios guían cada proyecto y relación con nuestros clientes y comunidades."
+    }
+  },
+  "sectors": {
+    "badge": "Sectores",
+    "title": "Sectores que Atendemos",
+    "description": "Experiencia comprobada en los sectores más exigentes del Perú",
+    "items": {
+      "mineria": {
+        "name": "Minería",
+        "description": "Gestión ambiental y seguridad para operaciones mineras. Cumplimiento de estándares internacionales y normativa nacional."
+      },
+      "construccion": {
+        "name": "Construcción",
+        "description": "Consultoría técnica para obras civiles. Control de impacto ambiental y seguridad en obra."
+      },
+      "industria": {
+        "name": "Industria",
+        "description": "Sistemas integrados de gestión y producción limpia para plantas industriales."
+      },
+      "energia": {
+        "name": "Energía",
+        "description": "Estudios de impacto ambiental y permisos para proyectos energéticos."
+      },
+      "retail": {
+        "name": "Retail",
+        "description": "Gestión de residuos y cumplimiento normativo para centros comerciales y retail."
+      },
+      "publico": {
+        "name": "Sector Público",
+        "description": "Consultoría para entidades gubernamentales. Estudios técnicos y participación ciudadana."
+      },
+      "infraestructura": {
+        "name": "Infraestructura",
+        "description": "Proyectos de infraestructura con enfoque sostenible y cumplimiento ambiental."
+      },
+      "manufactura": {
+        "name": "Manufactura",
+        "description": "Optimización de procesos y gestión de residuos industriales para el sector manufacturero."
+      }
+    }
+  },
+  "services": {
+    "badge": "Servicios",
+    "title": "Nuestros Servicios",
+    "description": "Soluciones técnicas especializadas para cada necesidad",
+    "verMas": "Ver más",
+    "items": {
+      "sanitarios": {
+        "title": "Sanitarios Portátiles",
+        "description": "Alquiler de sanitarios portátiles para obras y proyectos con mantenimiento regular y cumplimiento sanitario."
+      },
+      "transporte": {
+        "title": "Transporte y Logística de Residuos",
+        "description": "Servicio especializado de transporte y logística de residuos con vehículos certificados y personal capacitado."
+      },
+      "residuos": {
+        "title": "Gestión de Residuos",
+        "description": "Soluciones integrales para la gestión responsable de residuos sólidos, cumpliendo con la normativa ambiental vigente."
+      },
+      "valorizacion": {
+        "title": "Valorización de Residuos",
+        "description": "Transformación de residuos en materias primas o productos con valor económico y ambiental."
+      },
+      "equipos": {
+        "title": "Equipos",
+        "description": "Alquiler y venta de equipos especializados para proyectos de construcción, minería y obras civiles."
+      },
+      "ambiental": {
+        "title": "Gestión Ambiental",
+        "description": "Consultoría y soluciones ambientales integrales para empresas y proyectos de desarrollo."
+      },
+      "seguridad": {
+        "title": "Seguridad y Salud Ocupacional",
+        "description": "SGSST, Ley 29783, auditorías SUNAFIL, capacitaciones, planes de emergencia y seguridad industrial."
+      },
+      "ingenieria": {
+        "title": "Ingeniería y Arquitectura",
+        "description": "Servicios de ingeniería civil, arquitectura, diseño, supervisión y dirección de obras."
+      }
+    }
+  },
+  "projects": {
+    "badge": "Portafolio",
+    "title": "Proyectos Destacados",
+    "description": "Resultados que hablan por nosotros",
+    "verProyecto": "Ver proyecto",
+    "categories": {
+      "todos": "Todos",
+      "mineria": "Minería",
+      "construccion": "Construcción",
+      "industria": "Industria",
+      "ambiental": "Ambiental"
+    },
+    "items": {
+      "plantaTratamiento": {
+        "title": "Planta de Tratamiento Minero",
+        "description": "Implementación de sistema de tratamiento de aguas residuales para operación minera."
+      },
+      "centroComercial": {
+        "title": "Centro Comercial Verde",
+        "description": "Certificación LEED y gestión de residuos para centro comercial sostenible."
+      },
+      "plantaIndustrial": {
+        "title": "Planta Industrial Eco",
+        "description": "Implementación de producción limpia y economía circular en planta manufacturera."
+      },
+      "estudioImpacto": {
+        "title": "Estudio de Impacto Ambiental",
+        "description": "EIA para proyecto de infraestructura vial de alto impacto nacional."
+      },
+      "seguridadMinera": {
+        "title": "Seguridad Minera Integral",
+        "description": "Implementación de SGSST y planes de emergencia para mina subterránea."
+      },
+      "oficinasCorporativas": {
+        "title": "Oficinas Corporativas",
+        "description": "Diseño y ejecución de sistemas integrados de gestión para edificio corporativo."
+      }
+    }
+  },
+  "clients": {
+    "badge": "Confianza",
+    "title": "Clientes que trabajan con nosotros",
+    "description": "Más de 50 empresas líderes nos respaldan"
+  },
+  "stats": {
+    "clientes": {
+      "label": "Clientes Satisfechos",
+      "description": "Empresas que confían en nosotros"
+    },
+    "proyectos": {
+      "label": "Proyectos Completados",
+      "description": "Exitosamente entregados"
+    },
+    "toneladas": {
+      "label": "Toneladas Gestionadas",
+      "description": "De residuos procesados"
+    },
+    "experiencia": {
+      "label": "Años de Experiencia",
+      "description": "De trayectoria profesional"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Lo que Dicen Nuestros Clientes",
+    "description": "La satisfacción de nuestros clientes es nuestra mejor carta de presentación",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "role": "Gerente de Operaciones",
+        "company": "Minería del Sur S.A.",
+        "content": "CCONEX transformó nuestra gestión ambiental. Su equipo técnico es excepcional y cumplieron con todos los plazos normativos. Recomendados ampliadamente.",
+        "rating": 5
+      },
+      {
+        "name": "María Fernández",
+        "role": "Directora Ambiental",
+        "company": "Constructora Andina",
+        "content": "La consultoría ambiental de CCONEX nos permitió obtener todos los permisos necesarios para nuestro proyecto de infraestructura. Profesionalismo y seriedad.",
+        "rating": 5
+      },
+      {
+        "name": "Roberto Sánchez",
+        "role": "Jefe de Seguridad",
+        "company": "Industrias del Pacífico",
+        "content": "Gracias a CCONEX logramos la certificación ISO 45001 en tiempo récord. Su conocimiento de la normativa peruana es incomparable.",
+        "rating": 5
+      },
+      {
+        "name": "Ana Torres",
+        "role": "Gerente General",
+        "company": "Energía Renovable S.A.",
+        "content": "El servicio de gestión de residuos de CCONEX es impecable. Puntuales, profesionales y comprometidos con el medio ambiente.",
+        "rating": 5
+      }
+    ]
+  },
+  "howWeWork": {
+    "badge": "Proceso",
+    "title": "Cómo Trabajamos",
+    "description": "Un proceso estructurado que garantiza resultados de calidad",
+    "paso": "Paso",
+    "steps": {
+      "diagnostico": {
+        "title": "Diagnóstico",
+        "description": "Evaluación inicial del proyecto para identificar necesidades, requisitos normativos y alcance del trabajo."
+      },
+      "inspeccion": {
+        "title": "Inspección Técnica",
+        "description": "Visita técnica al sitio para recopilar información detallada del estado actual y condiciones específicas."
+      },
+      "propuesta": {
+        "title": "Propuesta",
+        "description": "Elaboración de propuesta técnica y económica detallada con cronograma y alcance definido."
+      },
+      "ejecucion": {
+        "title": "Ejecución",
+        "description": "Desarrollo del proyecto con supervisiones periódicas, control de calidad y reportes de avance."
+      },
+      "entrega": {
+        "title": "Entrega y Seguimiento",
+        "description": "Entrega de resultados, documentación y seguimiento post-proyecto para garantizar el cumplimiento continuo."
+      }
+    }
+  },
+  "certifications": {
+    "badge": "Qualidad",
+    "title": "Certificaciones",
+    "description": "Respaldados por los estándares internacionales más exigentes",
+    "items": {
+      "iso9001": "Gestión de Calidad",
+      "iso14001": "Gestión Ambiental",
+      "iso45001": "Seguridad y Salud",
+      "iso37001": "Antisoborno",
+      "iso39001": "Seguridad Vial",
+      "iso50001": "Gestión Energética"
+    }
+  },
+  "contact": {
+    "badge": "Contacto",
+    "title": "Contáctanos",
+    "description": "Estamos listos para atender tu proyecto",
+    "form": {
+      "nombre": "Nombre completo *",
+      "nombrePlaceholder": "Tu nombre",
+      "email": "Email *",
+      "emailPlaceholder": "tu@email.com",
+      "telefono": "Teléfono",
+      "telefonoPlaceholder": "+51 999 999 999",
+      "empresa": "Empresa",
+      "empresaPlaceholder": "Nombre de tu empresa",
+      "servicio": "Servicio de interés *",
+      "servicioPlaceholder": "Selecciona un servicio",
+      "mensaje": "Mensaje *",
+      "mensajePlaceholder": "Cuéntanos sobre tu proyecto...",
+      "enviar": "Enviar Mensaje",
+      "servicios": {
+        "sanitarios": "Sanitarios Portátiles",
+        "transporte": "Transporte y Logística de Residuos",
+        "residuos": "Gestión de Residuos",
+        "valorizacion": "Valorización de Residuos",
+        "equipos": "Equipos",
+        "ambiental": "Gestión Ambiental",
+        "seguridad": "Seguridad y Salud Ocupacional",
+        "ingenieria": "Ingeniería y Arquitectura",
+        "otro": "Otro"
+      }
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "telefono": "Teléfono",
+      "email": "Email",
+      "oficinas": "Oficinas",
+      "horario": "Horario",
+      "lunesViernes": "Lunes a Viernes: 8:00 AM - 6:00 PM",
+      "sabados": "Sábados: 8:00 AM - 1:00 PM"
+    }
+  },
+  "footer": {
+    "descripcion": "Soluciones Integrales en Ingeniería, Consultoría Ambiental y Seguridad Industrial. Más de 10 años de experiencia respaldando proyectos en todo el Perú.",
+    "servicios": "Servicios",
+    "empresa": "Empresa",
+    "contacto": "Contacto",
+    "direccion": "Dirección:",
+    "direccionValor": "Av. Principal 123, San Isidro, Lima",
+    "telefono": "Teléfono:",
+    "email": "Email:",
+    "horario": "Horario:",
+    "horarioValor": "Lun - Vie: 8:00 AM - 6:00 PM",
+    "derechos": "© {year} CCONEX Constructores & Consultores. Todos los derechos reservados.",
+    "privacidad": "Política de Privacidad",
+    "terminos": "Términos y Condiciones",
+    "libroReclamaciones": "LIBRO DE RECLAMACIONES",
+    "empresaLinks": {
+      "nosotros": "Nosotros",
+      "proyectos": "Proyectos",
+      "clientes": "Clientes",
+      "certificaciones": "Certificaciones",
+      "blog": "Blog",
+      "contacto": "Contacto"
+    }
+  },
+  "lang": {
+    "es": "ES",
+    "en": "EN"
+  }
+}

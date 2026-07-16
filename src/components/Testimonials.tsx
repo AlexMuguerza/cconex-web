@@ -3,55 +3,24 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Star, Quote } from "lucide-react";
-
-const testimonials = [
-	{
-		name: "Carlos Mendoza",
-		role: "Gerente de Operaciones",
-		company: "Minería del Sur S.A.",
-		content:
-			"CCONEX transformó nuestra gestión ambiental. Su equipo técnico es excepcional y cumplieron con todos los plazos normativos. Recomendados ampliadamente.",
-		rating: 5,
-	},
-	{
-		name: "María Fernández",
-		role: "Directora Ambiental",
-		company: "Constructora Andina",
-		content:
-			"La consultoría ambiental de CCONEX nos permitió obtener todos los permisos necesarios para nuestro proyecto de infraestructura. Profesionalismo y seriedad.",
-		rating: 5,
-	},
-	{
-		name: "Roberto Sánchez",
-		role: "Jefe de Seguridad",
-		company: "Industrias del Pacífico",
-		content:
-			"Gracias a CCONEX logramos la certificación ISO 45001 en tiempo récord. Su conocimiento de la normativa peruana es incomparable.",
-		rating: 5,
-	},
-	{
-		name: "Ana Torres",
-		role: "Gerente General",
-		company: "Energía Renovable S.A.",
-		content:
-			"El servicio de gestión de residuos de CCONEX es impecable. Puntuales, profesionales y comprometidos con el medio ambiente.",
-		rating: 5,
-	},
-];
+import { useI18n } from "@/lib/i18n/context";
 
 export default function Testimonials() {
+	const { t } = useI18n();
 	const [current, setCurrent] = useState(0);
 	const [direction, setDirection] = useState(1);
+
+	const testimonials = t.testimonials.items;
 
 	const next = useCallback(() => {
 		setDirection(1);
 		setCurrent((prev) => (prev + 1) % testimonials.length);
-	}, []);
+	}, [testimonials.length]);
 
 	const prev = useCallback(() => {
 		setDirection(-1);
 		setCurrent((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-	}, []);
+	}, [testimonials.length]);
 
 	useEffect(() => {
 		const timer = setInterval(next, 5000);
@@ -87,13 +56,13 @@ export default function Testimonials() {
 					className="text-center mb-16"
 				>
 					<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-						Testimonios
+						{t.testimonials.badge}
 					</span>
 					<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3 mb-4">
-						Lo que Dicen Nuestros Clientes
+						{t.testimonials.title}
 					</h2>
 					<p className="text-gray text-lg max-w-2xl mx-auto">
-						La satisfacción de nuestros clientes es nuestra mejor carta de presentación
+						{t.testimonials.description}
 					</p>
 				</motion.div>
 

@@ -2,26 +2,29 @@
 
 import { motion } from "framer-motion";
 import { Target, Eye, Heart } from "lucide-react";
-
-const values = [
-	{
-		icon: Target,
-		title: "Misión",
-		description: "Brindar soluciones técnicas integrales en ingeniería, medio ambiente y seguridad industrial, garantizando el cumplimiento normativo y la satisfacción de nuestros clientes.",
-	},
-	{
-		icon: Eye,
-		title: "Visión",
-		description: "Ser la consultora líder en el Perú, reconocida por nuestra excelencia técnica, compromiso ambiental y contribución al desarrollo sostenible del país.",
-	},
-	{
-		icon: Heart,
-		title: "Valores",
-		description: "Puntualidad, Compromiso y Empatía. Estos principios guían cada proyecto y relación con nuestros clientes y comunidades.",
-	},
-];
+import { useI18n } from "@/lib/i18n/context";
 
 export default function About() {
+	const { t } = useI18n();
+
+	const values = [
+		{
+			icon: Target,
+			title: t.about.mision.title,
+			description: t.about.mision.description,
+		},
+		{
+			icon: Eye,
+			title: t.about.vision.title,
+			description: t.about.vision.description,
+		},
+		{
+			icon: Heart,
+			title: t.about.valores.title,
+			description: t.about.valores.description,
+		},
+	];
+
 	return (
 		<section id="nosotros" className="py-24 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,21 +36,16 @@ export default function About() {
 						transition={{ duration: 0.6 }}
 					>
 						<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-							Nosotros
+							{t.about.badge}
 						</span>
 						<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3 mb-6">
-							Experiencia y Compromiso con la Excelencia
+							{t.about.title}
 						</h2>
 						<p className="text-gray text-lg leading-relaxed mb-8">
-							CCONEX Constructores & Consultores es una empresa peruana con más de
-							10 años de experiencia brindando soluciones técnicas integrales a los
-							sectores de minería, construcción, industria e infraestructura.
+							{t.about.description1}
 						</p>
 						<p className="text-gray leading-relaxed">
-							Nuestro equipo multidisciplinario de ingenieros y especialistas
-							garantiza el cumplimiento normativo y la calidad en cada proyecto,
-							respaldados por certificaciones ISO y una sólida trayectoria en el
-							mercado nacional.
+							{t.about.description2}
 						</p>
 
 						<div className="mt-8 grid grid-cols-3 gap-4">
@@ -55,19 +53,19 @@ export default function About() {
 								<div className="text-3xl font-heading font-extrabold text-primary">
 									+10
 								</div>
-								<div className="text-gray text-sm mt-1">Años de Experiencia</div>
+								<div className="text-gray text-sm mt-1">{t.about.stats.experiencia}</div>
 							</div>
 							<div className="text-center p-4 bg-soft-green rounded-xl">
 								<div className="text-3xl font-heading font-extrabold text-primary">
 									+100
 								</div>
-								<div className="text-gray text-sm mt-1">Proyectos</div>
+								<div className="text-gray text-sm mt-1">{t.about.stats.proyectos}</div>
 							</div>
 							<div className="text-center p-4 bg-soft-green rounded-xl">
 								<div className="text-3xl font-heading font-extrabold text-primary">
 									+50
 								</div>
-								<div className="text-gray text-sm mt-1">Clientes</div>
+								<div className="text-gray text-sm mt-1">{t.about.stats.clientes}</div>
 							</div>
 						</div>
 					</motion.div>
@@ -77,7 +75,7 @@ export default function About() {
 						whileInView={{ opacity: 1, x: 0 }}
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: 0.2 }}
-					 className="relative"
+						className="relative"
 					>
 						<div className="absolute -inset-4 bg-primary/10 rounded-3xl blur-2xl" />
 						<div className="relative space-y-6">
@@ -88,7 +86,7 @@ export default function About() {
 									whileInView={{ opacity: 1, y: 0 }}
 									viewport={{ once: true }}
 									transition={{ delay: 0.3 + index * 0.1 }}
-								 className="p-6 bg-background rounded-2xl border border-soft-green hover-lift"
+									className="p-6 bg-background rounded-2xl border border-soft-green hover-lift"
 								>
 									<div className="flex items-start gap-4">
 										<div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">

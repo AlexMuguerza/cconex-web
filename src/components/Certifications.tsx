@@ -2,17 +2,19 @@
 
 import { motion } from "framer-motion";
 import { Award } from "lucide-react";
-
-const certifications = [
-	{ code: "ISO 9001", name: "Gestión de Calidad" },
-	{ code: "ISO 14001", name: "Gestión Ambiental" },
-	{ code: "ISO 45001", name: "Seguridad y Salud" },
-	{ code: "ISO 37001", name: "Antisoborno" },
-	{ code: "ISO 39001", name: "Seguridad Vial" },
-	{ code: "ISO 50001", name: "Gestión Energética" },
-];
+import { useI18n } from "@/lib/i18n/context";
 
 export default function Certifications() {
+	const { t } = useI18n();
+
+	const certKeys = ["iso9001", "iso14001", "iso45001", "iso37001", "iso39001", "iso50001"] as const;
+	const certCodes = ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 37001", "ISO 39001", "ISO 50001"];
+
+	const certifications = certKeys.map((key, index) => ({
+		code: certCodes[index],
+		name: t.certifications.items[key],
+	}));
+
 	return (
 		<section className="py-24 bg-dark">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,13 +26,13 @@ export default function Certifications() {
 					className="text-center mb-16"
 				>
 					<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-						Qualidad
+						{t.certifications.badge}
 					</span>
 					<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-white mt-3 mb-4">
-						Certificaciones
+						{t.certifications.title}
 					</h2>
 					<p className="text-gray text-lg max-w-2xl mx-auto">
-						Respaldados por los estándares internacionales más exigentes
+						{t.certifications.description}
 					</p>
 				</motion.div>
 

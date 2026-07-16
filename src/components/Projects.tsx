@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
-import { whatsappLink } from "@/lib/whatsapp";
+import { useI18n } from "@/lib/i18n/context";
 
 import proyectoTratamientoMinero from "@/assets/proyecto-tratamiento-minero.png";
 import proyectoCentroComercialVerde from "@/assets/proyecto-centro-comercial-verde.png";
@@ -13,64 +13,52 @@ import proyectoEstudioImpactoAmbiental from "@/assets/proyecto-estudio-impacto--
 import proyectoSeguridadMineraIntegral from "@/assets/proyecto-seguridad-minera-integral.png";
 import proyectoOficinasCorporativas from "@/assets/proyecto-oficinas-corporativas.png";
 
-const categories = ["Todos", "Minería", "Construcción", "Industria", "Ambiental"];
-
-const projects = [
-	{
-		id: 1,
-		title: "Planta de Tratamiento Minero",
-		category: "Minería",
-		description: "Implementación de sistema de tratamiento de aguas residuales para operación minera.",
-		image: proyectoTratamientoMinero,
-		message: "Hola, me interesa el proyecto de Planta de Tratamiento Minero.",
-	},
-	{
-		id: 2,
-		title: "Centro Comercial Verde",
-		category: "Construcción",
-		description: "Certificación LEED y gestión de residuos para centro comercial sostenible.",
-		image: proyectoCentroComercialVerde,
-		message: "Hola, me interesa el proyecto de Centro Comercial Verde.",
-	},
-	{
-		id: 3,
-		title: "Planta Industrial Eco",
-		category: "Industria",
-		description: "Implementación de producción limpia y economía circular en planta manufacturera.",
-		image: proyectoPlantaIndustrialEco,
-		message: "Hola, me interesa el proyecto de Planta Industrial Eco.",
-	},
-	{
-		id: 4,
-		title: "Estudio de Impacto Ambiental",
-		category: "Ambiental",
-		description: "EIA para proyecto de infraestructura vial de alto impacto nacional.",
-		image: proyectoEstudioImpactoAmbiental,
-		message: "Hola, me interesa el proyecto de Estudio de Impacto Ambiental.",
-	},
-	{
-		id: 5,
-		title: "Seguridad Minera Integral",
-		category: "Minería",
-		description: "Implementación de SGSST y planes de emergencia para mina subterránea.",
-		image: proyectoSeguridadMineraIntegral,
-		message: "Hola, me interesa el proyecto de Seguridad Minera Integral.",
-	},
-	{
-		id: 6,
-		title: "Oficinas Corporativas",
-		category: "Construcción",
-		description: "Diseño y ejecución de sistemas integrados de gestión para edificio corporativo.",
-		image: proyectoOficinasCorporativas,
-		message: "Hola, me interesa el proyecto de Oficinas Corporativas.",
-	},
-];
+const projectImages = {
+	plantaTratamiento: proyectoTratamientoMinero,
+	centroComercial: proyectoCentroComercialVerde,
+	plantaIndustrial: proyectoPlantaIndustrialEco,
+	estudioImpacto: proyectoEstudioImpactoAmbiental,
+	seguridadMinera: proyectoSeguridadMineraIntegral,
+	oficinasCorporativas: proyectoOficinasCorporativas,
+};
 
 export default function Projects() {
-	const [activeCategory, setActiveCategory] = useState("Todos");
+	const { locale, t } = useI18n();
+	const [activeCategory, setActiveCategory] = useState("todos");
+
+	const categoryKeys = ["todos", "mineria", "construccion", "industria", "ambiental"] as const;
+	const categories = categoryKeys.map((key) => ({
+		key,
+		label: t.projects.categories[key],
+	}));
+
+	const projectKeys = ["plantaTratamiento", "centroComercial", "plantaIndustrial", "estudioImpacto", "seguridadMinera", "oficinasCorporativas"] as const;
+	const categoryMap: Record<string, string> = {
+		plantaTratamiento: "mineria",
+		centroComercial: "construccion",
+		plantaIndustrial: "industria",
+		estudioImpacto: "ambiental",
+		seguridadMinera: "mineria",
+		oficinasCorporativas: "construccion",
+	};
+
+	const projects = projectKeys.map((key) => {
+		const project = t.projects.items[key];
+		const whatsappMessage = locale === "es"
+			? `Hola, me interesa el proyecto de ${project.title}.`
+			: `Hello, I'm interested in the ${project.title} project.`;
+		return {
+			id: key,
+			title: project.title,
+			category: categoryMap[key],
+			description: project.description,
+			image: projectImages[key],
+			whatsappMessage,
+		};
+	});
 
 	const filteredProjects =
-		activeCategory === "Todos"
+		activeCategory === "todos"
 			? projects
 			: projects.filter((p) => p.category === activeCategory);
 
@@ -85,28 +73,28 @@ export default function Projects() {
 					className="text-center mb-16"
 				>
 					<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-						Portafolio
+						{t.projects.badge}
 					</span>
 					<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3 mb-4">
-						Proyectos Destacados
+						{t.projects.title}
 					</h2>
 					<p className="text-gray text-lg max-w-2xl mx-auto">
-						Resultados que hablan por nosotros
+						{t.projects.description}
 					</p>
 				</motion.div>
 
 				<div className="flex flex-wrap justify-center gap-3 mb-12">
 					{categories.map((category) => (
 						<button
-							key={category}
-							onClick={() => setActiveCategory(category)}
+							key={category.key}
+							onClick={() => setActiveCategory(category.key)}
 							className={`px-6 py-2.5 rounded-full font-medium text-sm transition-all duration-200 ${
-								activeCategory === category
+								activeCategory === category.key
 									? "bg-primary text-white shadow-lg shadow-primary/25"
 									: "bg-white text-gray border border-soft-green hover:border-primary hover:text-primary"
 							}`}
 						>
-							{category}
+							{category.label}
 						</button>
 					))}
 				</div>
@@ -144,13 +132,13 @@ export default function Projects() {
 											{project.description}
 										</p>
 										<a
-											href={whatsappLink(project.message)}
+											href={`https://wa.me/51947609227?text=${encodeURIComponent(project.whatsappMessage)}`}
 											target="_blank"
 											rel="noopener noreferrer"
 											className="inline-flex items-center gap-2 text-white"
 										>
 											<ExternalLink size={16} />
-											<span className="text-sm font-medium">Ver proyecto</span>
+											<span className="text-sm font-medium">{t.projects.verProyecto}</span>
 										</a>
 									</div>
 								</div>

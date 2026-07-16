@@ -2,49 +2,18 @@
 
 import { motion } from "framer-motion";
 import { HardHat, Building2, Factory, Zap, ShoppingBag, Landmark, Network, Cog } from "lucide-react";
+import { useI18n } from "@/lib/i18n/context";
 
-const sectors = [
-	{
-		icon: HardHat,
-		name: "Minería",
-		description: "Gestión ambiental y seguridad para operaciones mineras. Cumplimiento de estándares internacionales y normativa nacional.",
-	},
-	{
-		icon: Building2,
-		name: "Construcción",
-		description: "Consultoría técnica para obras civiles. Control de impacto ambiental y seguridad en obra.",
-	},
-	{
-		icon: Factory,
-		name: "Industria",
-		description: "Sistemas integrados de gestión y producción limpia para plantas industriales.",
-	},
-	{
-		icon: Zap,
-		name: "Energía",
-		description: "Estudios de impacto ambiental y permisos para proyectos energéticos.",
-	},
-	{
-		icon: ShoppingBag,
-		name: "Retail",
-		description: "Gestión de residuos y cumplimiento normativo para centros comerciales y retail.",
-	},
-	{
-		icon: Landmark,
-		name: "Sector Público",
-		description: "Consultoría para entidades gubernamentales. Estudios técnicos y participación ciudadana.",
-	},
-	{
-		icon: Network,
-		name: "Infraestructura",
-		description: "Proyectos de infraestructura con enfoque sostenible y cumplimiento ambiental.",
-	},
-	{
-		icon: Cog,
-		name: "Manufactura",
-		description: "Optimización de procesos y gestión de residuos industriales para el sector manufacturero.",
-	},
-];
+const icons = {
+	mineria: HardHat,
+	construccion: Building2,
+	industria: Factory,
+	energia: Zap,
+	retail: ShoppingBag,
+	publico: Landmark,
+	infraestructura: Network,
+	manufactura: Cog,
+};
 
 const containerVariants = {
 	hidden: { opacity: 0 },
@@ -66,6 +35,17 @@ const itemVariants = {
 };
 
 export default function Sectors() {
+	const { t } = useI18n();
+
+	const sectorKeys = ["mineria", "construccion", "industria", "energia", "retail", "publico", "infraestructura", "manufactura"] as const;
+
+	const sectors = sectorKeys.map((key) => ({
+		key,
+		icon: icons[key],
+		name: t.sectors.items[key].name,
+		description: t.sectors.items[key].description,
+	}));
+
 	return (
 		<section id="sectores" className="py-24 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,13 +57,13 @@ export default function Sectors() {
 					className="text-center mb-16"
 				>
 					<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-						Sectores
+						{t.sectors.badge}
 					</span>
 					<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3 mb-4">
-						Sectores que Atendemos
+						{t.sectors.title}
 					</h2>
 					<p className="text-gray text-lg max-w-2xl mx-auto">
-						Experiencia comprobada en los sectores más exigentes del Perú
+						{t.sectors.description}
 					</p>
 				</motion.div>
 
@@ -96,12 +76,12 @@ export default function Sectors() {
 				>
 					{sectors.map((sector) => (
 						<motion.div
-							key={sector.name}
+							key={sector.key}
 							variants={itemVariants}
-							className="group p-6 rounded-2xl border border-soft-green bg-background hover:bg-primary hover:border-primary transition-all duration-300 hover-lift cursor-pointer"
+							className="group p-6 rounded-2xl border border-soft-green bg-background hover:bg-primary hover:border-primary transition-colors duration-300 hover-lift cursor-pointer"
 						>
-							<div className="w-14 h-14 bg-soft-green group-hover:bg-white/20 rounded-xl flex items-center justify-center mb-4 transition-colors duration-300">
-								<sector.icon className="w-7 h-7 text-primary group-hover:text-white transition-colors" />
+							<div className="w-14 h-14 bg-soft-green group-hover:bg-white rounded-xl flex items-center justify-center mb-4 transition-colors duration-300">
+								<sector.icon className="w-7 h-7 text-primary group-hover:text-primary transition-colors duration-300" />
 							</div>
 							<h3 className="font-heading font-bold text-lg text-dark group-hover:text-white transition-colors mb-2">
 								{sector.name}

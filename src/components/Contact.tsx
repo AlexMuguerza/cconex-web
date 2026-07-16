@@ -3,8 +3,10 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, Phone, Mail, MapPin, Clock } from "lucide-react";
+import { useI18n } from "@/lib/i18n/context";
 
 export default function Contact() {
+	const { t } = useI18n();
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
@@ -30,13 +32,13 @@ export default function Contact() {
 					className="text-center mb-16"
 				>
 					<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-						Contacto
+						{t.contact.badge}
 					</span>
 					<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3 mb-4">
-						Contáctanos
+						{t.contact.title}
 					</h2>
 					<p className="text-gray text-lg max-w-2xl mx-auto">
-						Estamos listos para atender tu proyecto
+						{t.contact.description}
 					</p>
 				</motion.div>
 
@@ -51,7 +53,7 @@ export default function Contact() {
 							<div className="grid md:grid-cols-2 gap-6">
 								<div>
 									<label className="block text-sm font-medium text-dark mb-2">
-										Nombre completo *
+										{t.contact.form.nombre}
 									</label>
 									<input
 										type="text"
@@ -61,12 +63,12 @@ export default function Contact() {
 											setFormData({ ...formData, name: e.target.value })
 										}
 										className="w-full px-4 py-3 rounded-lg border border-soft-green focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-background"
-										placeholder="Tu nombre"
+										placeholder={t.contact.form.nombrePlaceholder}
 									/>
 								</div>
 								<div>
 									<label className="block text-sm font-medium text-dark mb-2">
-										Email *
+										{t.contact.form.email}
 									</label>
 									<input
 										type="email"
@@ -76,7 +78,7 @@ export default function Contact() {
 											setFormData({ ...formData, email: e.target.value })
 										}
 										className="w-full px-4 py-3 rounded-lg border border-soft-green focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-background"
-										placeholder="tu@email.com"
+										placeholder={t.contact.form.emailPlaceholder}
 									/>
 								</div>
 							</div>
@@ -84,7 +86,7 @@ export default function Contact() {
 							<div className="grid md:grid-cols-2 gap-6">
 								<div>
 									<label className="block text-sm font-medium text-dark mb-2">
-										Teléfono
+										{t.contact.form.telefono}
 									</label>
 									<input
 										type="tel"
@@ -93,12 +95,12 @@ export default function Contact() {
 											setFormData({ ...formData, phone: e.target.value })
 										}
 										className="w-full px-4 py-3 rounded-lg border border-soft-green focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-background"
-										placeholder="+51 999 999 999"
+										placeholder={t.contact.form.telefonoPlaceholder}
 									/>
 								</div>
 								<div>
 									<label className="block text-sm font-medium text-dark mb-2">
-										Empresa
+										{t.contact.form.empresa}
 									</label>
 									<input
 										type="text"
@@ -107,14 +109,14 @@ export default function Contact() {
 											setFormData({ ...formData, company: e.target.value })
 										}
 										className="w-full px-4 py-3 rounded-lg border border-soft-green focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-background"
-										placeholder="Nombre de tu empresa"
+										placeholder={t.contact.form.empresaPlaceholder}
 									/>
 								</div>
 							</div>
 
 							<div>
 								<label className="block text-sm font-medium text-dark mb-2">
-									Servicio de interés *
+									{t.contact.form.servicio}
 								</label>
 								<select
 									required
@@ -124,20 +126,22 @@ export default function Contact() {
 									}
 									className="w-full px-4 py-3 rounded-lg border border-soft-green focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-background"
 								>
-									<option value="">Selecciona un servicio</option>
-									<option value="residuos">Gestión de Residuos</option>
-									<option value="ambiental">Consultoría Ambiental</option>
-									<option value="seguridad">Seguridad Industrial</option>
-									<option value="iso">Sistemas Integrados ISO</option>
-									<option value="torres">Torres de Iluminación</option>
-									<option value="banos">Baños Químicos</option>
-									<option value="otro">Otro</option>
+									<option value="">{t.contact.form.servicioPlaceholder}</option>
+									<option value="sanitarios">{t.contact.form.servicios.sanitarios}</option>
+									<option value="transporte">{t.contact.form.servicios.transporte}</option>
+									<option value="residuos">{t.contact.form.servicios.residuos}</option>
+									<option value="valorizacion">{t.contact.form.servicios.valorizacion}</option>
+									<option value="equipos">{t.contact.form.servicios.equipos}</option>
+									<option value="ambiental">{t.contact.form.servicios.ambiental}</option>
+									<option value="seguridad">{t.contact.form.servicios.seguridad}</option>
+									<option value="ingenieria">{t.contact.form.servicios.ingenieria}</option>
+									<option value="otro">{t.contact.form.servicios.otro}</option>
 								</select>
 							</div>
 
 							<div>
 								<label className="block text-sm font-medium text-dark mb-2">
-									Mensaje *
+									{t.contact.form.mensaje}
 								</label>
 								<textarea
 									required
@@ -147,7 +151,7 @@ export default function Contact() {
 										setFormData({ ...formData, message: e.target.value })
 									}
 									className="w-full px-4 py-3 rounded-lg border border-soft-green focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-background resize-none"
-									placeholder="Cuéntanos sobre tu proyecto..."
+									placeholder={t.contact.form.mensajePlaceholder}
 								/>
 							</div>
 
@@ -155,7 +159,7 @@ export default function Contact() {
 								type="submit"
 								className="w-full bg-primary hover:bg-primary-dark text-white font-semibold px-8 py-4 rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-primary/25 flex items-center justify-center gap-2 group"
 							>
-								Enviar Mensaje
+								{t.contact.form.enviar}
 								<Send
 									size={18}
 									className="group-hover:translate-x-1 transition-transform"
@@ -169,11 +173,11 @@ export default function Contact() {
 						whileInView={{ opacity: 1, x: 0 }}
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: 0.2 }}
-					 className="space-y-8"
+						className="space-y-8"
 					>
 						<div className="p-6 bg-background rounded-2xl border border-soft-green">
 							<h3 className="font-heading font-bold text-lg text-dark mb-6">
-								Información de Contacto
+								{t.contact.info.title}
 							</h3>
 
 							<div className="space-y-4">
@@ -182,7 +186,7 @@ export default function Contact() {
 										<Phone className="w-5 h-5 text-primary" />
 									</div>
 									<div>
-										<h4 className="font-medium text-dark">Teléfono</h4>
+										<h4 className="font-medium text-dark">{t.contact.info.telefono}</h4>
 										<p className="text-gray text-sm">+51 947 609 227</p>
 									</div>
 								</div>
@@ -192,7 +196,7 @@ export default function Contact() {
 										<Mail className="w-5 h-5 text-primary" />
 									</div>
 									<div>
-										<h4 className="font-medium text-dark">Email</h4>
+										<h4 className="font-medium text-dark">{t.contact.info.email}</h4>
 										<p className="text-gray text-sm">info@cconex.com</p>
 										<p className="text-gray text-sm">ventas@cconex.com</p>
 									</div>
@@ -203,7 +207,7 @@ export default function Contact() {
 										<MapPin className="w-5 h-5 text-primary" />
 									</div>
 									<div>
-										<h4 className="font-medium text-dark">Oficinas</h4>
+										<h4 className="font-medium text-dark">{t.contact.info.oficinas}</h4>
 										<p className="text-gray text-sm">
 											Av. Principal 123, San Isidro, Lima
 										</p>
@@ -215,12 +219,12 @@ export default function Contact() {
 										<Clock className="w-5 h-5 text-primary" />
 									</div>
 									<div>
-										<h4 className="font-medium text-dark">Horario</h4>
+										<h4 className="font-medium text-dark">{t.contact.info.horario}</h4>
 										<p className="text-gray text-sm">
-											Lunes a Viernes: 8:00 AM - 6:00 PM
+											{t.contact.info.lunesViernes}
 										</p>
 										<p className="text-gray text-sm">
-											Sábados: 8:00 AM - 1:00 PM
+											{t.contact.info.sabados}
 										</p>
 									</div>
 								</div>
