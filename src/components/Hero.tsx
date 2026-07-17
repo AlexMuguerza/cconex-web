@@ -6,12 +6,13 @@ import { ArrowRight, Play, Shield, Award, Clock } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { useI18n } from "@/lib/i18n/context";
-import heroHorizontal1 from "@/assets/hero/hero-horizontal-conlogo.png";
+import heroHorizontal from "@/assets/hero/hero-horizontal-conlogo.png";
+import heroHorizontal1 from "@/assets/hero/hero-horizontal1-conlogo.png";
 import heroHorizontal2 from "@/assets/hero/hero-horizontal2-conlogo.png";
 import heroVertical from "@/assets/hero/hero-vertical.png";
 import heroChica from "@/assets/hero/hero-chica.png";
 
-const horizontalImages = [heroHorizontal1, heroHorizontal2];
+const horizontalImages = [heroHorizontal2,heroHorizontal,heroHorizontal1];
 
 const trustBadges = [
 	{ icon: Shield, label: "ISO 14001" },
@@ -51,7 +52,7 @@ export default function Hero() {
 	const whatsappMessage = locale === "es"
 		? "Hola, me interesa solicitar una cotización de sus servicios."
 		: "Hello, I'm interested in requesting a quote for your services.";
-	const WHATSAPP_LINK = `https://wa.me/51947609227?text=${encodeURIComponent(whatsappMessage)}`;
+	const WHATSAPP_LINK = `https://wa.me/51948078337?text=${encodeURIComponent(whatsappMessage)}`;
 
 	return (
 		<section id="inicio" className="relative min-h-screen flex items-center overflow-hidden">
@@ -99,9 +100,8 @@ export default function Hero() {
 
 						<h1 className="font-heading font-extrabold text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-6">
 							{t.hero.title1}{" "}
-							<span className="gradient-text">{t.hero.title2}</span>{" "}
-							{t.hero.title3}{" "}
-							<span className="gradient-text">{t.hero.title4}</span>
+							<span className="gradient-text">{t.hero.title2}{" "}</span>
+							{t.hero.title3 }
 						</h1>
 
 						<p className="text-white/90 text-lg md:text-xl mb-8 leading-relaxed">
@@ -155,7 +155,7 @@ export default function Hero() {
 						className="hidden lg:flex justify-end"
 					>
 						<div
-							className="relative w-full max-w-lg h-[500px]"
+							className="relative w-full max-w-lg h-125"
 							style={{
 								maskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
 								WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
@@ -174,7 +174,7 @@ export default function Hero() {
 				</div>
 			</div>
 
-			<div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
+			<div className="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-t from-background to-transparent" />
 		</section>
 	);
 }

@@ -11,6 +11,7 @@ import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 export default function Home() {
 	return (
@@ -22,12 +23,13 @@ export default function Home() {
 			<About />
 			<Services />
 			<HowWeWork />
-			<Projects />
+			{/* <Projects /> */}
 			<Stats />
 			<Certifications />
 			<Testimonials />
 			<Contact />
 			<Footer />
+			<FloatingWhatsApp />
 		</main>
 	);
 }

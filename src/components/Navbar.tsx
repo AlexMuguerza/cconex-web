@@ -5,11 +5,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, Globe } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useI18n } from "@/lib/i18n/context";
 import logo from "@/assets/logo-sin-fondo.png";
 
 export default function Navbar() {
 	const { locale, setLocale, t } = useI18n();
+	const pathname = usePathname();
+	const isHome = pathname === "/";
 	const [isScrolled, setIsScrolled] = useState(false);
 	const [isMobileOpen, setIsMobileOpen] = useState(false);
 	const isGlass = isScrolled || isMobileOpen;
@@ -17,12 +20,16 @@ export default function Navbar() {
 	const navLinks = [
 		{ name: t.nav.inicio, href: "#inicio" },
 		{ name: t.nav.nosotros, href: "#nosotros" },
-		{ name: t.nav.sectores, href: "#sectores" },
 		{ name: t.nav.servicios, href: "#servicios" },
-		{ name: t.nav.proyectos, href: "#proyectos" },
 		{ name: t.nav.clientes, href: "#clientes" },
+		{ name: t.nav.sectores, href: "#sectores" },
 		{ name: t.nav.contacto, href: "#contacto" },
 	];
+
+	const getLinkHref = (hash: string) => {
+		if (isHome) return hash;
+		return `/${hash}`;
+	};
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -62,7 +69,7 @@ export default function Navbar() {
 						{navLinks.map((link) => (
 							<Link
 								key={link.name}
-								href={link.href}
+								href={getLinkHref(link.href)}
 								className={`font-medium hover:text-primary transition-colors duration-200 text-sm ${isGlass ? "text-gray" : "text-white"}`}
 							>
 								{link.name}
@@ -77,12 +84,13 @@ export default function Navbar() {
 						>
 							<Globe className="w-4 h-4" />
 							<span className="text-sm font-medium">
-								{locale === "es" ? t.lang.es : t.lang.en}
+								{/* {locale === "es" ? t.lang.es : t.lang.en} */}
+								español / inglés
 							</span>
 						</button>
 
 						<a
-							href="tel:+51947609227"
+							href="tel:+51948078337"
 							className={`flex items-center gap-3 px-4 py-2 rounded-full transition-all duration-200 hover:bg-white/10 ${isGlass ? "text-dark" : "text-white"}`}
 						>
 							<span className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
@@ -90,7 +98,7 @@ export default function Navbar() {
 							</span>
 							<span className="text-sm font-medium leading-tight">
 								{t.nav.contactanos}<br />
-								<span className="font-bold">947 609 227</span>
+								<span className="font-bold">948 078 337</span>
 							</span>
 						</a>
 					</div>
@@ -116,7 +124,7 @@ export default function Navbar() {
 							{navLinks.map((link) => (
 								<Link
 									key={link.name}
-									href={link.href}
+									href={getLinkHref(link.href)}
 									onClick={() => setIsMobileOpen(false)}
 									className="block text-gray font-medium hover:text-primary transition-colors"
 								>
@@ -133,16 +141,16 @@ export default function Navbar() {
 								</button>
 							</div>
 							<a
-								href="tel:+51947609227"
+								href="tel:+51948078337"
 								onClick={() => setIsMobileOpen(false)}
 								className="flex items-center gap-3 px-4 py-3 bg-background rounded-xl"
 							>
-								<span className="w-10 h-10 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+								<span className="w-10 h-10 bg-primary rounded-full flex items-center justify-center shrink-0">
 									<Phone className="w-5 h-5 text-white" />
 								</span>
 								<span className="text-sm font-medium text-dark leading-tight">
 									{t.nav.contactanos}<br />
-									<span className="font-bold">947 609 227</span>
+									<span className="font-bold">948 078 337</span>
 								</span>
 							</a>
 						</div>

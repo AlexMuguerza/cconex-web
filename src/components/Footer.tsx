@@ -22,7 +22,7 @@ export default function Footer() {
 		<footer className="bg-dark pt-16 pb-8">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-					<div>
+					<div className="lg:col-span-2">
 						<Link href="/" className="inline-block mb-5">
 							<Image
 								src={logo}
@@ -35,29 +35,13 @@ export default function Footer() {
 						<p className="text-white text-sm leading-relaxed">
 							{t.footer.descripcion}
 						</p>
-					</div>
+				</div>
 
-					<div>
-						<ul className="space-y-3">
-							{navLinks.map((link) => (
-								<li key={link.name}>
-									<Link
-										href={link.href}
-										className="text-white text-sm hover:text-primary transition-colors inline-flex items-center gap-2 group"
-									>
-										<ChevronRight size={14} className="text-primary" />
-										{link.name}
-									</Link>
-								</li>
-							))}
-						</ul>
-					</div>
-
-					<div className="space-y-4">
-						
+				<div className="space-y-4">
+					
 						<div className="flex items-center gap-3 text-white text-sm">
 							<Smartphone size={16} className="text-primary shrink-0" />
-							<span>+51 947 609 227</span>
+							<span>+51 948 078 337</span>
 						</div>
 						<div className="flex items-center gap-3 text-white text-sm">
 							<Mail size={16} className="text-primary shrink-0" />

@@ -11,10 +11,9 @@
   },
   "hero": {
     "badge": "Ingeniería & Consultoría de Alto Nivel",
-    "title1": "Soluciones Integrales en",
-    "title2": "Ingeniería,",
-    "title3": "Medio Ambiente y",
-    "title4": "Seguridad Industrial",
+    "title1": "Soluciones",
+    "title2": "sostenibles",
+    "title3": "a tu servicio",
     "description": "Cumplimiento normativo y soporte técnico especializado para empresas de minería, construcción, industria e infraestructura.",
     "cta": "Solicitar Cotización",
     "cta2": "Ver Servicios",
@@ -329,8 +328,242 @@
       "contacto": "Contacto"
     }
   },
+  "serviceDetail": {
+    "hero": {
+      "badge": "Servicio",
+      "cta": "Solicitar Cotización",
+      "ctaWhatsApp": "WhatsApp"
+    },
+    "features": {
+      "title": "Características",
+      "badge": "Qué ofrecemos"
+    },
+    "benefits": {
+      "title": "Beneficios",
+      "badge": "¿Por qué elegirnos?"
+    },
+    "process": {
+      "title": "Nuestro Proceso",
+      "badge": "Cómo trabajamos"
+    },
+    "ctaSection": {
+      "badge": "¿Listo para empezar?",
+      "title": "Solicita una cotización sin compromiso",
+      "description": "Nuestro equipo técnico está preparado para atender tu proyecto. Cuéntanos tus necesidades y te brindaremos la mejor solución.",
+      "whatsapp": "Escríbenos por WhatsApp",
+      "form": "Envíanos un mensaje",
+      "volver": "Volver a servicios"
+    },
+    "otherServices": {
+      "title": "Otros Servicios",
+      "badge": "Explora más",
+      "verDetalle": "Ver detalle"
+    },
+    "items": {
+      "sanitarios": {
+        "title": "Sanitarios Portátiles",
+        "description": "Alquiler de sanitarios portátiles de alta calidad para obras y proyectos con mantenimiento regular y cumplimiento sanitario completo.",
+        "heroDescription": "Brindamos soluciones sanitarias integrales para obras de construcción, eventos y zonas remotas. Nuestros sanitarios cumplen con todos los estándares de higiene y confort.",
+        "features": [
+          "Sanitarios de alta calidad y resistencia",
+          "Limpieza y desinfección semanal incluida",
+          "Suministro de papel higiénico y desinfectante",
+          "Retiro y disposición final responsable",
+          "Disponibles en versiones estándar y para discapacidad",
+          "Ideales para obras, eventos y zonas remotas"
+        ],
+        "benefits": [
+          "Cumplimiento total de normativas sanitarias",
+          "Confort e higiene para tu personal",
+          "Logística sin complicaciones",
+          "Flexibilidad de cantidades según la obra"
+        ],
+        "process": [
+          { "title": "Evaluación", "description": "Analizamos las necesidades de tu obra o proyecto para determinar la cantidad y tipo de sanitarios requeridos." },
+          { "title": "Instalación", "description": "Realizamos la entrega e instalación en el sitio, con ubicación estratégica para comodidad del personal." },
+          { "title": "Mantenimiento", "description": "Servicio de limpieza, desinfección y reposición de insumos en intervalos regulares." },
+          { "title": "Retiro", "description": "Al finalizar el proyecto, retiramos los sanitarios y realizamos la disposición final responsable." }
+        ]
+      },
+      "transporte": {
+        "title": "Transporte y Logística de Residuos",
+        "description": "Servicio especializado de transporte y logística de residuos con vehículos certificados y personal capacitado.",
+        "heroDescription": "Gestionamos el transporte de residuos peligrosos y no peligrosos con total trazabilidad, cumplimiento normativo y responsabilidad ambiental.",
+        "features": [
+          "Vehículos certificados para transporte de residuos",
+          "Rutas optimizadas y trazabilidad",
+          "Documentación y manifiestos de traslado",
+          "Personal capacitado y certificado",
+          "Seguro de responsabilidad civil incluido",
+          "Cobertura nacional"
+        ],
+        "benefits": [
+          "Garantía de cumplimiento normativo",
+          "Trazabilidad completa del proceso",
+          "Reducción de costos logísticos",
+          "Operación segura y responsable"
+        ],
+        "process": [
+          { "title": "Planificación", "description": "Diseñamos la ruta y logística de transporte según tipo de residuo y ubicación." },
+          { "title": "Recolección", "description": "Recolectamos los residuos con vehículos especializados y certificados." },
+          { "title": "Transporte", "description": "Trasladamos los residuos con trazabilidad completa y documentación en regla." },
+          { "title": "Entrega", "description": "Entregamos en plantas de tratamiento autorizadas con constancia de recepción." }
+        ]
+      },
+      "residuos": {
+        "title": "Gestión de Residuos",
+        "description": "Soluciones integrales para la gestión responsable de residuos sólidos, cumpliendo con la normativa ambiental vigente.",
+        "heroDescription": "Ofrecemos un servicio completo de gestión de residuos que abarca desde el diagnóstico hasta la disposición final, asegurando el cumplimiento del DSG-RS.",
+        "features": [
+          "Diagnóstico de generación de residuos",
+          "Clasificación y segregación en origen",
+          "Planes de manejo de residuos",
+          "Acompañamiento en permisos ambientales",
+          "Reportes de gestión y trazabilidad",
+          "Cumplimiento de DSG-RS (DS 011-2023-MINAM)"
+        ],
+        "benefits": [
+          "Cumplimiento normativo ambiental",
+          "Reducción de costos por disposición final",
+          "Mejora de imagen corporativa",
+          "Contribución a la economía circular"
+        ],
+        "process": [
+          { "title": "Diagnóstico", "description": "Evaluamos la generación, composición y volúmenes de residuos de tu empresa." },
+          { "title": "Plan de Manejo", "description": "Elaboramos el plan de manejo de residuos según normativa vigente." },
+          { "title": "Implementación", "description": "Capacitamos a tu personal y establecemos protocolos de segregación y almacenamiento." },
+          { "title": "Seguimiento", "description": "Monitoreamos y reportamos la gestión de residuos de forma continua." }
+        ]
+      },
+      "valorizacion": {
+        "title": "Valorización de Residuos",
+        "description": "Transformación de residuos en materias primas o productos con valor económico y ambiental.",
+        "heroDescription": "Convertimos residuos en recursos. Identificamos y gestionamos oportunidades de valorización para maximizar el aprovechamiento de tus residuos.",
+        "features": [
+          "Identificación de oportunidades de valorización",
+          "Gestión de residuos reciclables y orgánicos",
+          "Conexión con plantas de aprovechamiento",
+          "Certificados de valorización",
+          "Informes de economía circular",
+          "Alianzas estratégicas con industrias"
+        ],
+        "benefits": [
+          "Ingresos adicionales por residuos",
+          "Reducción de disposición final",
+          "Contribución al desarrollo sostenible",
+          "Cumplimiento con la Ley General de Residuos Sólidos"
+        ],
+        "process": [
+          { "title": "Identificación", "description": "Analizamos tus residuos para identificar oportunidades de valorización." },
+          { "title": "Conexión", "description": "Articulamos con plantas de aprovechamiento y reciclaje autorizadas." },
+          { "title": "Implementación", "description": "Establecemos protocolos de segregación y acopio para valorización." },
+          { "title": "Certificación", "description": "Emitimos certificados de valorización y reportes de economía circular." }
+        ]
+      },
+      "equipos": {
+        "title": "Equipos",
+        "description": "Alquiler y venta de equipos especializados para proyectos de construcción, minería y obras civiles.",
+        "heroDescription": "Ponemos a tu disposición equipos de última generación para el desarrollo de tus proyectos, con soporte técnico y mantenimiento incluido.",
+        "features": [
+          "Alquiler y venta de equipos especializados",
+          "Torres de iluminación, compresores, generadores",
+          "Equipos para construcción, minería y obras civiles",
+          "Mantenimiento preventivo incluido",
+          "Asistencia técnica 24/7",
+          "Capacitación en uso seguro"
+        ],
+        "benefits": [
+          "Ahorro en inversión de capital",
+          "Equipos certificados y en óptimo estado",
+          "Soporte técnico inmediato",
+          "Flexibilidad según cronograma de obra"
+        ],
+        "process": [
+          { "title": "Consulta", "description": "Evaluamos las necesidades de equipamiento para tu proyecto." },
+          { "title": "Cotización", "description": "Presentamos opciones de alquiler o venta con las mejores condiciones." },
+          { "title": "Entrega", "description": "Entregamos el equipamiento con capacitación y manuales de uso." },
+          { "title": "Soporte", "description": "Brindamos mantenimiento y asistencia técnica durante toda la operación." }
+        ]
+      },
+      "ambiental": {
+        "title": "Gestión Ambiental",
+        "description": "Consultoría y soluciones ambientales integrales para empresas y proyectos de desarrollo.",
+        "heroDescription": "Nuestro equipo de ingenieros ambientales gestiona estudios, permisos y planes de manejo para que tu proyecto cumpla con toda la normativa del MINAM.",
+        "features": [
+          "Estudios de Impacto Ambiental (EIA/DIA)",
+          "Planes de Manejo Ambiental",
+          "Auditorías ambientales",
+          "Permisos ambientales (DGA, DGE, Municipal)",
+          "Monitoreo ambiental (aire, agua, ruido, suelos)",
+          "Participación ciudadana y OSINFOR"
+        ],
+        "benefits": [
+          "Cumplimiento normativo MINAM",
+          "Permisos y licencias ambientales aprobados",
+          "Reducción de riesgos ambientales",
+          "Mejora de la relación con comunidades"
+        ],
+        "process": [
+          { "title": "Estudio", "description": "Desarrollamos estudios ambientales completos según la legislación vigente." },
+          { "title": "Gestión", "description": "Gestionamos los permisos y licencias ante las autoridades competentes." },
+          { "title": "Implementación", "description": "Establecemos planes de manejo ambiental y protocolos de monitoreo." },
+          { "title": "Seguimiento", "description": "Realizamos monitoreo continuo y reportes de cumplimiento ambiental." }
+        ]
+      },
+      "seguridad": {
+        "title": "Seguridad y Salud Ocupacional",
+        "description": "SGSST, Ley 29783, auditorías SUNAFIL, capacitaciones, planes de emergencia y seguridad industrial.",
+        "heroDescription": "Implementamos tu SGSST desde cero o lo fortalecemos para garantizar la seguridad de tu personal y el cumplimiento de la Ley 29783.",
+        "features": [
+          "Implementación de SGSST (Ley 29783)",
+          "Auditorías de SUNAFIL",
+          "Capacitaciones en seguridad y salud",
+          "Planes de emergencia y evacuación",
+          "Estudios de peligro, riesgo y control",
+          "Brigadas de emergencia y simulacros"
+        ],
+        "benefits": [
+          "Cumplimiento legal obligatorio",
+          "Reducción de accidentes laborales",
+          "Ambiente de trabajo seguro",
+          "Prevenimos sanciones de SUNAFIL"
+        ],
+        "process": [
+          { "title": "Diagnóstico", "description": "Evaluamos el estado actual del SGSST de tu empresa." },
+          { "title": "Diseño", "description": "Diseñamos el sistema de gestión según la normativa y realidad de tu empresa." },
+          { "title": "Capacitación", "description": "Capacitamos a todo el personal en seguridad y salud ocupacional." },
+          { "title": "Auditoría", "description": "Realizamos auditorías internas y preparamos para la fiscalización de SUNAFIL." }
+        ]
+      },
+      "ingenieria": {
+        "title": "Ingeniería y Arquitectura",
+        "description": "Servicios de ingeniería civil, arquitectura, diseño, supervisión y dirección de obras.",
+        "heroDescription": "Nuestro equipo de ingenieros y arquitectos desarrolla proyectos constructivos con los más altos estándares de calidad, innovación y cumplimiento normativo.",
+        "features": [
+          "Ingeniería civil y arquitectura",
+          "Diseño y planos ejecutivos",
+          "Supervisión y dirección de obras",
+          "Estudios geotécnicos y topográficos",
+          "Presupuestos y control de costos",
+          "Gestión de permisos de construcción"
+        ],
+        "benefits": [
+          "Proyectos ejecutados con calidad y a tiempo",
+          "Optimización de costos de construcción",
+          "Cumplimiento normativo y normas técnicas",
+          "Asesoría integral de principio a fin"
+        ],
+        "process": [
+          { "title": "Consulta", "description": "Escuchamos tus necesidades y definimos el alcance del proyecto." },
+          { "title": "Diseño", "description": "Desarrollamos diseños arquitectónicos y estructurales con tecnología BIM." },
+          { "title": "Construcción", "description": "Supervisamos la ejecución de obra con control de calidad y cronograma." },
+          { "title": "Entrega", "description": "Entregamos la obra con toda la documentación técnica y garantías." }
+        ]
+      }
+    }
+  },
   "lang": {
-    "es": "ES",
-    "en": "EN"
+    "es": "Español",
+    "en": "Inglés"
   }
 }

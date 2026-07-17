@@ -132,7 +132,7 @@ export default function Projects() {
 											{project.description}
 										</p>
 										<a
-											href={`https://wa.me/51947609227?text=${encodeURIComponent(project.whatsappMessage)}`}
+											href={`https://wa.me/51948078337?text=${encodeURIComponent(project.whatsappMessage)}`}
 											target="_blank"
 											rel="noopener noreferrer"
 											className="inline-flex items-center gap-2 text-white"

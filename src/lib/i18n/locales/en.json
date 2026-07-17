@@ -11,10 +11,9 @@
   },
   "hero": {
     "badge": "High-Level Engineering & Consulting",
-    "title1": "Comprehensive Solutions in",
-    "title2": "Engineering,",
-    "title3": "Environment and",
-    "title4": "Industrial Safety",
+    "title1": "Sustainable",
+    "title2": "solutions",
+    "title3": "at your service",
     "description": "Regulatory compliance and specialized technical support for mining, construction, industry and infrastructure companies.",
     "cta": "Request Quote",
     "cta2": "View Services",
@@ -329,8 +328,242 @@
       "contacto": "Contact"
     }
   },
+  "serviceDetail": {
+    "hero": {
+      "badge": "Service",
+      "cta": "Request Quote",
+      "ctaWhatsApp": "WhatsApp"
+    },
+    "features": {
+      "title": "Features",
+      "badge": "What we offer"
+    },
+    "benefits": {
+      "title": "Benefits",
+      "badge": "Why choose us?"
+    },
+    "process": {
+      "title": "Our Process",
+      "badge": "How we work"
+    },
+    "ctaSection": {
+      "badge": "Ready to get started?",
+      "title": "Request a no-obligation quote",
+      "description": "Our technical team is ready to serve your project. Tell us your needs and we will provide the best solution.",
+      "whatsapp": "Write us on WhatsApp",
+      "form": "Send us a message",
+      "volver": "Back to services"
+    },
+    "otherServices": {
+      "title": "Other Services",
+      "badge": "Explore more",
+      "verDetalle": "View detail"
+    },
+    "items": {
+      "sanitarios": {
+        "title": "Portable Toilets",
+        "description": "High-quality portable toilet rental for construction sites and projects with regular maintenance and full sanitary compliance.",
+        "heroDescription": "We provide comprehensive sanitation solutions for construction projects, events and remote areas. Our toilets meet all hygiene and comfort standards.",
+        "features": [
+          "High quality and durable portable toilets",
+          "Weekly cleaning and disinfection included",
+          "Toilet paper and sanitizer supply",
+          "Pickup and responsible final disposal",
+          "Standard and disability-accessible versions available",
+          "Ideal for construction sites, events and remote areas"
+        ],
+        "benefits": [
+          "Full compliance with sanitary regulations",
+          "Comfort and hygiene for your staff",
+          "Hassle-free logistics",
+          "Flexible quantities based on project needs"
+        ],
+        "process": [
+          { "title": "Assessment", "description": "We analyze your project needs to determine the quantity and type of portable toilets required." },
+          { "title": "Installation", "description": "We deliver and install on-site with strategic placement for staff comfort." },
+          { "title": "Maintenance", "description": "Regular cleaning, disinfection and supply replenishment service." },
+          { "title": "Removal", "description": "At project completion, we remove the toilets and handle responsible final disposal." }
+        ]
+      },
+      "transporte": {
+        "title": "Waste Transport & Logistics",
+        "description": "Specialized waste transport and logistics service with certified vehicles and trained personnel.",
+        "heroDescription": "We manage the transport of hazardous and non-hazardous waste with full traceability, regulatory compliance and environmental responsibility.",
+        "features": [
+          "Certified vehicles for waste transport",
+          "Optimized routes and traceability",
+          "Documentation and transfer manifests",
+          "Trained and certified personnel",
+          "Civil liability insurance included",
+          "National coverage"
+        ],
+        "benefits": [
+          "Regulatory compliance guarantee",
+          "Complete process traceability",
+          "Reduced logistics costs",
+          "Safe and responsible operations"
+        ],
+        "process": [
+          { "title": "Planning", "description": "We design the transport route and logistics based on waste type and location." },
+          { "title": "Collection", "description": "We collect waste with specialized and certified vehicles." },
+          { "title": "Transport", "description": "We transport waste with complete traceability and proper documentation." },
+          { "title": "Delivery", "description": "We deliver to authorized treatment plants with receipt confirmation." }
+        ]
+      },
+      "residuos": {
+        "title": "Waste Management",
+        "description": "Comprehensive solutions for responsible solid waste management, complying with current environmental regulations.",
+        "heroDescription": "We offer a complete waste management service from diagnosis to final disposal, ensuring compliance with DSG-RS regulations.",
+        "features": [
+          "Waste generation diagnosis",
+          "Classification and segregation at source",
+          "Waste management plans",
+          "Environmental permit support",
+          "Management reports and traceability",
+          "DSG-RS compliance (DS 011-2023-MINAM)"
+        ],
+        "benefits": [
+          "Environmental regulatory compliance",
+          "Reduced final disposal costs",
+          "Improved corporate image",
+          "Contribution to circular economy"
+        ],
+        "process": [
+          { "title": "Diagnosis", "description": "We evaluate your company's waste generation, composition and volumes." },
+          { "title": "Management Plan", "description": "We develop the waste management plan according to current regulations." },
+          { "title": "Implementation", "description": "We train your staff and establish segregation and storage protocols." },
+          { "title": "Monitoring", "description": "We monitor and report on waste management continuously." }
+        ]
+      },
+      "valorizacion": {
+        "title": "Waste Valorization",
+        "description": "Transformation of waste into raw materials or products with economic and environmental value.",
+        "heroDescription": "We convert waste into resources. We identify and manage valorization opportunities to maximize the recovery of your waste.",
+        "features": [
+          "Valorization opportunity identification",
+          "Recyclable and organic waste management",
+          "Connection with recovery plants",
+          "Valorization certificates",
+          "Circular economy reports",
+          "Strategic industry partnerships"
+        ],
+        "benefits": [
+          "Additional revenue from waste",
+          "Reduced final disposal",
+          "Contribution to sustainable development",
+          "Compliance with Solid Waste General Law"
+        ],
+        "process": [
+          { "title": "Identification", "description": "We analyze your waste to identify valorization opportunities." },
+          { "title": "Connection", "description": "We connect with authorized recovery and recycling plants." },
+          { "title": "Implementation", "description": "We establish segregation and storage protocols for valorization." },
+          { "title": "Certification", "description": "We issue valorization certificates and circular economy reports." }
+        ]
+      },
+      "equipos": {
+        "title": "Equipment",
+        "description": "Rental and sale of specialized equipment for construction, mining and civil works projects.",
+        "heroDescription": "We provide state-of-the-art equipment for your projects, with technical support and maintenance included.",
+        "features": [
+          "Rental and sale of specialized equipment",
+          "Lighting towers, compressors, generators",
+          "Equipment for construction, mining and civil works",
+          "Preventive maintenance included",
+          "24/7 technical assistance",
+          "Safe use training"
+        ],
+        "benefits": [
+          "Capital investment savings",
+          "Certified equipment in optimal condition",
+          "Immediate technical support",
+          "Flexibility based on project schedule"
+        ],
+        "process": [
+          { "title": "Consultation", "description": "We evaluate your project's equipment needs." },
+          { "title": "Quote", "description": "We present rental or purchase options with the best conditions." },
+          { "title": "Delivery", "description": "We deliver the equipment with training and user manuals." },
+          { "title": "Support", "description": "We provide maintenance and technical assistance throughout the operation." }
+        ]
+      },
+      "ambiental": {
+        "title": "Environmental Management",
+        "description": "Comprehensive environmental consulting and solutions for companies and development projects.",
+        "heroDescription": "Our environmental engineering team manages studies, permits and management plans to ensure your project complies with all MINAM regulations.",
+        "features": [
+          "Environmental Impact Studies (EIA/DIA)",
+          "Environmental Management Plans",
+          "Environmental audits",
+          "Environmental permits (DGA, DGE, Municipal)",
+          "Environmental monitoring (air, water, noise, soil)",
+          "Citizen participation and OSINFOR"
+        ],
+        "benefits": [
+          "MINAM regulatory compliance",
+          "Approved environmental permits and licenses",
+          "Reduced environmental risks",
+          "Improved community relations"
+        ],
+        "process": [
+          { "title": "Study", "description": "We develop comprehensive environmental studies according to current legislation." },
+          { "title": "Management", "description": "We manage permits and licenses before the competent authorities." },
+          { "title": "Implementation", "description": "We establish environmental management plans and monitoring protocols." },
+          { "title": "Follow-up", "description": "We conduct continuous monitoring and environmental compliance reports." }
+        ]
+      },
+      "seguridad": {
+        "title": "Occupational Health & Safety",
+        "description": "OHSAS, Law 29783, SUNAFIL audits, training, emergency plans and industrial safety.",
+        "heroDescription": "We implement your OHSAS from scratch or strengthen it to ensure your staff's safety and compliance with Law 29783.",
+        "features": [
+          "OHSAS implementation (Law 29783)",
+          "SUNAFIL audits",
+          "Health and safety training",
+          "Emergency and evacuation plans",
+          "Hazard, risk and control studies",
+          "Emergency brigades and drills"
+        ],
+        "benefits": [
+          "Mandatory legal compliance",
+          "Reduced workplace accidents",
+          "Safe work environment",
+          "Prevention of SUNAFIL sanctions"
+        ],
+        "process": [
+          { "title": "Diagnosis", "description": "We evaluate the current state of your company's OHSAS." },
+          { "title": "Design", "description": "We design the management system according to regulations and your company's reality." },
+          { "title": "Training", "description": "We train all personnel in occupational health and safety." },
+          { "title": "Audit", "description": "We conduct internal audits and prepare for SUNAFIL inspection." }
+        ]
+      },
+      "ingenieria": {
+        "title": "Engineering & Architecture",
+        "description": "Civil engineering, architecture, design, supervision and project management services.",
+        "heroDescription": "Our team of engineers and architects develops construction projects with the highest standards of quality, innovation and regulatory compliance.",
+        "features": [
+          "Civil engineering and architecture",
+          "Design and executive plans",
+          "Supervision and project management",
+          "Geotechnical and topographic studies",
+          "Budgets and cost control",
+          "Construction permit management"
+        ],
+        "benefits": [
+          "Projects delivered with quality and on time",
+          "Optimized construction costs",
+          "Regulatory and technical standards compliance",
+          "Comprehensive advice from start to finish"
+        ],
+        "process": [
+          { "title": "Consultation", "description": "We listen to your needs and define the project scope." },
+          { "title": "Design", "description": "We develop architectural and structural designs with BIM technology." },
+          { "title": "Construction", "description": "We supervise construction execution with quality and schedule control." },
+          { "title": "Delivery", "description": "We deliver the project with complete technical documentation and warranties." }
+        ]
+      }
+    }
+  },
   "lang": {
-    "es": "ES",
-    "en": "EN"
+    "es": "Español",
+    "en": "English"
   }
 }

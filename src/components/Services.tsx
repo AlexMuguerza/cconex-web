@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { Trash2, Truck, Droplets, Recycle, Leaf, Sparkles, Building2, Shield, ArrowRight } from "lucide-react";
 import { useI18n } from "@/lib/i18n/context";
+import Link from "next/link";
+import { servicesData } from "@/lib/services";
 
 const icons = {
 	sanitarios: Droplets,
@@ -35,23 +37,17 @@ const itemVariants = {
 };
 
 export default function Services() {
-	const { locale, t } = useI18n();
+	const { t } = useI18n();
 
 	const serviceKeys = ["sanitarios", "transporte", "residuos", "valorizacion", "equipos", "ambiental", "seguridad", "ingenieria"] as const;
 
-	const services = serviceKeys.map((key) => {
-		const service = t.services.items[key];
-		const whatsappMessage = locale === "es"
-			? `Hola, me interesa el servicio de ${service.title}.`
-			: `Hello, I'm interested in the ${service.title} service.`;
-		return {
-			key,
-			icon: icons[key],
-			title: service.title,
-			description: service.description,
-			whatsappMessage,
-		};
-	});
+	const services = serviceKeys.map((key) => ({
+		key,
+		icon: icons[key],
+		title: t.services.items[key].title,
+		description: t.services.items[key].description,
+		slug: servicesData[key].slug,
+	}));
 
 	return (
 		<section id="servicios" className="py-24 bg-background">
@@ -79,7 +75,7 @@ export default function Services() {
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true }}
-					className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+					className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
 				>
 					{services.map((service) => (
 						<motion.div
@@ -90,20 +86,15 @@ export default function Services() {
 							<div className="w-14 h-14 bg-soft-green group-hover:bg-primary rounded-xl flex items-center justify-center mb-4 transition-colors duration-300">
 								<service.icon className="w-7 h-7 text-primary group-hover:text-white transition-colors" />
 							</div>
-							<h3 className="font-heading font-bold text-lg text-dark mb-2">
+							<h3 className="font-heading font-bold text-lg text-dark mb-3">
 								{service.title}
 							</h3>
-							<p className="text-gray text-sm leading-relaxed mb-4">
-								{service.description}
-							</p>
-							<a
-								href={`https://wa.me/51947609227?text=${encodeURIComponent(service.whatsappMessage)}`}
-								target="_blank"
-								rel="noopener noreferrer"
+							<Link
+								href={`/servicios/${service.slug}`}
 								className="inline-flex items-center gap-2 text-primary font-medium text-sm group-hover:gap-3 transition-all"
 							>
 								{t.services.verMas} <ArrowRight size={16} />
-							</a>
+							</Link>
 						</motion.div>
 					))}
 				</motion.div>

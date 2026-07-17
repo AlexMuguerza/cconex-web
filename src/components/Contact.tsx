@@ -187,7 +187,7 @@ export default function Contact() {
 									</div>
 									<div>
 										<h4 className="font-medium text-dark">{t.contact.info.telefono}</h4>
-										<p className="text-gray text-sm">+51 947 609 227</p>
+										<p className="text-gray text-sm">+51 948 078 337</p>
 									</div>
 								</div>
 
