@@ -86,7 +86,7 @@ export default function Hero() {
 						animate={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8, ease: "easeOut" }}
 					>
-						<motion.div
+						{/* <motion.div
 							initial={{ opacity: 0, y: 10 }}
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ delay: 0.2 }}
@@ -96,7 +96,7 @@ export default function Hero() {
 							<span className="text-primary text-sm font-medium">
 								{t.hero.badge}
 							</span>
-						</motion.div>
+						</motion.div> */}
 
 						<h1 className="font-heading font-extrabold text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-6">
 							{t.hero.title1}{" "}
