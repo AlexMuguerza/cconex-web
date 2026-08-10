@@ -197,8 +197,8 @@ export default function Contact() {
 									</div>
 									<div>
 										<h4 className="font-medium text-dark">{t.contact.info.email}</h4>
-										<p className="text-gray text-sm">info@cconex.com</p>
-										<p className="text-gray text-sm">ventas@cconex.com</p>
+										<p className="text-gray text-sm">info.cconex@gmail.com</p>
+										{/* <p className="text-gray text-sm">ventas@cconex.com</p> */}
 									</div>
 								</div>
 

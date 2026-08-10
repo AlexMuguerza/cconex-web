@@ -78,17 +78,14 @@ export default function Sectors() {
 						<motion.div
 							key={sector.key}
 							variants={itemVariants}
-							className="group p-6 rounded-2xl border border-soft-green bg-background hover:bg-primary hover:border-primary transition-colors duration-300 hover-lift cursor-pointer"
+							className="group p-6 rounded-2xl border border-soft-green bg-background hover:bg-primary hover:border-primary transition-colors duration-300 hover-lift cursor-pointer flex items-center gap-4"
 						>
-							<div className="w-14 h-14 bg-soft-green group-hover:bg-white rounded-xl flex items-center justify-center mb-4 transition-colors duration-300">
+							<div className="w-14 h-14 bg-soft-green group-hover:bg-white rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300">
 								<sector.icon className="w-7 h-7 text-primary group-hover:text-primary transition-colors duration-300" />
 							</div>
-							<h3 className="font-heading font-bold text-lg text-dark group-hover:text-white transition-colors mb-2">
+							<h3 className="font-heading font-bold text-lg text-dark group-hover:text-white transition-colors">
 								{sector.name}
 							</h3>
-							<p className="text-gray group-hover:text-white/80 text-sm leading-relaxed transition-colors">
-								{sector.description}
-							</p>
 						</motion.div>
 					))}
 				</motion.div>

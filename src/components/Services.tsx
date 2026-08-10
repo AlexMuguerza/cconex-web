@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Trash2, Truck, Droplets, Recycle, Leaf, Sparkles, Building2, Shield, ArrowRight } from "lucide-react";
+import { Trash2, Truck, Droplets, Recycle, Leaf, Sparkles, Building2, Shield } from "lucide-react";
 import { useI18n } from "@/lib/i18n/context";
 import Link from "next/link";
 import { servicesData } from "@/lib/services";
@@ -50,7 +50,7 @@ export default function Services() {
 	}));
 
 	return (
-		<section id="servicios" className="py-24 bg-background">
+		<section id="servicios" className="py-24 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}
@@ -78,24 +78,18 @@ export default function Services() {
 					className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
 				>
 					{services.map((service) => (
-						<motion.div
+						<Link
 							key={service.key}
-							variants={itemVariants}
-							className="group p-6 bg-white rounded-2xl border border-soft-green hover:border-primary transition-all duration-300 hover-lift"
+							href={`/servicios/${service.slug}`}
+							className="group p-6 rounded-2xl border border-soft-green bg-background hover:bg-primary hover:border-primary transition-colors duration-300 hover-lift cursor-pointer flex items-center gap-4"
 						>
-							<div className="w-14 h-14 bg-soft-green group-hover:bg-primary rounded-xl flex items-center justify-center mb-4 transition-colors duration-300">
-								<service.icon className="w-7 h-7 text-primary group-hover:text-white transition-colors" />
+							<div className="w-14 h-14 bg-soft-green group-hover:bg-white rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300">
+								<service.icon className="w-7 h-7 text-primary group-hover:text-primary transition-colors duration-300" />
 							</div>
-							<h3 className="font-heading font-bold text-lg text-dark mb-3">
+							<h3 className="font-heading font-bold text-lg text-dark group-hover:text-white transition-colors">
 								{service.title}
 							</h3>
-							<Link
-								href={`/servicios/${service.slug}`}
-								className="inline-flex items-center gap-2 text-primary font-medium text-sm group-hover:gap-3 transition-all"
-							>
-								{t.services.verMas} <ArrowRight size={16} />
-							</Link>
-						</motion.div>
+						</Link>
 					))}
 				</motion.div>
 			</div>
