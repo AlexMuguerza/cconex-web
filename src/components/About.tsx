@@ -75,7 +75,7 @@ export default function About() {
 						whileInView={{ opacity: 1, x: 0 }}
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: 0.2 }}
-						className="relative"
+						className="relative overflow-hidden"
 					>
 						<div className="absolute -inset-4 bg-primary/10 rounded-3xl blur-2xl" />
 						<div className="relative space-y-6">

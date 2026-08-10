@@ -66,7 +66,7 @@ export default function Testimonials() {
 					</p>
 				</motion.div>
 
-				<div className="relative max-w-4xl mx-auto">
+				<div className="relative max-w-4xl mx-auto overflow-hidden">
 					<div className="absolute -inset-4 bg-primary/5 rounded-3xl blur-2xl" />
 
 					<div className="relative bg-white rounded-2xl p-8 md:p-12 border border-soft-green shadow-lg min-h-[320px] flex flex-col justify-center overflow-hidden">
