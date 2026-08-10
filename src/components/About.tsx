@@ -75,7 +75,7 @@ export default function About() {
 						whileInView={{ opacity: 1, x: 0 }}
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: 0.2 }}
-						className="relative overflow-hidden"
+						className="relative"
 					>
 						<div className="absolute -inset-4 bg-primary/10 rounded-3xl blur-2xl" />
 						<div className="relative space-y-6">
@@ -86,7 +86,7 @@ export default function About() {
 									whileInView={{ opacity: 1, y: 0 }}
 									viewport={{ once: true }}
 									transition={{ delay: 0.3 + index * 0.1 }}
-									className="p-6 bg-background rounded-2xl border border-soft-green hover-lift"
+									className="p-6 bg-white rounded-2xl border border-soft-green hover-lift"
 								>
 									<div className="flex items-start gap-4">
 										<div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
