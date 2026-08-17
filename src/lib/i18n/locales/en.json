@@ -362,14 +362,16 @@
     "items": {
       "sanitarios": {
         "title": "Portable Toilets",
-        "description": "High-quality portable toilet rental for construction sites and projects with regular maintenance and full sanitary compliance.",
-        "heroDescription": "We provide comprehensive sanitation solutions for construction projects, events and remote areas. Our toilets meet all hygiene and comfort standards.",
+        "description": "Rental of portable toilets, showers and portable handwashing stations for construction sites and projects.",
+        "heroDescription": "We provide comprehensive sanitation solutions for construction projects, events and remote areas. Rental of portable toilets, showers and portable handwashing stations with regular maintenance and sanitary compliance.",
         "features": [
-          "High quality and durable portable toilets",
+          "High-quality portable toilet rental",
+          "Portable showers for construction sites and projects",
+          "Portable handwashing stations with autonomous system",
           "Weekly cleaning and disinfection included",
-          "Toilet paper and sanitizer supply",
+          "Sanitary supplies provided",
           "Pickup and responsible final disposal",
-          "Standard and disability-accessible versions available",
+          "Standard and disability-accessible versions",
           "Ideal for construction sites, events and remote areas"
         ],
         "benefits": [
@@ -386,44 +388,46 @@
         ]
       },
       "transporte": {
-        "title": "Waste Transport & Logistics",
-        "description": "Specialized waste transport and logistics service with certified vehicles and trained personnel.",
-        "heroDescription": "We manage the transport of hazardous and non-hazardous waste with full traceability, regulatory compliance and environmental responsibility.",
+        "title": "Hazardous & Non-Hazardous Waste Transport and Logistics",
+        "description": "Waste collection and transport service from client facilities to authorized landfills for final disposal.",
+        "heroDescription": "Our service covers waste collection and transport from coordination, collection and transport from the client's facilities to authorized landfills for final disposal. We have units of different capacities according to the client's needs and type of waste to be transported.",
         "features": [
-          "Certified vehicles for waste transport",
-          "Optimized routes and traceability",
-          "Documentation and transfer manifests",
+          "Units authorized by MINAM",
           "Trained and certified personnel",
-          "Civil liability insurance included",
-          "National coverage"
+          "Authorized waste transport routes",
+          "Complete documentary control and backup",
+          "Units of different capacities as needed",
+          "Coverage for hazardous and non-hazardous waste",
+          "Complete process traceability",
+          "Final disposal in authorized landfills"
         ],
         "benefits": [
-          "Regulatory compliance guarantee",
-          "Complete process traceability",
+          "Environmental regulatory compliance guarantee",
+          "Complete transport process traceability",
           "Reduced logistics costs",
-          "Safe and responsible operations"
+          "Safe and environmentally responsible operations"
         ],
         "process": [
-          { "title": "Planning", "description": "We design the transport route and logistics based on waste type and location." },
-          { "title": "Collection", "description": "We collect waste with specialized and certified vehicles." },
-          { "title": "Transport", "description": "We transport waste with complete traceability and proper documentation." },
-          { "title": "Delivery", "description": "We deliver to authorized treatment plants with receipt confirmation." }
+          { "title": "Coordination", "description": "We plan collection logistics based on waste type, volume and client location." },
+          { "title": "Collection", "description": "We collect waste with MINAM-authorized units and trained personnel." },
+          { "title": "Transport", "description": "We transport waste via authorized routes with complete documentation and control." },
+          { "title": "Final Disposal", "description": "We deliver to authorized landfills with receipt confirmation and documentary backup." }
         ]
       },
       "residuos": {
-        "title": "Waste Management",
-        "description": "Comprehensive solutions for responsible solid waste management, complying with current environmental regulations.",
-        "heroDescription": "We offer a complete waste management service from diagnosis to final disposal, ensuring compliance with DSG-RS regulations.",
+        "title": "Total Waste Management",
+        "description": "Comprehensive waste management consulting. We provide technical support to comply with environmental waste management.",
+        "heroDescription": "We provide technical support to comply with environmental waste management. Our specialized team accompanies you in diagnosis, planning and training for comprehensive and responsible management.",
         "features": [
-          "Waste generation diagnosis",
-          "Classification and segregation at source",
-          "Waste management plans",
-          "Environmental permit support",
-          "Management reports and traceability",
-          "DSG-RS compliance (DS 011-2023-MINAM)"
+          "Waste management diagnosis",
+          "Waste management plan development",
+          "Staff training and coaching",
+          "Technical support in environmental management",
+          "Current environmental regulatory compliance",
+          "Management reports and traceability"
         ],
         "benefits": [
-          "Environmental regulatory compliance",
+          "Guaranteed environmental regulatory compliance",
           "Reduced final disposal costs",
           "Improved corporate image",
           "Contribution to circular economy"
@@ -431,121 +435,200 @@
         "process": [
           { "title": "Diagnosis", "description": "We evaluate your company's waste generation, composition and volumes." },
           { "title": "Management Plan", "description": "We develop the waste management plan according to current regulations." },
-          { "title": "Implementation", "description": "We train your staff and establish segregation and storage protocols." },
+          { "title": "Training", "description": "We train and coach your staff in comprehensive waste management." },
           { "title": "Monitoring", "description": "We monitor and report on waste management continuously." }
         ]
       },
       "valorizacion": {
-        "title": "Waste Valorization",
-        "description": "Transformation of waste into raw materials or products with economic and environmental value.",
-        "heroDescription": "We convert waste into resources. We identify and manage valorization opportunities to maximize the recovery of your waste.",
+        "title": "Circular Economy - Waste Valorization",
+        "description": "We promote products that are durable, sustainable, repairable and recyclable, with the capacity for evolution and adaptation.",
+        "heroDescription": "The goal of the circular economy is to promote products that are durable, sustainable, repairable and recyclable, with the capacity for evolution and adaptation. It works as a system and not as individual parts. Recoverable waste is valorized materially or energetically, including reuse, recycling, composting, bioconversion and recovery operations.",
         "features": [
-          "Valorization opportunity identification",
-          "Recyclable and organic waste management",
-          "Connection with recovery plants",
-          "Valorization certificates",
-          "Circular economy reports",
-          "Strategic industry partnerships"
+          "Waste segregation and classification",
+          "Weighing and volume control",
+          "Commercialization with authorized managers",
+          "Material and energy valorization",
+          "Reuse and recycling operations",
+          "Composting and bioconversion",
+          "Recoverable materials recovery",
+          "Valorization and circular economy certificates"
         ],
         "benefits": [
-          "Additional revenue from waste",
-          "Reduced final disposal",
+          "Additional revenue from waste valorization",
+          "Reduced final disposal in landfills",
           "Contribution to sustainable development",
           "Compliance with Solid Waste General Law"
         ],
         "process": [
-          { "title": "Identification", "description": "We analyze your waste to identify valorization opportunities." },
-          { "title": "Connection", "description": "We connect with authorized recovery and recycling plants." },
-          { "title": "Implementation", "description": "We establish segregation and storage protocols for valorization." },
+          { "title": "Segregation", "description": "We classify and segregate recoverable waste for valorization." },
+          { "title": "Weighing", "description": "We control volumes through documented weighing." },
+          { "title": "Commercialization", "description": "We connect with authorized managers for the commercialization of valorizable waste." },
           { "title": "Certification", "description": "We issue valorization certificates and circular economy reports." }
         ]
       },
       "equipos": {
-        "title": "Equipment",
-        "description": "Rental and sale of specialized equipment for construction, mining and civil works projects.",
-        "heroDescription": "We provide state-of-the-art equipment for your projects, with technical support and maintenance included.",
+        "title": "Lighting Tower Rental",
+        "description": "Lighting tower rental service that guarantees safety and high energy efficiency reach for nighttime operations.",
+        "heroDescription": "Our lighting tower rental service guarantees safety and high energy efficiency reach for nighttime operations in construction, mining, industry and nighttime events.",
         "features": [
-          "Rental and sale of specialized equipment",
-          "Lighting towers, compressors, generators",
-          "Equipment for construction, mining and civil works",
+          "High-performance lighting towers",
+          "Guaranteed energy efficiency",
+          "Coverage for construction sites",
+          "Service for mining operations",
+          "Lighting for industry and nighttime events",
           "Preventive maintenance included",
           "24/7 technical assistance",
           "Safe use training"
         ],
         "benefits": [
+          "Safety in nighttime operations",
+          "High reach and energy efficiency",
           "Capital investment savings",
-          "Certified equipment in optimal condition",
-          "Immediate technical support",
           "Flexibility based on project schedule"
         ],
         "process": [
-          { "title": "Consultation", "description": "We evaluate your project's equipment needs." },
-          { "title": "Quote", "description": "We present rental or purchase options with the best conditions." },
-          { "title": "Delivery", "description": "We deliver the equipment with training and user manuals." },
+          { "title": "Consultation", "description": "We evaluate your project's lighting needs." },
+          { "title": "Quote", "description": "We present rental options with the best conditions for your requirements." },
+          { "title": "Delivery", "description": "We deliver the lighting towers with training and user manuals." },
           { "title": "Support", "description": "We provide maintenance and technical assistance throughout the operation." }
         ]
       },
       "ambiental": {
         "title": "Environmental Management",
-        "description": "Comprehensive environmental consulting and solutions for companies and development projects.",
-        "heroDescription": "Our environmental engineering team manages studies, permits and management plans to ensure your project complies with all MINAM regulations.",
+        "description": "Support in regulations, guidelines, standards and technological tools to efficiently achieve commercial objectives.",
+        "heroDescription": "In a changing world, Cconex provides support in regulations, guidelines, standards and technological tools, to efficiently achieve the commercial objectives of our clients.",
         "features": [
-          "Environmental Impact Studies (EIA/DIA)",
-          "Environmental Management Plans",
           "Environmental audits",
-          "Environmental permits (DGA, DGE, Municipal)",
-          "Environmental monitoring (air, water, noise, soil)",
-          "Citizen participation and OSINFOR"
+          "Processing of environmental authorizations and permits",
+          "Resolution of observations in inspections",
+          "Detailed and semi-detailed environmental impact studies",
+          "FITSA, EVAP, DIA, ITS, IGAC",
+          "Environmental strategy and solid waste plans",
+          "Contaminated site identification reports",
+          "Solid waste declaration and consulting",
+          "Citizen participation plan development",
+          "Local stakeholder mapping",
+          "Perception studies",
+          "Social conflict resolution"
+        ],
+        "sections": [
+          {
+            "title": "Legal Consulting",
+            "items": [
+              "Environmental audits",
+              "Processing of environmental authorizations and permits",
+              "Resolution of observations in inspections"
+            ]
+          },
+          {
+            "title": "Environmental Instruments",
+            "items": [
+              "Detailed and semi-detailed environmental impact studies",
+              "FITSA, EVAP, DIA, ITS, IGAC",
+              "Environmental strategy plans, solid waste, etc.",
+              "Contaminated site identification reports",
+              "Solid waste declaration and consulting"
+            ]
+          },
+          {
+            "title": "Citizen Participation",
+            "items": [
+              "Participation plan development",
+              "Local stakeholder mapping",
+              "Perception studies",
+              "Social conflict resolution"
+            ]
+          }
         ],
         "benefits": [
-          "MINAM regulatory compliance",
+          "Environmental regulatory compliance",
           "Approved environmental permits and licenses",
           "Reduced environmental risks",
           "Improved community relations"
         ],
         "process": [
-          { "title": "Study", "description": "We develop comprehensive environmental studies according to current legislation." },
-          { "title": "Management", "description": "We manage permits and licenses before the competent authorities." },
+          { "title": "Diagnosis", "description": "We evaluate the environmental and regulatory situation of your company or project." },
+          { "title": "Management", "description": "We manage the permits, licenses and environmental instruments needed." },
           { "title": "Implementation", "description": "We establish environmental management plans and monitoring protocols." },
           { "title": "Follow-up", "description": "We conduct continuous monitoring and environmental compliance reports." }
         ]
       },
       "seguridad": {
         "title": "Occupational Health & Safety",
-        "description": "OHSAS, Law 29783, SUNAFIL audits, training, emergency plans and industrial safety.",
-        "heroDescription": "We implement your OHSAS from scratch or strengthen it to ensure your staff's safety and compliance with Law 29783.",
+        "description": "Solution for your legal compliance in Occupational Health and Safety. Development and implementation of plans, programs and procedures.",
+        "heroDescription": "Cconex S.A.C. provides solutions for your legal compliance in Occupational Health and Safety. We help you develop and implement plans, programs, procedures, instructions and records.",
         "features": [
-          "OHSAS implementation (Law 29783)",
-          "SUNAFIL audits",
-          "Health and safety training",
-          "Emergency and evacuation plans",
-          "Hazard, risk and control studies",
-          "Emergency brigades and drills"
+          "OHS management system implementation (Law 29783)",
+          "Audit support and consulting",
+          "SUNAFIL consulting",
+          "OHS training and coaching",
+          "Supplier homologation",
+          "Supervision in mining, construction, retail and industry",
+          "SSOMA management follow-up in projects and companies",
+          "Occupational agent monitoring",
+          "ISO standards consulting (14000, 45001, 9000, 39000, 50000)"
         ],
         "benefits": [
-          "Mandatory legal compliance",
+          "Guaranteed mandatory legal compliance",
           "Reduced workplace accidents",
-          "Safe work environment",
+          "Safe and healthy work environment",
           "Prevention of SUNAFIL sanctions"
         ],
         "process": [
-          { "title": "Diagnosis", "description": "We evaluate the current state of your company's OHSAS." },
+          { "title": "Diagnosis", "description": "We evaluate the current state of your company's health and safety management." },
           { "title": "Design", "description": "We design the management system according to regulations and your company's reality." },
-          { "title": "Training", "description": "We train all personnel in occupational health and safety." },
-          { "title": "Audit", "description": "We conduct internal audits and prepare for SUNAFIL inspection." }
+          { "title": "Implementation", "description": "We develop and implement plans, programs, procedures and instructions." },
+          { "title": "Audit", "description": "We conduct internal audits and prepare for SUNAFIL inspections." }
         ]
       },
       "ingenieria": {
         "title": "Engineering & Architecture",
-        "description": "Civil engineering, architecture, design, supervision and project management services.",
-        "heroDescription": "Our team of engineers and architects develops construction projects with the highest standards of quality, innovation and regulatory compliance.",
+        "description": "Project consulting, technical files, construction supervision and comprehensive green project design.",
+        "heroDescription": "We prepare technical files for construction, supervision during execution and comprehensive green project design with LEED, EDGE and BREEAM certifications. We promote sustainable projects applying existing certifications.",
         "features": [
-          "Civil engineering and architecture",
-          "Design and executive plans",
-          "Supervision and project management",
-          "Geotechnical and topographic studies",
-          "Budgets and cost control",
-          "Construction permit management"
+          "Technical files for construction",
+          "Construction supervision during execution",
+          "Sanitary landfills (RINP, RESPEL, mono landfills, transitional storage, AS pools)",
+          "Stormwater works (channels, sewerage, potable water, irrigation)",
+          "Roofing and metal structure installation",
+          "Interior design and finishes (drywall, landscaping, electrical installations)",
+          "Comprehensive green project design",
+          "LEED, EDGE, BREEAM certifications",
+          "Mi Vivienda Green Bond incentives"
+        ],
+        "sections": [
+          {
+            "title": "Project Consulting",
+            "items": [
+              "Technical files for construction",
+              "Construction supervision during execution"
+            ]
+          },
+          {
+            "title": "Construction Execution",
+            "items": [
+              "Sanitary landfills (RINP, RESPEL, mono landfills, transitional storage, AS pools)",
+              "Stormwater works (channels, sewerage, potable water system, irrigation)"
+            ]
+          },
+          {
+            "title": "Infrastructure",
+            "items": [
+              "Roofing and metal structure installation",
+              "Interior design and finishes: drywall installation",
+              "Design and landscaping",
+              "Electrical installations"
+            ]
+          },
+          {
+            "title": "Comprehensive Green Project Design",
+            "items": [
+              "End-to-end projects with prior client coordination",
+              "Works with public and/or private entities",
+              "Sustainable projects with LEED, EDGE, BREEAM certifications",
+              "Government Mi Vivienda Green Bond incentives"
+            ]
+          }
         ],
         "benefits": [
           "Projects delivered with quality and on time",

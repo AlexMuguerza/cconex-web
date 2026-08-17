@@ -3,6 +3,7 @@
 import { useI18n } from "@/lib/i18n/context";
 import { servicesData, serviceKeys, type ServiceKey } from "@/lib/services";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
 	ArrowRight,
@@ -13,9 +14,15 @@ import {
 	Award,
 	Clock,
 	Users,
+	Layers,
 } from "lucide-react";
 
 const WHATSAPP_NUMBER = "51948078337";
+
+interface Section {
+	title: string;
+	items: string[];
+}
 
 interface Props {
 	slug: string;
@@ -57,15 +64,27 @@ export default function ServiceDetail({ slug }: Props) {
 			? `Hola, me interesa el servicio de ${detail.title}.`
 			: `Hello, I'm interested in the ${detail.title} service.`;
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const sections: Section[] | undefined = (detail as any).sections;
+
 	return (
 		<>
-			{/* Hero */}
-			<section className="relative bg-dark py-28 overflow-hidden">
-				<div className="absolute inset-0 opacity-10">
-					<div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full blur-3xl" />
-					<div className="absolute bottom-10 right-10 w-96 h-96 bg-primary rounded-full blur-3xl" />
-				</div>
-				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+			{/* Hero with Background Image */}
+			<section className="relative min-h-[60vh] md:min-h-[70vh] flex items-end overflow-hidden">
+				{/* Background Image */}
+				<Image
+					src={service.heroImage}
+					alt={detail.title}
+					fill
+					className="object-cover"
+					priority
+					sizes="100vw"
+				/>
+				{/* Overlay gradient */}
+				<div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/70 to-dark/30" />
+				<div className="absolute inset-0 bg-gradient-to-r from-dark/60 to-transparent" />
+
+				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pb-16 pt-32">
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
@@ -79,15 +98,24 @@ export default function ServiceDetail({ slug }: Props) {
 							{t.serviceDetail.ctaSection.volver}
 						</Link>
 
-						<div className="flex flex-col md:flex-row md:items-center gap-8">
+						<div className="flex flex-col md:flex-row md:items-end gap-8">
 							<div className="flex-1">
-								<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-									{t.serviceDetail.hero.badge}
-								</span>
-								<h1 className="font-heading font-extrabold text-4xl md:text-5xl text-white mt-3 mb-6">
+								<motion.div
+									initial={{ opacity: 0, y: 10 }}
+									animate={{ opacity: 1, y: 0 }}
+									transition={{ delay: 0.2 }}
+									className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-4 py-2 mb-4 backdrop-blur-sm"
+								>
+									<span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+									<span className="text-primary text-sm font-medium">
+										{t.serviceDetail.hero.badge}
+									</span>
+								</motion.div>
+
+								<h1 className="font-heading font-extrabold text-3xl md:text-4xl lg:text-5xl text-white mt-2 mb-6 leading-tight">
 									{detail.title}
 								</h1>
-								<p className="text-white/70 text-lg leading-relaxed mb-8 max-w-2xl">
+								<p className="text-white/80 text-lg leading-relaxed mb-8 max-w-2xl">
 									{detail.heroDescription}
 								</p>
 								<div className="flex flex-wrap gap-4">
@@ -104,8 +132,8 @@ export default function ServiceDetail({ slug }: Props) {
 								</div>
 							</div>
 
-							<div className="w-24 h-24 md:w-32 md:h-32 bg-primary/20 rounded-3xl flex items-center justify-center shrink-0 border border-primary/30">
-								<Icon className="w-12 h-12 md:w-16 md:h-16 text-primary" />
+							<div className="w-20 h-20 md:w-24 md:h-24 bg-white/10 backdrop-blur-md rounded-2xl flex items-center justify-center shrink-0 border border-white/20">
+								<Icon className="w-10 h-10 md:w-12 md:h-12 text-primary" />
 							</div>
 						</div>
 					</motion.div>
@@ -142,41 +170,95 @@ export default function ServiceDetail({ slug }: Props) {
 				</div>
 			</section>
 
-			{/* Features */}
-			<section className="py-24 bg-background">
-				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-					<motion.div
-						initial={{ opacity: 0, y: 20 }}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						transition={{ duration: 0.6 }}
-						className="mb-16"
-					>
-						<span className="text-primary font-semibold text-sm uppercase tracking-wider">
-							{t.serviceDetail.features.badge}
-						</span>
-						<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3">
-							{t.serviceDetail.features.title}
-						</h2>
-					</motion.div>
+			{/* Sections (for services with subcategories) */}
+			{sections && sections.length > 0 && (
+				<section className="py-24 bg-background">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							transition={{ duration: 0.6 }}
+							className="mb-16"
+						>
+							<span className="text-primary font-semibold text-sm uppercase tracking-wider">
+								{t.serviceDetail.features.badge}
+							</span>
+							<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3">
+								{t.serviceDetail.features.title}
+							</h2>
+						</motion.div>
 
-					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-						{detail.features.map((feature: string, i: number) => (
-							<motion.div
-								key={i}
-								initial={{ opacity: 0, y: 20 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{ delay: i * 0.08, duration: 0.5 }}
-								className="flex items-start gap-4 p-6 bg-white rounded-2xl border border-soft-green hover:border-primary transition-colors duration-300"
-							>
-								<CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
-								<p className="text-dark text-sm leading-relaxed">{feature}</p>
-							</motion.div>
-						))}
+						<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+							{sections.map((section, sIdx) => (
+								<motion.div
+									key={sIdx}
+									initial={{ opacity: 0, y: 20 }}
+									whileInView={{ opacity: 1, y: 0 }}
+									viewport={{ once: true }}
+									transition={{ delay: sIdx * 0.1, duration: 0.5 }}
+									className="bg-white rounded-2xl border border-soft-green p-8 hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
+								>
+									<div className="flex items-center gap-3 mb-6">
+										<div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+											<Layers className="w-6 h-6 text-primary" />
+										</div>
+										<h3 className="font-heading font-bold text-xl text-dark">
+											{section.title}
+										</h3>
+									</div>
+									<ul className="space-y-3">
+										{section.items.map((item, iIdx) => (
+											<li key={iIdx} className="flex items-start gap-3">
+												<CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+												<span className="text-dark text-sm leading-relaxed">{item}</span>
+											</li>
+										))}
+									</ul>
+								</motion.div>
+							))}
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			)}
+
+			{/* Features (for services without sections) */}
+			{(!sections || sections.length === 0) && (
+				<section className="py-24 bg-background">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							transition={{ duration: 0.6 }}
+							className="mb-16"
+						>
+							<span className="text-primary font-semibold text-sm uppercase tracking-wider">
+								{t.serviceDetail.features.badge}
+							</span>
+							<h2 className="font-heading font-extrabold text-3xl md:text-4xl text-dark mt-3">
+								{t.serviceDetail.features.title}
+							</h2>
+						</motion.div>
+
+						<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+							{detail.features.map((feature: string, i: number) => (
+								<motion.div
+									key={i}
+									initial={{ opacity: 0, y: 20 }}
+									whileInView={{ opacity: 1, y: 0 }}
+									viewport={{ once: true }}
+									transition={{ delay: i * 0.08, duration: 0.5 }}
+									className="flex items-start gap-4 p-6 bg-white rounded-2xl border border-soft-green hover:border-primary transition-colors duration-300"
+								>
+									<CheckCircle2 className="w-6 h-6 text-primary shrink-0 mt-0.5" />
+									<p className="text-dark text-sm leading-relaxed">{feature}</p>
+								</motion.div>
+							))}
+						</div>
+					</div>
+				</section>
+			)}
 
 			{/* Benefits */}
 			<section className="py-24 bg-white">
