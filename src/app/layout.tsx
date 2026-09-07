@@ -103,7 +103,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="es">
+		<html lang="es" data-scroll-behavior="smooth">
 			<head>
 				<link rel="icon" href="/favicon.png" type="image/png" />
 				<link rel="apple-touch-icon" href="/favicon.png" />

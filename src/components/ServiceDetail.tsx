@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useI18n } from "@/lib/i18n/context";
 import { servicesData, serviceKeys, type ServiceKey } from "@/lib/services";
 import Link from "next/link";
@@ -31,6 +32,15 @@ interface Props {
 export default function ServiceDetail({ slug }: Props) {
 	const { locale, t } = useI18n();
 	const service = Object.values(servicesData).find((s) => s.slug === slug);
+	const [currentImage, setCurrentImage] = useState(0);
+
+	useEffect(() => {
+		if (!service) return;
+		const timer = setInterval(() => {
+			setCurrentImage((prev) => (prev + 1) % service.heroImages.length);
+		}, 5000);
+		return () => clearInterval(timer);
+	}, [service]);
 
 	if (!service) {
 		return (
@@ -71,18 +81,41 @@ export default function ServiceDetail({ slug }: Props) {
 		<>
 			{/* Hero with Background Image */}
 			<section className="relative min-h-[60vh] md:min-h-[70vh] flex items-end overflow-hidden">
-				{/* Background Image */}
-				<Image
-					src={service.heroImage}
-					alt={detail.title}
-					fill
-					className="object-cover"
-					priority
-					sizes="100vw"
-				/>
+				{/* Carousel de imágenes con fade */}
+				<div className="absolute inset-0">
+					{service.heroImages.map((img, index) => (
+						<Image
+							key={index}
+							src={img}
+							alt={detail.title}
+							fill
+							className={`object-cover transition-opacity duration-1000 ${
+								index === currentImage ? "opacity-100" : "opacity-0"
+							}`}
+							priority={index === 0}
+							sizes="100vw"
+						/>
+					))}
+				</div>
 				{/* Overlay gradient */}
-				<div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/70 to-dark/30" />
-				<div className="absolute inset-0 bg-gradient-to-r from-dark/60 to-transparent" />
+				<div className="absolute inset-0 bg-linear-to-t from-dark via-dark/70 to-dark/30" />
+				<div className="absolute inset-0 bg-linear-to-r from-dark/60 to-transparent" />
+
+				{/* Indicadores del carousel - Esquina superior derecha */}
+				<div className="absolute top-6 right-6 z-20 flex gap-2">
+					{service.heroImages.map((_, index) => (
+						<button
+							key={index}
+							onClick={() => setCurrentImage(index)}
+							className={`h-2 rounded-full transition-all duration-300 ${
+								index === currentImage 
+									? "bg-primary w-8" 
+									: "bg-white/50 hover:bg-white/80 w-2"
+							}`}
+							aria-label={`Imagen ${index + 1}`}
+						/>
+					))}
+				</div>
 
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full pb-16 pt-32">
 					<motion.div
