@@ -6,11 +6,17 @@ import { useI18n } from "@/lib/i18n/context";
 import edificaciones from "@/assets/clientes/edificaciones.png";
 import ferp from "@/assets/clientes/ferp.png";
 import entel from "@/assets/clientes/entel.png";
+import baldarrago from "@/assets/clientes/baldarrago.png";
+import dps from "@/assets/clientes/dps.png";
+import ricardoPalma from "@/assets/clientes/ricardo-palma.png";
 
 const clientLogos = [
 	{ name: "Edificaciones", logo: edificaciones },
 	{ name: "FERP", logo: ferp },
 	{ name: "Entel", logo: entel },
+	{ name: "Baldarrago", logo: baldarrago },
+	{ name: "Dps", logo: dps },
+	{ name: "Ricardo Palma", logo: ricardoPalma },
 ];
 
 export default function Clients() {
@@ -38,39 +44,76 @@ export default function Clients() {
 						</p>
 					</motion.div>
 
-					<div className="relative overflow-hidden">
-						<div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-background to-transparent z-10" />
-						<div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-background to-transparent z-10" />
+					<div className="flex flex-col gap-4 overflow-hidden">
+						<div className="relative overflow-hidden">
+							<div className="absolute left-0 top-0 bottom-0 w-16 bg-linear-to-r from-background to-transparent z-10" />
+							<div className="absolute right-0 top-0 bottom-0 w-16 bg-linear-to-l from-background to-transparent z-10" />
 
-						<motion.div
-							animate={{ x: ["0%", "-50%"] }}
-							transition={{
-								x: {
-									repeat: Infinity,
-									repeatType: "loop",
-									duration: 30,
-									ease: "linear",
-								},
-							}}
-							className="flex gap-8 items-center whitespace-nowrap"
-						>
-							{[...clientLogos, ...clientLogos].map((client, index) => (
-							<div
-								key={`${client.name}-${index}`}
-								className="flex-shrink-0 w-36 h-16 bg-white rounded-xl border border-soft-green flex items-center justify-center hover:border-primary hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 cursor-pointer grayscale hover:grayscale-0 p-3"
+							<motion.div
+								animate={{ x: ["0%", "-50%"] }}
+								transition={{
+									x: {
+										repeat: Infinity,
+										repeatType: "loop",
+										duration: 10,
+										ease: "linear",
+									},
+								}}
+								className="flex gap-8 items-center whitespace-nowrap"
 							>
-								<div className="relative w-full h-full">
-									<Image
-										src={client.logo}
-										alt={client.name}
-										fill
-										className="object-contain"
-										sizes="144px"
-									/>
+								{[...clientLogos, ...clientLogos].map((client, index) => (
+								<div
+									key={`${client.name}-${index}`}
+									className="shrink-0 w-36 h-16 bg-white rounded-xl border border-soft-green flex items-center justify-center hover:border-primary hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 cursor-pointer grayscale hover:grayscale-0 p-3"
+								>
+									<div className="relative w-full h-full">
+										<Image
+											src={client.logo}
+											alt={client.name}
+											fill
+											className="object-contain"
+											sizes="144px"
+										/>
+									</div>
 								</div>
-							</div>
-							))}
-						</motion.div>
+								))}
+							</motion.div>
+						</div>
+
+						<div className="relative overflow-hidden">
+							<div className="absolute left-0 top-0 bottom-0 w-16 bg-linear-to-r from-background to-transparent z-10" />
+							<div className="absolute right-0 top-0 bottom-0 w-16 bg-linear-to-l from-background to-transparent z-10" />
+
+							<motion.div
+								animate={{ x: ["-50%", "0%"] }}
+								transition={{
+									x: {
+										repeat: Infinity,
+										repeatType: "loop",
+										duration: 10,
+										ease: "linear",
+									},
+								}}
+								className="flex gap-8 items-center whitespace-nowrap"
+							>
+								{[...clientLogos, ...clientLogos].map((client, index) => (
+								<div
+									key={`${client.name}-rev-${index}`}
+									className="shrink-0 w-36 h-16 bg-white rounded-xl border border-soft-green flex items-center justify-center hover:border-primary hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 cursor-pointer grayscale hover:grayscale-0 p-3"
+								>
+									<div className="relative w-full h-full">
+										<Image
+											src={client.logo}
+											alt={client.name}
+											fill
+											className="object-contain"
+											sizes="144px"
+										/>
+									</div>
+								</div>
+								))}
+							</motion.div>
+						</div>
 					</div>
 				</div>
 			</div>
