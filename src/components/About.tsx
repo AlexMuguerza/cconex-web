@@ -51,7 +51,7 @@ export default function About() {
 						<div className="mt-8 grid grid-cols-3 gap-4">
 							<div className="text-center p-4 bg-soft-green rounded-xl">
 								<div className="text-3xl font-heading font-extrabold text-primary">
-									+10
+									+5
 								</div>
 								<div className="text-gray text-sm mt-1">{t.about.stats.experiencia}</div>
 							</div>
