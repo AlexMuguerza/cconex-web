@@ -27,8 +27,7 @@
   "about": {
     "badge": "Nosotros",
     "title": "Gestionamos tus Residuos por un Ambiente Sostenible",
-    "description1": "CCONEX Constructores & Consultores es una empresa peruana con más de 10 años de experiencia brindando soluciones técnicas integrales a los sectores de minería, construcción, industria e infraestructura.",
-    "description2": "Nuestro equipo multidisciplinario de ingenieros y especialistas garantiza el cumplimiento normativo y la calidad en cada proyecto, respaldados por certificaciones ISO y una sólida trayectoria en el mercado nacional.",
+    "description1": "CCONEX S.A.C. es una empresa peruana con más de 5 años de experiencia brindando soluciones sostenibles para el desarrollo de diversos sectores ecónomicos.",
     "stats": {
       "experiencia": "Años de Experiencia",
       "proyectos": "Proyectos",
@@ -364,6 +363,38 @@
         "title": "Sanitarios Portátiles",
         "description": "Alquiler de sanitarios portátiles, duchas y lavamanos portátiles para obras y proyectos.",
         "heroDescription": "Brindamos soluciones sanitarias integrales para obras de construcción, eventos y zonas remotas. Alquiler de sanitarios portátiles, duchas y lavamanos portátiles con mantenimiento regular y cumplimiento sanitario.",
+        "offerings": [
+          {
+            "title": "Alquiler de Sanitarios Portátiles",
+            "description": "Soluciones sanitarias estándar y ejecutivas para obras civiles, minería, eventos y locaciones remotas.",
+            "items": [
+              "Cabinas estándar y ejecutivas de alta durabilidad",
+              "Módulos accesibles para personas con discapacidad",
+              "Suministro continuo de insumos sanitarios"
+            ],
+            "benefit": "Confort e higiene para tu personal y cumplimiento de normativas de salud ocupacional."
+          },
+          {
+            "title": "Duchas y Lavamanos Portátiles",
+            "description": "Estaciones autónomas de lavado y módulos de duchas diseñados para mantener la bioseguridad en frentes de trabajo.",
+            "items": [
+              "Sistemas autónomos de agua y desagüe",
+              "Dispensadores de jabón y papel incluidos",
+              "Estructuras resistentes para alto tránsito"
+            ],
+            "benefit": "Prevención sanitaria efectiva y mejores condiciones laborales en campo."
+          },
+          {
+            "title": "Mantenimiento, Succión y Desinfección",
+            "description": "Servicio integral programado de limpieza, desinfección y succión de lodos mediante unidades autorizadas.",
+            "items": [
+              "Limpieza y desinfección periódica programada",
+              "Evacuación y succión con cisternas autorizadas",
+              "Disposición final en plantas de tratamiento autorizadas"
+            ],
+            "benefit": "Operatividad continua garantizada sin malos olores ni riesgos de contaminación."
+          }
+        ],
         "features": [
           "Alquiler de sanitarios portátiles de alta calidad",
           "Duchas portátiles para obras y proyectos",
@@ -391,6 +422,38 @@
         "title": "Transporte y Logística de Residuos Peligrosos y No Peligrosos",
         "description": "Servicio de recolección y transporte de residuos desde las instalaciones del cliente hacia los rellenos autorizados para su disposición final.",
         "heroDescription": "El servicio cubre la recolección y transporte de residuos desde la coordinación, recolección y transporte desde las instalaciones del cliente hacia los rellenos autorizados para su disposición final. Contamos con unidades de distintas capacidades según la necesidad del cliente y tipo de residuo a transportar.",
+        "offerings": [
+          {
+            "title": "Transporte de Residuos Peligrosos",
+            "description": "Traslado seguro y certificado de residuos peligrosos bajo estrictas normativas ambientales y del MTC.",
+            "items": [
+              "Unidades vehiculares autorizadas por el MINAM",
+              "Conductores certificados con permisos MATPEL",
+              "Kits antiderrame y plan de contingencia activo"
+            ],
+            "benefit": "Cero contingencias ambientales y cumplimiento legal garantizado."
+          },
+          {
+            "title": "Transporte de Residuos No Peligrosos",
+            "description": "Gestión logística para la recolección y traslado eficiente de residuos comunes, comerciales e industriales.",
+            "items": [
+              "Flota variada con furgones y camiones compactadores",
+              "Rutas programadas con seguimiento satelital GPS",
+              "Pesaje y registro documentario completo"
+            ],
+            "benefit": "Puntualidad en el servicio y optimización de costos logísticos."
+          },
+          {
+            "title": "Disposición Final y Trazabilidad",
+            "description": "Coordinación y entrega directa en rellenos sanitarios y de seguridad formalmente autorizados.",
+            "items": [
+              "Emisión de manifiestos y certificados oficiales",
+              "Trazabilidad digital de la cadena de custodia",
+              "Respaldo documentario para fiscalizaciones de OEFA"
+            ],
+            "benefit": "Tranquilidad regulatoria con respaldo documental ante las autoridades."
+          }
+        ],
         "features": [
           "Unidades autorizadas por MINAM",
           "Personal capacitado y certificado",
@@ -418,6 +481,38 @@
         "title": "Total Waste Management",
         "description": "Asesoría en gestión integral de residuos. Te brindamos soporte técnico para cumplir con la gestión ambiental de residuos.",
         "heroDescription": "Te brindamos soporte técnico para cumplir con la gestión ambiental de residuos. Nuestro equipo especializado te acompaña en el diagnóstico, planificación y capacitación para una gestión integral y responsable.",
+        "offerings": [
+          {
+            "title": "Diagnóstico y Caracterización de Residuos",
+            "description": "Evaluación técnica de los flujos de residuos generados para diseñar estrategias efectivas de minimización.",
+            "items": [
+              "Estudios de caracterización in situ",
+              "Identificación de oportunidades de valorización",
+              "Diseño de áreas de acopio y almacenamiento temporal"
+            ],
+            "benefit": "Mapeo claro de la generación y reducción progresiva de costos de disposición."
+          },
+          {
+            "title": "Gestión Integral y Soporte Operativo",
+            "description": "Operación continua de centros de acopio con personal calificado, control de inventarios y logística interna.",
+            "items": [
+              "Personal técnico residente debidamente capacitado",
+              "Control y registro de manifiestos y guías de remisión",
+              "Soporte permanente en gestión ambiental corporativa"
+            ],
+            "benefit": "Delegación total de la operación bajo estándares de calidad y seguridad."
+          },
+          {
+            "title": "Capacitación y Cultura Ambiental",
+            "description": "Programas de sensibilización y entrenamiento técnico para personal operativo y administrativo.",
+            "items": [
+              "Talleres teórico-prácticos de segregación en fuente",
+              "Capacitación en respuesta rápida ante emergencias y derrames",
+              "Campañas corporativas de concientización y economía circular"
+            ],
+            "benefit": "Mayor compromiso de los colaboradores y reducción de errores en origen."
+          }
+        ],
         "features": [
           "Diagnóstico de gestión de residuos",
           "Elaboración de planes de manejo de residuos",
@@ -440,9 +535,42 @@
         ]
       },
       "valorizacion": {
-        "title": "Economía Circular - Valorización de Residuos",
+        "title": "Valorización y Tratamiento de Residuos",
         "description": "Fomentamos que los productos sean duraderos, sostenibles, reparables y reciclables, con capacidad de evolución y adaptación.",
         "heroDescription": "El objetivo de la economía circular es fomentar que los productos sean duraderos, sostenibles, reparables y reciclables, así como que tengan capacidad de evolución y adaptación. Funciona como un sistema y no como partes individuales. Los residuos aprovechables se valorizan de forma material o energética, incluyendo operaciones de reutilización, reciclado, compostaje, bioconversión y recuperación.",
+        "offerings": [
+          {
+            "title": "Comercialización de residuos",
+            "description": "Valorizamos residuos aprovechables a través de canales formales y autorizados.",
+            "items": [
+              "Segregación y clasificación",
+              "Pesaje",
+              "Comercialización con gestores autorizados"
+            ],
+            "benefit": "Generas ingresos y reduces costos de disposición."
+          },
+          {
+            "title": "Acondicionamiento de residuos",
+            "description": "Realizamos el acondicionamiento técnico de residuos peligrosos y no peligrosos, asegurando su correcta gestión y cumplimiento normativo.",
+            "items": [
+              "Identificación y clasificación técnica",
+              "Segregación adecuada",
+              "Envasado en contenedores apropiados",
+              "Rotulado conforme a normativa"
+            ],
+            "benefit": "Cumplimiento ambiental, reducción de riesgos y respaldo técnico documentario."
+          },
+          {
+            "title": "Compostaje de residuos",
+            "description": "Tratamiento biológico y valorización de residuos orgánicos para su transformación en abono natural y mejoradores de suelo.",
+            "items": [
+              "Recepción y clasificación técnica de orgánicos",
+              "Control de parámetros (temperatura, humedad y aireación)",
+              "Obtención de compost orgánico certificado"
+            ],
+            "benefit": "Aprovechamiento integral de residuos orgánicos y reducción de la huella de carbono."
+          }
+        ],
         "features": [
           "Segregación y clasificación de residuos",
           "Pesaje y control de volúmenes",
@@ -470,6 +598,38 @@
         "title": "Alquiler de Torres de Iluminación",
         "description": "Servicio de alquiler de torres de iluminación que garantiza seguridad y alto alcance de eficiencia energética para operaciones nocturnas.",
         "heroDescription": "Nuestro servicio de alquiler de torres de iluminación garantiza seguridad y alto alcance de eficiencia energética para las operaciones nocturnas en obras de construcción, minería, industria y eventos nocturnos.",
+        "offerings": [
+          {
+            "title": "Alquiler de Torres de Iluminación",
+            "description": "Equipos autónomos de iluminación de alta potencia y máxima eficiencia energética para faenas nocturnas continuas.",
+            "items": [
+              "Mástiles verticales telescópicos de gran alcance",
+              "Lámparas LED de alto flujo lumínico y bajo consumo",
+              "Generadores diésel de larga autonomía continua"
+            ],
+            "benefit": "Máxima visibilidad y seguridad en obras, minería y eventos 24/7."
+          },
+          {
+            "title": "Mantenimiento Preventivo y Soporte 24/7",
+            "description": "Servicio técnico preventivo y correctivo para garantizar la operatividad ininterrumpida de las unidades.",
+            "items": [
+              "Revisiones periódicas y recambio de filtros y consumibles",
+              "Equipo técnico de guardia para respuesta inmediata",
+              "Sustitución de unidades ante imprevistos"
+            ],
+            "benefit": "Cero paradas operativas y continuidad ininterrumpida de tus proyectos."
+          },
+          {
+            "title": "Logística y Puesta en Marcha en Obra",
+            "description": "Entrega, montaje y calibración directa en el sitio de operaciones a nivel nacional.",
+            "items": [
+              "Traslado a locaciones y frentes de difícil acceso",
+              "Capacitación en uso seguro y eficiente al personal de obra",
+              "Protocolos rigurosos de arranque y seguridad eléctrica"
+            ],
+            "benefit": "Equipos listos para producir desde el primer momento sin complicaciones logísticas."
+          }
+        ],
         "features": [
           "Torres de iluminación de alto rendimiento",
           "Eficiencia energética garantizada",
@@ -497,6 +657,38 @@
         "title": "Gestión Ambiental",
         "description": "Soporte en normativas, lineamientos, guías, estándares y herramientas tecnológicas para lograr de manera eficiente los objetivos comerciales.",
         "heroDescription": "En un mundo de cambios, Cconex te brinda soporte en las normativas, lineamientos, guías, estándares y herramientas tecnológicas, para lograr de manera eficiente los objetivos comerciales de nuestros clientes.",
+        "offerings": [
+          {
+            "title": "Asesoría Legal y Auditorías Ambientales",
+            "description": "Acompañamiento legal especializado para el cumplimiento de normativas de OEFA, MINAM y fiscalizadores sectoriales.",
+            "items": [
+              "Auditorías de diagnóstico de cumplimiento legal ambiental",
+              "Trámite de autorizaciones, permisos y licencias",
+              "Levantamiento de observaciones ante fiscalizaciones"
+            ],
+            "benefit": "Blindaje legal y prevención de sanciones o multas administrativas."
+          },
+          {
+            "title": "Instrumentos de Gestión Ambiental (IGA)",
+            "description": "Elaboración y actualización de estudios ambientales exigidos por la legislación peruana vigente.",
+            "items": [
+              "Estudios de Impacto Ambiental (DIA, EIA-sd, EIA-d)",
+              "Planes de Manejo Ambiental, ITS, IGAC y EVAP",
+              "Informes de identificación de sitios contaminados"
+            ],
+            "benefit": "Aprobación ágil de estudios ante las autoridades competentes."
+          },
+          {
+            "title": "Participación Ciudadana y Gestión Social",
+            "description": "Estrategias de vinculación comunitaria y prevención de conflictos sociales para la viabilidad de proyectos.",
+            "items": [
+              "Elaboración de planes de participación ciudadana",
+              "Organización de talleres informativos y audiencias públicas",
+              "Mapeo de actores locales y resolución de controversias"
+            ],
+            "benefit": "Licencia social sólida y relaciones armónicas con el entorno comunitario."
+          }
+        ],
         "features": [
           "Auditorías ambientales",
           "Trámite de autorizaciones y permisos ambientales",
@@ -557,6 +749,38 @@
         "title": "Seguridad y Salud Ocupacional",
         "description": "Solución para tus cumplimientos legales en Seguridad y Salud en el trabajo. Desarrollo e implementación de planes, programas y procedimientos.",
         "heroDescription": "Cconex S.A.C. te brinda solución para tus cumplimientos legales en Seguridad y Salud en el trabajo. Te ayudamos a desarrollar e implementar planes, programas, procedimientos, instructivos y registros.",
+        "offerings": [
+          {
+            "title": "Sistemas de Gestión SST (Ley 29783)",
+            "description": "Diseño, implementación y auditoría de sistemas de gestión según normativa legal peruana y estándares ISO 45001.",
+            "items": [
+              "Elaboración de matrices IPERC y mapas de riesgo",
+              "Reglamento Interno de Seguridad y Salud en el Trabajo (RISST)",
+              "Constitución e instalación del Comité de SST"
+            ],
+            "benefit": "Garantía de cumplimiento legal obligatorio y reducción de accidentes laborales."
+          },
+          {
+            "title": "Asesoría SUNAFIL y Homologaciones",
+            "description": "Acompañamiento técnico para inspecciones laborales y procesos de homologación de contratistas.",
+            "items": [
+              "Preparación integral ante fiscalizaciones de SUNAFIL",
+              "Soporte documentario para homologación en grandes empresas",
+              "Auditorías internas preventivas del sistema de gestión"
+            ],
+            "benefit": "Aprobación de homologaciones con puntajes destacados y sin contingencias laborales."
+          },
+          {
+            "title": "Monitoreos Ocupacionales y Capacitaciones",
+            "description": "Evaluación de agentes físicos, químicos, biológicos, ergonómicos y psicosociales con equipos calibrados.",
+            "items": [
+              "Medición de ruido, iluminación, polvo y vibración",
+              "Estudios ergonómicos y de clima psicosocial",
+              "Capacitaciones obligatorias certificadas por especialistas"
+            ],
+            "benefit": "Ambiente de trabajo seguro, saludable y bienestar certificado para tus colaboradores."
+          }
+        ],
         "features": [
           "Implementación de sistema de gestión de SSO (Ley 29783)",
           "Soporte y asesoría para auditorías",
@@ -585,6 +809,38 @@
         "title": "Ingeniería y Arquitectura",
         "description": "Consultoría de proyectos, expedientes técnicos, supervisión de obras y diseño integral de proyectos verdes.",
         "heroDescription": "Realizamos expedientes técnicos para obras, supervisión durante la ejecución y diseño integral de proyectos verdes con certificaciones LEED, EDGE y BREEAM. Fomentamos proyectos sostenibles aplicando las diversas certificaciones existentes.",
+        "offerings": [
+          {
+            "title": "Consultoría y Expedientes Técnicos",
+            "description": "Desarrollo completo de expedientes técnicos para obras públicas y privadas bajo metodologías modernas de ingeniería.",
+            "items": [
+              "Estudios de mecánica de suelos y topografía",
+              "Memorias descriptivas, metrados y presupuestos detallados",
+              "Diseño estructural, sanitario y eléctrico con tecnología BIM"
+            ],
+            "benefit": "Expedientes sólidos que evitan sobrecostos y retrasos en la ejecución."
+          },
+          {
+            "title": "Supervisión y Ejecución de Obras",
+            "description": "Control riguroso de calidad, plazos y costos en obras de infraestructura civil, ambiental e industrial.",
+            "items": [
+              "Supervisión de rellenos sanitarios y plataformas de acopio",
+              "Obras pluviales, canales y sistemas de agua potable",
+              "Instalación de coberturas y estructuras metálicas"
+            ],
+            "benefit": "Construcción conforme a especificaciones técnicas y estándares de calidad."
+          },
+          {
+            "title": "Diseño Integral de Proyectos Verdes",
+            "description": "Diseño y consultoría arquitectónica sostenible orientada a certificaciones de eficiencia ambiental.",
+            "items": [
+              "Asesoría para certificaciones LEED, EDGE y BREEAM",
+              "Consultoría técnica para Bono Verde Mivivienda",
+              "Arquitectura bioclimática y optimización de recursos energéticos"
+            ],
+            "benefit": "Incentivos financieros, mayor valor inmobiliario y reducción del impacto ambiental."
+          }
+        ],
         "features": [
           "Expedientes técnicos para obras",
           "Supervisión de obras durante la ejecución",

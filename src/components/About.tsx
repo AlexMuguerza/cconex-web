@@ -44,10 +44,6 @@ export default function About() {
 						<p className="text-gray text-lg leading-relaxed mb-8">
 							{t.about.description1}
 						</p>
-						<p className="text-gray leading-relaxed">
-							{t.about.description2}
-						</p>
-
 						<div className="mt-8 grid grid-cols-3 gap-4">
 							<div className="text-center p-4 bg-soft-green rounded-xl">
 								<div className="text-3xl font-heading font-extrabold text-primary">

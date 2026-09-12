@@ -27,8 +27,7 @@
   "about": {
     "badge": "About Us",
     "title": "We manage your waste for a sustainable environment.",
-    "description1": "CCONEX Constructores & Consultores is a Peruvian company with over 10 years of experience providing comprehensive technical solutions to the mining, construction, industry and infrastructure sectors.",
-    "description2": "Our multidisciplinary team of engineers and specialists ensures regulatory compliance and quality in every project, backed by ISO certifications and a solid track record in the national market.",
+    "description1": "CCONEX S.A.C. is a Peruvian company with over five years of experience providing sustainable solutions for the development of various economic sectors.",
     "stats": {
       "experiencia": "Years of Experience",
       "proyectos": "Projects",
@@ -364,6 +363,38 @@
         "title": "Portable Toilets",
         "description": "Rental of portable toilets, showers and portable handwashing stations for construction sites and projects.",
         "heroDescription": "We provide comprehensive sanitation solutions for construction projects, events and remote areas. Rental of portable toilets, showers and portable handwashing stations with regular maintenance and sanitary compliance.",
+        "offerings": [
+          {
+            "title": "Portable Toilets Rental",
+            "description": "Standard and executive sanitary solutions for civil construction, mining, public events and remote locations.",
+            "items": [
+              "High-durability standard and executive cabins",
+              "Accessible modules for people with disabilities",
+              "Continuous supply of sanitary consumables"
+            ],
+            "benefit": "Hygiene and comfort for your workforce with full occupational health compliance."
+          },
+          {
+            "title": "Portable Showers and Sinks",
+            "description": "Autonomous washing stations and shower modules designed to maintain high biosecurity standards on site.",
+            "items": [
+              "Autonomous water and drainage systems",
+              "Integrated soap and paper towel dispensers",
+              "Heavy-duty structures designed for high traffic"
+            ],
+            "benefit": "Effective sanitary prevention and better working conditions in the field."
+          },
+          {
+            "title": "Maintenance, Suction & Disinfection",
+            "description": "Scheduled comprehensive cleaning, deep disinfection, and sludge extraction with authorized vacuum tankers.",
+            "items": [
+              "Scheduled periodic cleaning and sanitization",
+              "Evacuation and vacuum extraction via certified tankers",
+              "Final disposal at authorized wastewater treatment plants"
+            ],
+            "benefit": "Guaranteed continuous operation with zero odors or contamination risks."
+          }
+        ],
         "features": [
           "High-quality portable toilet rental",
           "Portable showers for construction sites and projects",
@@ -391,6 +422,38 @@
         "title": "Hazardous & Non-Hazardous Waste Transport and Logistics",
         "description": "Waste collection and transport service from client facilities to authorized landfills for final disposal.",
         "heroDescription": "Our service covers waste collection and transport from coordination, collection and transport from the client's facilities to authorized landfills for final disposal. We have units of different capacities according to the client's needs and type of waste to be transported.",
+        "offerings": [
+          {
+            "title": "Hazardous Waste Transport",
+            "description": "Safe, certified transport of industrial hazardous waste under strict MINAM and MTC regulatory standards.",
+            "items": [
+              "Vehicular units authorized and certified by MINAM",
+              "Drivers certified with MATPEL regulatory permits",
+              "Spill containment kits and active contingency protocol"
+            ],
+            "benefit": "Zero environmental contingencies and guaranteed regulatory compliance."
+          },
+          {
+            "title": "Non-Hazardous Waste Transport",
+            "description": "Efficient logistics management for collecting and hauling common, commercial and industrial waste.",
+            "items": [
+              "Diverse fleet with box trucks and compactors",
+              "Optimized routes with 24/7 satellite GPS tracking",
+              "Complete weighing and documentary chain of custody"
+            ],
+            "benefit": "On-time delivery and reduced logistics expenses."
+          },
+          {
+            "title": "Final Disposal & Traceability",
+            "description": "Direct coordination and delivery to authorized landfills and security waste repositories nationwide.",
+            "items": [
+              "Issuance of official certificates and manifests",
+              "Digital traceability of the custody chain",
+              "Documentary backup for OEFA audits and oversight"
+            ],
+            "benefit": "Complete regulatory confidence with verified authority backup."
+          }
+        ],
         "features": [
           "Units authorized by MINAM",
           "Trained and certified personnel",
@@ -418,6 +481,38 @@
         "title": "Total Waste Management",
         "description": "Comprehensive waste management consulting. We provide technical support to comply with environmental waste management.",
         "heroDescription": "We provide technical support to comply with environmental waste management. Our specialized team accompanies you in diagnosis, planning and training for comprehensive and responsible management.",
+        "offerings": [
+          {
+            "title": "Waste Characterization & Diagnostics",
+            "description": "Comprehensive evaluation of waste generation streams to design optimal minimization and recovery strategies.",
+            "items": [
+              "On-site waste characterization studies",
+              "Identification of valorization opportunities",
+              "Design of temporary storage and collection areas"
+            ],
+            "benefit": "Transparent generation mapping and progressive disposal cost reductions."
+          },
+          {
+            "title": "Operational Support & Storage Management",
+            "description": "Continuous on-site management of collection centers with trained personnel, inventory control, and internal logistics.",
+            "items": [
+              "Certified resident technical personnel",
+              "Management of manifests and shipping authorizations",
+              "Ongoing corporate environmental compliance assistance"
+            ],
+            "benefit": "Full delegation of waste operations under strict safety and quality standards."
+          },
+          {
+            "title": "Environmental Training & Corporate Culture",
+            "description": "Targeted workshops and operational coaching for both field personnel and executive teams.",
+            "items": [
+              "Hands-on source segregation workshops",
+              "Emergency and spill containment rapid response drills",
+              "Corporate circular economy and awareness campaigns"
+            ],
+            "benefit": "High staff engagement and reduced segregation errors at the source."
+          }
+        ],
         "features": [
           "Waste management diagnosis",
           "Waste management plan development",
@@ -440,9 +535,42 @@
         ]
       },
       "valorizacion": {
-        "title": "Circular Economy - Waste Valorization",
+        "title": "Waste Valorization & Treatment",
         "description": "We promote products that are durable, sustainable, repairable and recyclable, with the capacity for evolution and adaptation.",
         "heroDescription": "The goal of the circular economy is to promote products that are durable, sustainable, repairable and recyclable, with the capacity for evolution and adaptation. It works as a system and not as individual parts. Recoverable waste is valorized materially or energetically, including reuse, recycling, composting, bioconversion and recovery operations.",
+        "offerings": [
+          {
+            "title": "Waste Commercialization",
+            "description": "We valorize recyclable waste streams through formal, government-authorized channels.",
+            "items": [
+              "Segregation and technical sorting",
+              "Certified precision weighing",
+              "Commercialization with authorized recyclers"
+            ],
+            "benefit": "Generate revenue while reducing final disposal expenditures."
+          },
+          {
+            "title": "Waste Conditioning",
+            "description": "Technical conditioning of hazardous and non-hazardous waste to ensure safety and full legal compliance.",
+            "items": [
+              "Technical identification and classification",
+              "Appropriate segregation and sorting",
+              "Packaging in approved containers",
+              "Labeling according to current regulations"
+            ],
+            "benefit": "Environmental compliance, risk mitigation and technical documentary backup."
+          },
+          {
+            "title": "Waste Composting",
+            "description": "Biological treatment and valorization of organic waste transformed into high-grade natural fertilizer and soil conditioners.",
+            "items": [
+              "Reception and sorting of organic materials",
+              "Parameter monitoring (temperature, humidity, aeration)",
+              "Production of certified organic compost"
+            ],
+            "benefit": "Circular organic reuse and tangible carbon footprint reduction."
+          }
+        ],
         "features": [
           "Waste segregation and classification",
           "Weighing and volume control",
@@ -470,6 +598,38 @@
         "title": "Lighting Tower Rental",
         "description": "Lighting tower rental service that guarantees safety and high energy efficiency reach for nighttime operations.",
         "heroDescription": "Our lighting tower rental service guarantees safety and high energy efficiency reach for nighttime operations in construction, mining, industry and nighttime events.",
+        "offerings": [
+          {
+            "title": "Lighting Towers Rental",
+            "description": "Autonomous heavy-duty lighting towers offering exceptional illumination and energy efficiency for night shifts.",
+            "items": [
+              "High-reach vertical telescopic masts",
+              "Ultra-efficient high-lumen LED lamps",
+              "Low-consumption diesel generators with extended run-time"
+            ],
+            "benefit": "Uncompromised safety and maximum visibility on 24/7 industrial job sites."
+          },
+          {
+            "title": "Preventive Maintenance & 24/7 Support",
+            "description": "Comprehensive scheduled technical servicing to maintain 100% equipment availability in the field.",
+            "items": [
+              "Routine inspections and filter/consumable replacements",
+              "Dedicated rapid-response on-call field technicians",
+              "Immediate unit swap in case of unexpected failure"
+            ],
+            "benefit": "Zero downtime and smooth continuation of critical project schedules."
+          },
+          {
+            "title": "On-Site Logistics & Commissioning",
+            "description": "End-to-end transport, delivery, placement and calibration directly on remote worksites nationwide.",
+            "items": [
+              "Hauling to remote and challenging project terrain",
+              "Safety and operational training for on-site crew",
+              "Rigorous electrical safety and startup verification"
+            ],
+            "benefit": "Turnkey equipment ready to work immediately without logistical headaches."
+          }
+        ],
         "features": [
           "High-performance lighting towers",
           "Guaranteed energy efficiency",
@@ -497,6 +657,38 @@
         "title": "Environmental Management",
         "description": "Support in regulations, guidelines, standards and technological tools to efficiently achieve commercial objectives.",
         "heroDescription": "In a changing world, Cconex provides support in regulations, guidelines, standards and technological tools, to efficiently achieve the commercial objectives of our clients.",
+        "offerings": [
+          {
+            "title": "Legal Consulting & Environmental Audits",
+            "description": "Specialized legal guidance ensuring strict compliance with OEFA, MINAM, and industry-specific regulations.",
+            "items": [
+              "Environmental compliance diagnostic audits",
+              "Processing of required licenses, permits and authorizations",
+              "Resolution of observations raised during regulatory inspections"
+            ],
+            "benefit": "Legal shield preventing severe administrative sanctions and fines."
+          },
+          {
+            "title": "Environmental Management Instruments (IGA)",
+            "description": "Preparation and updating of mandatory environmental impact instruments demanded by national laws.",
+            "items": [
+              "Environmental Impact Assessments (DIA, EIA-sd, EIA-d)",
+              "Environmental Management Plans, ITS, IGAC and EVAP",
+              "Contaminated site assessment and identification reports"
+            ],
+            "benefit": "Expedited approval of regulatory filings before competent authorities."
+          },
+          {
+            "title": "Citizen Participation & Social Management",
+            "description": "Community outreach strategies and social conflict resolution safeguarding project viability.",
+            "items": [
+              "Citizen participation plan development",
+              "Organization of public hearings and information workshops",
+              "Stakeholder mapping and conflict mitigation"
+            ],
+            "benefit": "Robust social license and harmonious long-term community relationships."
+          }
+        ],
         "features": [
           "Environmental audits",
           "Processing of environmental authorizations and permits",
@@ -557,6 +749,38 @@
         "title": "Occupational Health & Safety",
         "description": "Solution for your legal compliance in Occupational Health and Safety. Development and implementation of plans, programs and procedures.",
         "heroDescription": "Cconex S.A.C. provides solutions for your legal compliance in Occupational Health and Safety. We help you develop and implement plans, programs, procedures, instructions and records.",
+        "offerings": [
+          {
+            "title": "OHS Management Systems (Law 29783)",
+            "description": "Design, setup and auditing of occupational safety systems compliant with Peruvian laws and ISO 45001.",
+            "items": [
+              "Preparation of IPERC risk matrices and hazard maps",
+              "Internal Health and Safety at Work Regulation (RISST)",
+              "Establishment and training of the OHS Committee"
+            ],
+            "benefit": "Strict compliance with mandatory safety standards and workplace incident prevention."
+          },
+          {
+            "title": "SUNAFIL Consulting & Homologation",
+            "description": "Expert technical support for labor inspection proceedings and contractor homologation processes.",
+            "items": [
+              "Full preparation for official SUNAFIL labor inspections",
+              "Documentary compliance support for contractor homologation",
+              "Preventive internal audits of the health & safety system"
+            ],
+            "benefit": "High qualification scores in homologations without labor contingencies."
+          },
+          {
+            "title": "Occupational Monitoring & Certified Training",
+            "description": "Measurement of physical, chemical, biological, ergonomic, and psychosocial risk factors using calibrated tools.",
+            "items": [
+              "Noise, illumination, dust, and vibration field measurements",
+              "Ergonomic assessments and workplace climate evaluations",
+              "Mandatory OHS certification training courses delivered by specialists"
+            ],
+            "benefit": "A secure, certified work environment safeguarding staff wellbeing."
+          }
+        ],
         "features": [
           "OHS management system implementation (Law 29783)",
           "Audit support and consulting",
@@ -585,6 +809,38 @@
         "title": "Engineering & Architecture",
         "description": "Project consulting, technical files, construction supervision and comprehensive green project design.",
         "heroDescription": "We prepare technical files for construction, supervision during execution and comprehensive green project design with LEED, EDGE and BREEAM certifications. We promote sustainable projects applying existing certifications.",
+        "offerings": [
+          {
+            "title": "Consulting & Technical Files",
+            "description": "Complete development of engineering technical files for public and private infrastructure projects using modern engineering methodologies.",
+            "items": [
+              "Soil mechanics and detailed topographic studies",
+              "Comprehensive descriptive reports, quantity take-offs, and budgets",
+              "Structural, sanitary and electrical designs supported by BIM"
+            ],
+            "benefit": "Robust files that prevent budget overruns and construction delays."
+          },
+          {
+            "title": "Works Execution & Supervision",
+            "description": "Rigorous quality, timeline, and cost management across civil, environmental, and industrial infrastructure.",
+            "items": [
+              "Supervision of sanitary landfills and storage yards",
+              "Stormwater drainage, canals and potable water systems",
+              "Assembly of roofing systems and industrial metal structures"
+            ],
+            "benefit": "Construction carried out strictly according to technical specifications."
+          },
+          {
+            "title": "Comprehensive Green Projects Design",
+            "description": "Sustainable architectural consulting aimed at achieving premier green building efficiency certifications.",
+            "items": [
+              "Consultancy for LEED, EDGE, and BREEAM certifications",
+              "Technical assistance for the Mi Vivienda Green Bond program",
+              "Bioclimatic architecture and energy resource optimization"
+            ],
+            "benefit": "Financial incentives, enhanced property market value, and diminished environmental footprint."
+          }
+        ],
         "features": [
           "Technical files for construction",
           "Construction supervision during execution",
