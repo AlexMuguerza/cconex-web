@@ -35,15 +35,32 @@
     },
     "mision": {
       "title": "Mission",
-      "description": "To provide comprehensive technical solutions in engineering, environment and industrial safety, ensuring regulatory compliance and customer satisfaction."
+      "description": "To provide sustainable and comprehensive solutions in Waste Management, Environment, Industrial Safety, Engineering and Construction to accelerate the country's development."
     },
     "vision": {
       "title": "Vision",
-      "description": "To be the leading consulting firm in Peru, recognized for our technical excellence, environmental commitment and contribution to the country's sustainable development."
+      "description": "To be the global leader in environmental and engineering solutions, driving sustainable development and the circular economy to preserve a clean planet."
     },
     "valores": {
       "title": "Values",
-      "description": "Punctuality, Commitment and Empathy. These principles guide every project and relationship with our clients and communities."
+      "items": [
+        {
+          "title": "Integrity",
+          "description": "We operate with absolute transparency, ethics, and honesty, ensuring strict compliance with agreements and regulations in each of our projects."
+        },
+        {
+          "title": "Efficiency",
+          "description": "We optimize the use of resources and streamline operational processes to deliver high-performance engineering and environmental management solutions."
+        },
+        {
+          "title": "Safety",
+          "description": "We prioritize protecting the health of our collaborators and guarantee the operational continuity of our clients through strict risk mitigation."
+        },
+        {
+          "title": "Sustainable Commitment",
+          "description": "We design and execute every operation with a long-term vision, oriented toward preserving the environment and contributing to the country's development."
+        }
+      ]
     }
   },
   "sectors": {
@@ -365,34 +382,35 @@
         "heroDescription": "We provide comprehensive sanitation solutions for construction projects, events and remote areas. Rental of portable toilets, showers and portable handwashing stations with regular maintenance and sanitary compliance.",
         "offerings": [
           {
-            "title": "Portable Toilets Rental",
-            "description": "Standard and executive sanitary solutions for civil construction, mining, public events and remote locations.",
+            "title": "Portable Toilet Rental",
+            "description": "",
             "items": [
-              "High-durability standard and executive cabins",
-              "Accessible modules for people with disabilities",
-              "Continuous supply of sanitary consumables"
+              "Executive and standard model portable restrooms.",
+              "Ideal for all types of projects, companies, construction sites, events, etc.",
+              "Scheduled maintenance.",
+              "High resistance to ambient temperature."
             ],
-            "benefit": "Hygiene and comfort for your workforce with full occupational health compliance."
+            "benefit": "Guaranteed hygiene and comfort for waste management."
           },
           {
-            "title": "Portable Showers and Sinks",
-            "description": "Autonomous washing stations and shower modules designed to maintain high biosecurity standards on site.",
+            "title": "Handwashing Station Rental",
+            "description": "",
             "items": [
-              "Autonomous water and drainage systems",
-              "Integrated soap and paper towel dispensers",
-              "Heavy-duty structures designed for high traffic"
+              "Single and double pedestal handwashing stations.",
+              "260 L capacity.",
+              "Supplied with paper towels and liquid soap at each maintenance service."
             ],
-            "benefit": "Effective sanitary prevention and better working conditions in the field."
+            "benefit": "Hand hygiene for a good image and personal health."
           },
           {
-            "title": "Maintenance, Suction & Disinfection",
-            "description": "Scheduled comprehensive cleaning, deep disinfection, and sludge extraction with authorized vacuum tankers.",
+            "title": "Portable Shower Rental",
+            "description": "",
             "items": [
-              "Scheduled periodic cleaning and sanitization",
-              "Evacuation and vacuum extraction via certified tankers",
-              "Final disposal at authorized wastewater treatment plants"
+              "Perfect for construction sites and projects.",
+              "Helps maintain a good image of personnel.",
+              "Ensures health of personnel."
             ],
-            "benefit": "Guaranteed continuous operation with zero odors or contamination risks."
+            "benefit": "Inspires a healthy and safe environment."
           }
         ],
         "features": [
@@ -420,38 +438,32 @@
       },
       "transporte": {
         "title": "Hazardous & Non-Hazardous Waste Transport and Logistics",
-        "description": "Waste collection and transport service from client facilities to authorized landfills for final disposal.",
-        "heroDescription": "Our service covers waste collection and transport from coordination, collection and transport from the client's facilities to authorized landfills for final disposal. We have units of different capacities according to the client's needs and type of waste to be transported.",
+        "description": "We manage the collection and transportation of your waste from your company to authorized landfills for safe final disposal.",
+        "heroDescription": "We manage the collection and transportation of your waste from your company to authorized landfills for safe final disposal.",
         "offerings": [
           {
-            "title": "Hazardous Waste Transport",
-            "description": "Safe, certified transport of industrial hazardous waste under strict MINAM and MTC regulatory standards.",
+            "title": "Suction and Transportation of Liquid Waste",
+            "description": "",
             "items": [
-              "Vehicular units authorized and certified by MINAM",
-              "Drivers certified with MATPEL regulatory permits",
-              "Spill containment kits and active contingency protocol"
-            ],
-            "benefit": "Zero environmental contingencies and guaranteed regulatory compliance."
+              "Comprehensive solutions for suction, transportation, and final disposal of liquid waste.",
+              "We have a modern fleet certified by the MTC and MINAM to ensure safe environmental management free of fines for your company."
+            ]
           },
           {
-            "title": "Non-Hazardous Waste Transport",
-            "description": "Efficient logistics management for collecting and hauling common, commercial and industrial waste.",
+            "title": "Transportation and Collection of Industrial and Hazardous Waste",
+            "description": "",
             "items": [
-              "Diverse fleet with box trucks and compactors",
-              "Optimized routes with 24/7 satellite GPS tracking",
-              "Complete weighing and documentary chain of custody"
-            ],
-            "benefit": "On-time delivery and reduced logistics expenses."
+              "We promote the collection and transport of industrial waste under a corporate circular economy and reverse logistics approach, turning surpluses into new operational resources.",
+              "Hazardous waste management (RESPEL) within the circular economy entails a unique challenge with high-standard health and safety."
+            ]
           },
           {
-            "title": "Final Disposal & Traceability",
-            "description": "Direct coordination and delivery to authorized landfills and security waste repositories nationwide.",
+            "title": "Transportation and Collection of Construction and Demolition Waste",
+            "description": "",
             "items": [
-              "Issuance of official certificates and manifests",
-              "Digital traceability of the custody chain",
-              "Documentary backup for OEFA audits and oversight"
-            ],
-            "benefit": "Complete regulatory confidence with verified authority backup."
+              "Solid and semi-solid waste generated by infrastructure works and building construction.",
+              "For sustainable management, priority must be given to its recovery and, as a last resort, its final disposal."
+            ]
           }
         ],
         "features": [
@@ -479,59 +491,46 @@
       },
       "residuos": {
         "title": "Total Waste Management",
-        "description": "Comprehensive waste management consulting. We provide technical support to comply with environmental waste management.",
-        "heroDescription": "We provide technical support to comply with environmental waste management. Our specialized team accompanies you in diagnosis, planning and training for comprehensive and responsible management.",
+        "description": "Comprehensive in-house waste management drives a circular economy model that ensures both operational safety and production continuity.",
+        "heroDescription": "Comprehensive in-house waste management drives a circular economy model that ensures both operational safety and production continuity. To achieve efficient management, the process follows a strategic route encompassing solutions from origin to final disposal.",
         "offerings": [
           {
-            "title": "Waste Characterization & Diagnostics",
-            "description": "Comprehensive evaluation of waste generation streams to design optimal minimization and recovery strategies.",
+            "title": "Comprehensive In-House Waste Management",
+            "description": "To achieve efficient management, the process follows a strategic route that encompasses the following solutions:",
             "items": [
-              "On-site waste characterization studies",
-              "Identification of valorization opportunities",
-              "Design of temporary storage and collection areas"
-            ],
-            "benefit": "Transparent generation mapping and progressive disposal cost reductions."
-          },
-          {
-            "title": "Operational Support & Storage Management",
-            "description": "Continuous on-site management of collection centers with trained personnel, inventory control, and internal logistics.",
-            "items": [
-              "Certified resident technical personnel",
-              "Management of manifests and shipping authorizations",
-              "Ongoing corporate environmental compliance assistance"
-            ],
-            "benefit": "Full delegation of waste operations under strict safety and quality standards."
-          },
-          {
-            "title": "Environmental Training & Corporate Culture",
-            "description": "Targeted workshops and operational coaching for both field personnel and executive teams.",
-            "items": [
-              "Hands-on source segregation workshops",
-              "Emergency and spill containment rapid response drills",
-              "Corporate circular economy and awareness campaigns"
-            ],
-            "benefit": "High staff engagement and reduced segregation errors at the source."
+              "Generation: Control and reduction at the point of origin.",
+              "Storage: Secure temporary storage under regulatory standards.",
+              "Cleaning and segregation: Sorting and preparation of materials.",
+              "Internal collection: Timely removal of waste in work areas.",
+              "Recovery: Transformation and reuse of resources.",
+              "External transportation: Safe transfer to authorized treatment plants.",
+              "Final disposal: Definitive containment of non-recoverable waste."
+            ]
           }
         ],
         "features": [
-          "Waste management diagnosis",
-          "Waste management plan development",
-          "Staff training and coaching",
-          "Technical support in environmental management",
-          "Current environmental regulatory compliance",
-          "Management reports and traceability"
+          "Control and reduction at the point of origin",
+          "Secure temporary storage under regulatory standards",
+          "Sorting and preparation of materials",
+          "Timely removal in work areas",
+          "Transformation and reuse of resources",
+          "Safe transfer to authorized treatment plants",
+          "Definitive containment of non-recoverable waste"
         ],
         "benefits": [
-          "Guaranteed environmental regulatory compliance",
-          "Reduced final disposal costs",
-          "Improved corporate image",
-          "Contribution to circular economy"
+          "Operational safety and production continuity guarantee",
+          "Sustainable circular economy model",
+          "Regulatory compliance and environmental standards",
+          "Cost optimization and resource recovery"
         ],
         "process": [
-          { "title": "Diagnosis", "description": "We evaluate your company's waste generation, composition and volumes." },
-          { "title": "Management Plan", "description": "We develop the waste management plan according to current regulations." },
-          { "title": "Training", "description": "We train and coach your staff in comprehensive waste management." },
-          { "title": "Monitoring", "description": "We monitor and report on waste management continuously." }
+          { "title": "Generation", "description": "Control and reduction at the point of origin." },
+          { "title": "Storage", "description": "Secure temporary storage under regulatory standards." },
+          { "title": "Cleaning and segregation", "description": "Sorting and preparation of materials." },
+          { "title": "Internal collection", "description": "Timely removal of waste in work areas." },
+          { "title": "Recovery", "description": "Transformation and reuse of resources." },
+          { "title": "External transportation", "description": "Safe transfer to authorized treatment plants." },
+          { "title": "Final disposal", "description": "Definitive containment of non-recoverable waste." }
         ]
       },
       "valorizacion": {
@@ -540,35 +539,17 @@
         "heroDescription": "The goal of the circular economy is to promote products that are durable, sustainable, repairable and recyclable, with the capacity for evolution and adaptation. It works as a system and not as individual parts. Recoverable waste is valorized materially or energetically, including reuse, recycling, composting, bioconversion and recovery operations.",
         "offerings": [
           {
-            "title": "Waste Commercialization",
-            "description": "We valorize recyclable waste streams through formal, government-authorized channels.",
+            "title": "Waste Valorization",
+            "description": "As a pillar of sustainable development, waste valorization encompasses key processes that transform waste into valuable resources:",
             "items": [
-              "Segregation and technical sorting",
-              "Certified precision weighing",
-              "Commercialization with authorized recyclers"
+              "Reuse",
+              "Recycling",
+              "Composting",
+              "Bioconversion",
+              "Recovery",
+              "Commercialization"
             ],
-            "benefit": "Generate revenue while reducing final disposal expenditures."
-          },
-          {
-            "title": "Waste Conditioning",
-            "description": "Technical conditioning of hazardous and non-hazardous waste to ensure safety and full legal compliance.",
-            "items": [
-              "Technical identification and classification",
-              "Appropriate segregation and sorting",
-              "Packaging in approved containers",
-              "Labeling according to current regulations"
-            ],
-            "benefit": "Environmental compliance, risk mitigation and technical documentary backup."
-          },
-          {
-            "title": "Waste Composting",
-            "description": "Biological treatment and valorization of organic waste transformed into high-grade natural fertilizer and soil conditioners.",
-            "items": [
-              "Reception and sorting of organic materials",
-              "Parameter monitoring (temperature, humidity, aeration)",
-              "Production of certified organic compost"
-            ],
-            "benefit": "Circular organic reuse and tangible carbon footprint reduction."
+            "benefit": "Transformation of waste into valuable resources."
           }
         ],
         "features": [
@@ -600,34 +581,12 @@
         "heroDescription": "Our lighting tower rental service guarantees safety and high energy efficiency reach for nighttime operations in construction, mining, industry and nighttime events.",
         "offerings": [
           {
-            "title": "Lighting Towers Rental",
-            "description": "Autonomous heavy-duty lighting towers offering exceptional illumination and energy efficiency for night shifts.",
+            "title": "Lighting Towers",
+            "description": "",
             "items": [
-              "High-reach vertical telescopic masts",
-              "Ultra-efficient high-lumen LED lamps",
-              "Low-consumption diesel generators with extended run-time"
+              "Ensures safety, high reach and energy efficiency for nighttime operations in construction works, mining, industry and evening events."
             ],
-            "benefit": "Uncompromised safety and maximum visibility on 24/7 industrial job sites."
-          },
-          {
-            "title": "Preventive Maintenance & 24/7 Support",
-            "description": "Comprehensive scheduled technical servicing to maintain 100% equipment availability in the field.",
-            "items": [
-              "Routine inspections and filter/consumable replacements",
-              "Dedicated rapid-response on-call field technicians",
-              "Immediate unit swap in case of unexpected failure"
-            ],
-            "benefit": "Zero downtime and smooth continuation of critical project schedules."
-          },
-          {
-            "title": "On-Site Logistics & Commissioning",
-            "description": "End-to-end transport, delivery, placement and calibration directly on remote worksites nationwide.",
-            "items": [
-              "Hauling to remote and challenging project terrain",
-              "Safety and operational training for on-site crew",
-              "Rigorous electrical safety and startup verification"
-            ],
-            "benefit": "Turnkey equipment ready to work immediately without logistical headaches."
+            "benefit": "Your operations never stop, frequent maintenance, nationwide coverage for your projects."
           }
         ],
         "features": [

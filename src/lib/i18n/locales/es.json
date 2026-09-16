@@ -35,15 +35,32 @@
     },
     "mision": {
       "title": "Misión",
-      "description": "Brindar soluciones técnicas integrales en ingeniería, medio ambiente y seguridad industrial, garantizando el cumplimiento normativo y la satisfacción de nuestros clientes."
+      "description": "Ofrecer soluciones sostenibles e integrales en Gestión de Residuos, Medio Ambiente, Seguridad Industrial, Ingeniería y Construcción para acelerar el desarrollo del país."
     },
     "vision": {
       "title": "Visión",
-      "description": "Ser la consultora líder en el Perú, reconocida por nuestra excelencia técnica, compromiso ambiental y contribución al desarrollo sostenible del país."
+      "description": "Ser el líder global en soluciones ambientales e ingeniería, impulsando el desarrollo sostenible y la economía circular para preservar un planeta limpio."
     },
     "valores": {
       "title": "Valores",
-      "description": "Puntualidad, Compromiso y Empatía. Estos principios guían cada proyecto y relación con nuestros clientes y comunidades."
+      "items": [
+        {
+          "title": "Integridad",
+          "description": "Operamos con absoluta transparencia, ética y honestidad, asegurando el estricto cumplimiento de los acuerdos y normativas en cada uno de nuestros proyectos."
+        },
+        {
+          "title": "Eficiencia",
+          "description": "Optimizamos el uso de los recursos y agilizamos los procesos operativos para entregar soluciones de ingeniería y gestión ambiental de alto rendimiento."
+        },
+        {
+          "title": "Seguridad",
+          "description": "Protegemos de forma prioritaria la salud de nuestros colaboradores y garantizamos la continuidad operativa de nuestros clientes mediante la mitigación estricta de riesgos."
+        },
+        {
+          "title": "Compromiso Sostenible",
+          "description": "Diseñamos y ejecutamos cada operación con una visión a largo plazo, orientada a la preservación del medio ambiente y al desarrollo del país."
+        }
+      ]
     }
   },
   "sectors": {
@@ -366,33 +383,34 @@
         "offerings": [
           {
             "title": "Alquiler de Sanitarios Portátiles",
-            "description": "Soluciones sanitarias estándar y ejecutivas para obras civiles, minería, eventos y locaciones remotas.",
+            "description": "",
             "items": [
-              "Cabinas estándar y ejecutivas de alta durabilidad",
-              "Módulos accesibles para personas con discapacidad",
-              "Suministro continuo de insumos sanitarios"
+              "Baños portátiles modelo ejecutivo y estándar.",
+              "Ideal para todo tipo de proyectos, empresas, obras, eventos, etc.",
+              "Mantenimiento programado.",
+              "Alta resistencia a temperatura del ambiente."
             ],
-            "benefit": "Confort e higiene para tu personal y cumplimiento de normativas de salud ocupacional."
+            "benefit": "Higiene y confort garantizados para la gestión de los desechos."
           },
           {
-            "title": "Duchas y Lavamanos Portátiles",
-            "description": "Estaciones autónomas de lavado y módulos de duchas diseñados para mantener la bioseguridad en frentes de trabajo.",
+            "title": "Alquiler de Lavamanos",
+            "description": "",
             "items": [
-              "Sistemas autónomos de agua y desagüe",
-              "Dispensadores de jabón y papel incluidos",
-              "Estructuras resistentes para alto tránsito"
+              "Lavamanos de un pedestal y doble.",
+              "Capacidad 260 L.",
+              "Implementado con papel toalla y jabón líquido en cada mantenimiento."
             ],
-            "benefit": "Prevención sanitaria efectiva y mejores condiciones laborales en campo."
+            "benefit": "Higiene de las manos para una buena imagen y salud de las personas."
           },
           {
-            "title": "Mantenimiento, Succión y Desinfección",
-            "description": "Servicio integral programado de limpieza, desinfección y succión de lodos mediante unidades autorizadas.",
+            "title": "Alquiler de Duchas",
+            "description": "",
             "items": [
-              "Limpieza y desinfección periódica programada",
-              "Evacuación y succión con cisternas autorizadas",
-              "Disposición final en plantas de tratamiento autorizadas"
+              "Perfecto para obras y proyectos.",
+              "Permite mantener una buena imagen del personal.",
+              "Garantiza la salud del personal."
             ],
-            "benefit": "Operatividad continua garantizada sin malos olores ni riesgos de contaminación."
+            "benefit": "Inspira un ambiente saludable y seguro."
           }
         ],
         "features": [
@@ -420,38 +438,32 @@
       },
       "transporte": {
         "title": "Transporte y Logística de Residuos Peligrosos y No Peligrosos",
-        "description": "Servicio de recolección y transporte de residuos desde las instalaciones del cliente hacia los rellenos autorizados para su disposición final.",
-        "heroDescription": "El servicio cubre la recolección y transporte de residuos desde la coordinación, recolección y transporte desde las instalaciones del cliente hacia los rellenos autorizados para su disposición final. Contamos con unidades de distintas capacidades según la necesidad del cliente y tipo de residuo a transportar.",
+        "description": "Gestionamos la recolección y el transporte de sus residuos desde su empresa hasta rellenos sanitarios autorizados para su disposición final segura.",
+        "heroDescription": "Gestionamos la recolección y el transporte de sus residuos desde su empresa hasta rellenos sanitarios autorizados para su disposición final segura.",
         "offerings": [
           {
-            "title": "Transporte de Residuos Peligrosos",
-            "description": "Traslado seguro y certificado de residuos peligrosos bajo estrictas normativas ambientales y del MTC.",
+            "title": "Succión y Transporte de Residuos Líquidos",
+            "description": "",
             "items": [
-              "Unidades vehiculares autorizadas por el MINAM",
-              "Conductores certificados con permisos MATPEL",
-              "Kits antiderrame y plan de contingencia activo"
-            ],
-            "benefit": "Cero contingencias ambientales y cumplimiento legal garantizado."
+              "Soluciones integrales para succión, transporte y disposición final de residuos líquidos.",
+              "Contamos con una flota moderna y certificada por el MTC y el MINAM para garantizar una gestión ambiental segura y libre de multas para tu empresa."
+            ]
           },
           {
-            "title": "Transporte de Residuos No Peligrosos",
-            "description": "Gestión logística para la recolección y traslado eficiente de residuos comunes, comerciales e industriales.",
+            "title": "Transporte y Recolección de Residuos Industriales y Peligrosos",
+            "description": "",
             "items": [
-              "Flota variada con furgones y camiones compactadores",
-              "Rutas programadas con seguimiento satelital GPS",
-              "Pesaje y registro documentario completo"
-            ],
-            "benefit": "Puntualidad en el servicio y optimización de costos logísticos."
+              "Impulsamos la recolección y el transporte de residuos industriales bajo un enfoque corporativo de economía circular y logística inversa, transformando los excedentes en nuevos recursos operativos.",
+              "La gestión de residuos peligrosos (RESPEL) desde la economía circular implica un desafío único con seguridad y salud de alto estándar."
+            ]
           },
           {
-            "title": "Disposición Final y Trazabilidad",
-            "description": "Coordinación y entrega directa en rellenos sanitarios y de seguridad formalmente autorizados.",
+            "title": "Transporte y Recolección de Residuos de Construcción y Demolición",
+            "description": "",
             "items": [
-              "Emisión de manifiestos y certificados oficiales",
-              "Trazabilidad digital de la cadena de custodia",
-              "Respaldo documentario para fiscalizaciones de OEFA"
-            ],
-            "benefit": "Tranquilidad regulatoria con respaldo documental ante las autoridades."
+              "Son desechos sólidos y semisólidos generados por obras de infraestructura y edificaciones.",
+              "Para un manejo sostenible, se debe priorizar su valorización y, como último recurso, su disposición final."
+            ]
           }
         ],
         "features": [
@@ -479,59 +491,46 @@
       },
       "residuos": {
         "title": "Total Waste Management",
-        "description": "Asesoría en gestión integral de residuos. Te brindamos soporte técnico para cumplir con la gestión ambiental de residuos.",
-        "heroDescription": "Te brindamos soporte técnico para cumplir con la gestión ambiental de residuos. Nuestro equipo especializado te acompaña en el diagnóstico, planificación y capacitación para una gestión integral y responsable.",
+        "description": "El manejo integral de residuos in-house impulsa un modelo de economía circular que garantiza tanto la seguridad operativa como la continuidad de la producción.",
+        "heroDescription": "El manejo integral de residuos in-house impulsa un modelo de economía circular que garantiza tanto la seguridad operativa como la continuidad de la producción. Para lograr una gestión eficiente, el proceso sigue una ruta estratégica que abarca soluciones desde el origen hasta su disposición final.",
         "offerings": [
           {
-            "title": "Diagnóstico y Caracterización de Residuos",
-            "description": "Evaluación técnica de los flujos de residuos generados para diseñar estrategias efectivas de minimización.",
+            "title": "Manejo Integral de Residuos In-House",
+            "description": "Para lograr una gestión eficiente, el proceso sigue una ruta estratégica que abarca las siguientes soluciones:",
             "items": [
-              "Estudios de caracterización in situ",
-              "Identificación de oportunidades de valorización",
-              "Diseño de áreas de acopio y almacenamiento temporal"
-            ],
-            "benefit": "Mapeo claro de la generación y reducción progresiva de costos de disposición."
-          },
-          {
-            "title": "Gestión Integral y Soporte Operativo",
-            "description": "Operación continua de centros de acopio con personal calificado, control de inventarios y logística interna.",
-            "items": [
-              "Personal técnico residente debidamente capacitado",
-              "Control y registro de manifiestos y guías de remisión",
-              "Soporte permanente en gestión ambiental corporativa"
-            ],
-            "benefit": "Delegación total de la operación bajo estándares de calidad y seguridad."
-          },
-          {
-            "title": "Capacitación y Cultura Ambiental",
-            "description": "Programas de sensibilización y entrenamiento técnico para personal operativo y administrativo.",
-            "items": [
-              "Talleres teórico-prácticos de segregación en fuente",
-              "Capacitación en respuesta rápida ante emergencias y derrames",
-              "Campañas corporativas de concientización y economía circular"
-            ],
-            "benefit": "Mayor compromiso de los colaboradores y reducción de errores en origen."
+              "Generación: Control y reducción en el punto de origen.",
+              "Almacenamiento: Acopio temporal seguro bajo estándares normativos.",
+              "Limpieza y segregación: Clasificación y adecuación de los materiales.",
+              "Recolección interna: Retiro oportuno de los residuos en las áreas de trabajo.",
+              "Valorización: Transformación y reaprovechamiento de los recursos.",
+              "Transporte externo: Traslado seguro hacia plantas de tratamiento autorizadas.",
+              "Disposición final: Confinamiento definitivo de los descartes no aprovechables."
+            ]
           }
         ],
         "features": [
-          "Diagnóstico de gestión de residuos",
-          "Elaboración de planes de manejo de residuos",
-          "Capacitación y entrenamiento al personal",
-          "Soporte técnico en gestión ambiental",
-          "Cumplimiento normativo ambiental vigente",
-          "Reportes de gestión y trazabilidad"
+          "Control y reducción en el punto de origen",
+          "Acopio temporal seguro bajo estándares normativos",
+          "Clasificación y adecuación de los materiales",
+          "Retiro oportuno en las áreas de trabajo",
+          "Transformación y reaprovechamiento de los recursos",
+          "Traslado seguro hacia plantas de tratamiento autorizadas",
+          "Confinamiento definitivo de descartes no aprovechables"
         ],
         "benefits": [
-          "Cumplimiento normativo ambiental garantizado",
-          "Reducción de costos por disposición final",
-          "Mejora de imagen corporativa",
-          "Contribución a la economía circular"
+          "Garantía de seguridad operativa y continuidad de producción",
+          "Modelo de economía circular sostenible",
+          "Cumplimiento normativo y estándares ambientales",
+          "Optimización de costos y valorización de recursos"
         ],
         "process": [
-          { "title": "Diagnóstico", "description": "Evaluamos la generación, composición y volúmenes de residuos de tu empresa." },
-          { "title": "Plan de Manejo", "description": "Elaboramos el plan de manejo de residuos según normativa vigente." },
-          { "title": "Capacitación", "description": "Capacitamos y entrenamos a tu personal en gestión integral de residuos." },
-          { "title": "Seguimiento", "description": "Monitoreamos y reportamos la gestión de residuos de forma continua." }
+          { "title": "Generación", "description": "Control y reducción en el punto de origen." },
+          { "title": "Almacenamiento", "description": "Acopio temporal seguro bajo estándares normativos." },
+          { "title": "Limpieza y segregación", "description": "Clasificación y adecuación de los materiales." },
+          { "title": "Recolección interna", "description": "Retiro oportuno de los residuos en las áreas de trabajo." },
+          { "title": "Valorización", "description": "Transformación y reaprovechamiento de los recursos." },
+          { "title": "Transporte externo", "description": "Traslado seguro hacia plantas de tratamiento autorizadas." },
+          { "title": "Disposición final", "description": "Confinamiento definitivo de los descartes no aprovechables." }
         ]
       },
       "valorizacion": {
@@ -540,35 +539,17 @@
         "heroDescription": "El objetivo de la economía circular es fomentar que los productos sean duraderos, sostenibles, reparables y reciclables, así como que tengan capacidad de evolución y adaptación. Funciona como un sistema y no como partes individuales. Los residuos aprovechables se valorizan de forma material o energética, incluyendo operaciones de reutilización, reciclado, compostaje, bioconversión y recuperación.",
         "offerings": [
           {
-            "title": "Comercialización de residuos",
-            "description": "Valorizamos residuos aprovechables a través de canales formales y autorizados.",
+            "title": "Valorización de Residuos",
+            "description": "Como pilar del desarrollo sostenible, la valorización de residuos comprende procesos clave para transformar los desechos en recursos de valor:",
             "items": [
-              "Segregación y clasificación",
-              "Pesaje",
-              "Comercialización con gestores autorizados"
+              "Reutilización",
+              "Reciclaje",
+              "Compostaje",
+              "Bioconversión",
+              "Recuperación",
+              "Comercialización"
             ],
-            "benefit": "Generas ingresos y reduces costos de disposición."
-          },
-          {
-            "title": "Acondicionamiento de residuos",
-            "description": "Realizamos el acondicionamiento técnico de residuos peligrosos y no peligrosos, asegurando su correcta gestión y cumplimiento normativo.",
-            "items": [
-              "Identificación y clasificación técnica",
-              "Segregación adecuada",
-              "Envasado en contenedores apropiados",
-              "Rotulado conforme a normativa"
-            ],
-            "benefit": "Cumplimiento ambiental, reducción de riesgos y respaldo técnico documentario."
-          },
-          {
-            "title": "Compostaje de residuos",
-            "description": "Tratamiento biológico y valorización de residuos orgánicos para su transformación en abono natural y mejoradores de suelo.",
-            "items": [
-              "Recepción y clasificación técnica de orgánicos",
-              "Control de parámetros (temperatura, humedad y aireación)",
-              "Obtención de compost orgánico certificado"
-            ],
-            "benefit": "Aprovechamiento integral de residuos orgánicos y reducción de la huella de carbono."
+            "benefit": "Transformación de los desechos en recursos de valor."
           }
         ],
         "features": [
@@ -600,34 +581,12 @@
         "heroDescription": "Nuestro servicio de alquiler de torres de iluminación garantiza seguridad y alto alcance de eficiencia energética para las operaciones nocturnas en obras de construcción, minería, industria y eventos nocturnos.",
         "offerings": [
           {
-            "title": "Alquiler de Torres de Iluminación",
-            "description": "Equipos autónomos de iluminación de alta potencia y máxima eficiencia energética para faenas nocturnas continuas.",
+            "title": "Torres de Iluminación",
+            "description": "",
             "items": [
-              "Mástiles verticales telescópicos de gran alcance",
-              "Lámparas LED de alto flujo lumínico y bajo consumo",
-              "Generadores diésel de larga autonomía continua"
+              "Garantiza seguridad y alto alcance e eficiencia energética para las operaciones nocturnas en obras de construcción, minería, industria y eventos nocturnos."
             ],
-            "benefit": "Máxima visibilidad y seguridad en obras, minería y eventos 24/7."
-          },
-          {
-            "title": "Mantenimiento Preventivo y Soporte 24/7",
-            "description": "Servicio técnico preventivo y correctivo para garantizar la operatividad ininterrumpida de las unidades.",
-            "items": [
-              "Revisiones periódicas y recambio de filtros y consumibles",
-              "Equipo técnico de guardia para respuesta inmediata",
-              "Sustitución de unidades ante imprevistos"
-            ],
-            "benefit": "Cero paradas operativas y continuidad ininterrumpida de tus proyectos."
-          },
-          {
-            "title": "Logística y Puesta en Marcha en Obra",
-            "description": "Entrega, montaje y calibración directa en el sitio de operaciones a nivel nacional.",
-            "items": [
-              "Traslado a locaciones y frentes de difícil acceso",
-              "Capacitación en uso seguro y eficiente al personal de obra",
-              "Protocolos rigurosos de arranque y seguridad eléctrica"
-            ],
-            "benefit": "Equipos listos para producir desde el primer momento sin complicaciones logísticas."
+            "benefit": "Tus operaciones no se detienen, mantenimiento frecuente, cobertura para tus proyectos a nivel nacional."
           }
         ],
         "features": [

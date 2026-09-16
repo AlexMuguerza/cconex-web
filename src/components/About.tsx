@@ -7,7 +7,14 @@ import { useI18n } from "@/lib/i18n/context";
 export default function About() {
 	const { t } = useI18n();
 
-	const values = [
+	interface ValueCard {
+		icon: typeof Target;
+		title: string;
+		description?: string;
+		items?: { title: string; description: string }[];
+	}
+
+	const values: ValueCard[] = [
 		{
 			icon: Target,
 			title: t.about.mision.title,
@@ -21,7 +28,7 @@ export default function About() {
 		{
 			icon: Heart,
 			title: t.about.valores.title,
-			description: t.about.valores.description,
+			items: t.about.valores.items,
 		},
 	];
 
@@ -88,13 +95,31 @@ export default function About() {
 										<div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
 											<value.icon className="w-6 h-6 text-primary" />
 										</div>
-										<div>
+										<div className="flex-1">
 											<h3 className="font-heading font-bold text-lg text-dark mb-2">
 												{value.title}
 											</h3>
-											<p className="text-gray text-sm leading-relaxed">
-												{value.description}
-											</p>
+											{value.items ? (
+												<ul className="space-y-2.5 text-gray text-sm leading-relaxed">
+													{value.items.map((item, i) => (
+														<li key={i} className="flex items-start gap-2">
+															<span className="text-primary font-bold text-base leading-tight select-none">
+																•
+															</span>
+															<span>
+																<strong className="text-dark font-semibold">
+																	{item.title}:
+																</strong>{" "}
+																{item.description}
+															</span>
+														</li>
+													))}
+												</ul>
+											) : (
+												<p className="text-gray text-sm leading-relaxed">
+													{value.description}
+												</p>
+											)}
 										</div>
 									</div>
 								</motion.div>

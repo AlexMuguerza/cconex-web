@@ -205,20 +205,34 @@ export default function ServiceDetail({ slug }: Props) {
 											{offering.title}
 										</h2>
 
-										<p className="text-gray text-base leading-relaxed mb-6">
-											{offering.description}
-										</p>
+										{offering.description ? (
+											<p className="text-gray text-base leading-relaxed mb-6">
+												{offering.description}
+											</p>
+										) : null}
 
 										{/* Lista de viñetas con Check */}
 										<ul className="space-y-2.5 mb-6">
-											{offering.items.map((item, i) => (
-												<li key={i} className="flex items-start gap-2.5">
-													<CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-													<span className="text-dark/90 text-sm md:text-base leading-snug">
-														{item}
-													</span>
-												</li>
-											))}
+											{offering.items.map((item, i) => {
+												const colonIndex = item.indexOf(":");
+												return (
+													<li key={i} className="flex items-start gap-2.5">
+														<CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+														<span className="text-dark/90 text-sm md:text-base leading-snug">
+															{colonIndex > 0 && colonIndex < 35 ? (
+																<>
+																	<strong className="text-dark font-semibold">
+																		{item.slice(0, colonIndex + 1)}
+																	</strong>{" "}
+																	{item.slice(colonIndex + 1).trim()}
+																</>
+															) : (
+																item
+															)}
+														</span>
+													</li>
+												);
+											})}
 										</ul>
 
 										{/* Beneficios del servicio */}
