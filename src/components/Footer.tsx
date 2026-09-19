@@ -45,7 +45,7 @@ export default function Footer() {
 						</div>
 						<div className="flex items-center gap-3 text-white text-sm">
 							<Mail size={16} className="text-primary shrink-0" />
-							<span>info@cconex.com</span>
+							<span>comercial@cconex.com</span>
 						</div>
 						<div className="flex items-start gap-3 text-white text-sm">
 							<MapPin size={16} className="text-primary shrink-0 mt-0.5" />

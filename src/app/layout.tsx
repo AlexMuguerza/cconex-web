@@ -51,11 +51,11 @@ export const metadata: Metadata = {
 		address: false,
 		telephone: false,
 	},
-	metadataBase: new URL("https://cconex.com.pe"),
+	metadataBase: new URL("https://cconex.com"),
 	openGraph: {
 		type: "website",
 		locale: "es_PE",
-		url: "https://cconex.com.pe",
+		url: "https://cconex.com",
 		siteName: "CCONEX Constructores & Consultores",
 		title: "CCONEX Constructores & Consultores | Ingeniería, Medio Ambiente y Seguridad Industrial",
 		description:
