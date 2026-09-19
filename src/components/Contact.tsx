@@ -4,9 +4,10 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, Phone, Mail, MapPin, Clock } from "lucide-react";
 import { useI18n } from "@/lib/i18n/context";
+import { whatsappLink } from "@/lib/whatsapp";
 
 export default function Contact() {
-	const { t } = useI18n();
+	const { t, locale } = useI18n();
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
@@ -18,7 +19,33 @@ export default function Contact() {
 
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
-		// Handle form submission
+
+		const servicios = t.contact.form.servicios;
+		const serviceLabel =
+			formData.service in servicios
+				? servicios[formData.service as keyof typeof servicios]
+				: formData.service;
+
+		const lines = [
+			locale === "es"
+				? "Hola CCONEX, quiero solicitar información:"
+				: "Hello CCONEX, I would like to request information:",
+			"",
+			`*${t.contact.form.nombre.replace(" *", "")}:* ${formData.name}`,
+			`*${t.contact.form.email.replace(" *", "")}:* ${formData.email}`,
+		];
+
+		if (formData.phone)
+			lines.push(`*${t.contact.form.telefono}:* ${formData.phone}`);
+		if (formData.company)
+			lines.push(`*${t.contact.form.empresa}:* ${formData.company}`);
+
+		lines.push(
+			`*${t.contact.form.servicio.replace(" *", "")}:* ${serviceLabel}`,
+			`*${t.contact.form.mensaje.replace(" *", "")}:* ${formData.message}`
+		);
+
+		window.open(whatsappLink(lines.join("\n")), "_blank");
 	};
 
 	return (
@@ -182,7 +209,7 @@ export default function Contact() {
 
 							<div className="space-y-4">
 								<div className="flex items-start gap-4">
-									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
 										<Phone className="w-5 h-5 text-primary" />
 									</div>
 									<div>
@@ -192,18 +219,18 @@ export default function Contact() {
 								</div>
 
 								<div className="flex items-start gap-4">
-									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
 										<Mail className="w-5 h-5 text-primary" />
 									</div>
 									<div>
 										<h4 className="font-medium text-dark">{t.contact.info.email}</h4>
-										<p className="text-gray text-sm">info.cconex@gmail.com</p>
+										<p className="text-gray text-sm">comercial@cconex.com</p>
 										{/* <p className="text-gray text-sm">ventas@cconex.com</p> */}
 									</div>
 								</div>
 
 								<div className="flex items-start gap-4">
-									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
 										<MapPin className="w-5 h-5 text-primary" />
 									</div>
 									<div>
@@ -215,7 +242,7 @@ export default function Contact() {
 								</div>
 
 								<div className="flex items-start gap-4">
-									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+									<div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
 										<Clock className="w-5 h-5 text-primary" />
 									</div>
 									<div>

@@ -92,7 +92,7 @@ export default function About() {
 									className="p-6 bg-white rounded-2xl border border-soft-green hover-lift"
 								>
 									<div className="flex items-start gap-4">
-										<div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+										<div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
 											<value.icon className="w-6 h-6 text-primary" />
 										</div>
 										<div className="flex-1">

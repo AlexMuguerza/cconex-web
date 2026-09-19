@@ -55,7 +55,7 @@ function OfferingGallery({
 	// Si solo hay 1 imagen, render simple sin controles
 	if (images.length <= 1) {
 		return (
-			<div className="relative w-full aspect-[4/3] rounded-2xl md:rounded-3xl overflow-hidden shadow-md border border-black/5">
+			<div className="relative w-full aspect-4/3 rounded-2xl md:rounded-3xl overflow-hidden shadow-md border border-black/5">
 				<Image
 					src={images[0]}
 					alt={title}
@@ -79,7 +79,7 @@ function OfferingGallery({
 
 	return (
 		<div
-			className="relative w-full aspect-[4/3] rounded-2xl md:rounded-3xl overflow-hidden shadow-md border border-black/5 group select-none"
+			className="relative w-full aspect-4/3 rounded-2xl md:rounded-3xl overflow-hidden shadow-md border border-black/5 group select-none"
 			onMouseEnter={() => setIsHovered(true)}
 			onMouseLeave={() => setIsHovered(false)}
 		>
