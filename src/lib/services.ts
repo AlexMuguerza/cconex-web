@@ -10,20 +10,22 @@ import {
 } from "lucide-react";
 import type { StaticImageData } from "next/image";
 
-import heroSanitarios from "@/assets/servicios/sanitarios/portada.jpeg";
-import heroSanitarios2 from "@/assets/servicios/sanitarios/sanitario1.jpeg";
-import heroSanitarios3 from "@/assets/servicios/sanitarios/sanitario2.jpg";
-import heroSanitarios4 from "@/assets/servicios/sanitarios/lavamano1.jpeg";
-import heroSanitarios5 from "@/assets/servicios/sanitarios/lavamano2.jpg";
-import heroSanitarios6 from "@/assets/servicios/sanitarios/lavamano3.jpeg";
-import heroSanitarios7 from "@/assets/servicios/sanitarios/ducha1.jpg";
-import heroSanitarios8 from "@/assets/servicios/sanitarios/ducha2.jpg";
-import heroTransporte from "@/assets/servicios/transporte/portada.jpeg";
-import heroTransporte2 from "@/assets/servicios/transporte/transporte1.jpeg";
-import heroTransporte3 from "@/assets/servicios/transporte/transporte2.jpeg";
-import heroTransporte4 from "@/assets/servicios/transporte/transporte3.jpeg";
-import heroTransporte5 from "@/assets/servicios/transporte/transporte42.png";
-import heroTransporte6 from "@/assets/servicios/transporte/transporte5.png";
+import heroSanitarios from "@/assets/servicios/sanitarios/portada.webp";
+import heroSanitarios2 from "@/assets/servicios/sanitarios/sanitario1.webp";
+import heroSanitarios3 from "@/assets/servicios/sanitarios/sanitario2.webp";
+import heroSanitarios4 from "@/assets/servicios/sanitarios/sanitario3.webp";
+import heroSanitarios5 from "@/assets/servicios/sanitarios/sanitario4.webp";
+import heroSanitarios6 from "@/assets/servicios/sanitarios/lavamano1.webp";
+import heroSanitarios7 from "@/assets/servicios/sanitarios/lavamano2.webp";
+import heroSanitarios8 from "@/assets/servicios/sanitarios/lavamano3.webp";
+import heroSanitarios9 from "@/assets/servicios/sanitarios/ducha1.webp";
+import heroSanitarios10 from "@/assets/servicios/sanitarios/ducha2.webp";
+import heroTransporte from "@/assets/servicios/transporte/portada.webp";
+import heroTransporte2 from "@/assets/servicios/transporte/transporte1.webp";
+import heroTransporte3 from "@/assets/servicios/transporte/transporte2.webp";
+import heroTransporte4 from "@/assets/servicios/transporte/transporte3.webp";
+import heroTransporte5 from "@/assets/servicios/transporte/transporte42.webp";
+import heroTransporte6 from "@/assets/servicios/transporte/transporte5.webp";
 import heroResiduos from "@/assets/servicios/residuos/hero.png";
 import heroResiduos2 from "@/assets/servicios/residuos/residuos1.jpeg";
 import heroResiduos3 from "@/assets/servicios/residuos/residuos2.jpeg";
@@ -69,9 +71,9 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		slug: "sanitarios-portatiles",
 		heroImages: [heroSanitarios, heroSanitarios2, heroSanitarios3, heroSanitarios4],
 		offeringImages: [
-			[heroSanitarios2, heroSanitarios3], // Sanitario 1 y 2
-			[heroSanitarios4, heroSanitarios5, heroSanitarios6], // Lavamanos 1, 2 y 3
-			[heroSanitarios7, heroSanitarios8], // Ducha 1 y 2
+			[heroSanitarios2, heroSanitarios, heroSanitarios4, heroSanitarios5], // Sanitario 1 y 2
+			[heroSanitarios6, heroSanitarios7, heroSanitarios8], // Lavamanos 1, 2 y 3
+			[heroSanitarios9, heroSanitarios10], // Ducha 1 y 2
 		],
 	},
 	transporte: {
