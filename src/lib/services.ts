@@ -33,6 +33,8 @@ import heroValorizacion from "@/assets/servicios/valorizacion/hero.png";
 import heroValorizacion2 from "@/assets/servicios/valorizacion/valorizacion1.jpeg";
 import heroEquipos from "@/assets/servicios/equipos/hero.png";
 import heroEquipos2 from "@/assets/servicios/equipos/equipo1.png";
+import heroEquipos3 from "@/assets/servicios/equipos/equipo2.jpeg";
+import heroEquipos4 from "@/assets/servicios/equipos/equipo3.jpeg";
 import heroAmbiental from "@/assets/servicios/ambiental/hero.png";
 import heroAmbiental2 from "@/assets/servicios/ambiental/hero-2.png";
 import heroAmbiental3 from "@/assets/servicios/ambiental/hero-3.png";
@@ -45,6 +47,7 @@ import heroIngenieria from "@/assets/servicios/ingenieria/hero.png";
 import heroIngenieria2 from "@/assets/servicios/ingenieria/hero-2.png";
 import heroIngenieria3 from "@/assets/servicios/ingenieria/hero-3.png";
 import heroIngenieria4 from "@/assets/servicios/ingenieria/hero-4.png";
+import heroConfiguracion from "@/assets/servicios/ambiental/configurando.jpg";
 
 export type ServiceKey =
 	| "sanitarios"
@@ -97,10 +100,18 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		],
 	},
 	valorizacion: { key: "valorizacion", icon: Recycle, slug: "valorizacion-de-residuos", heroImages: [heroValorizacion, heroValorizacion2] },
-	equipos: { key: "equipos", icon: Sparkles, slug: "equipos", heroImages: [heroEquipos, heroEquipos2] },
-	ambiental: { key: "ambiental", icon: Leaf, slug: "gestion-ambiental", heroImages: [heroAmbiental, heroAmbiental2, heroAmbiental3, heroAmbiental4] },
-	seguridad: { key: "seguridad", icon: Shield, slug: "seguridad-y-salud-ocupacional", heroImages: [heroSeguridad, heroSeguridad2, heroSeguridad3, heroSeguridad4] },
-	ingenieria: { key: "ingenieria", icon: Building2, slug: "ingenieria-y-arquitectura", heroImages: [heroIngenieria, heroIngenieria2, heroIngenieria3, heroIngenieria4] },
+	equipos: {
+		key: "equipos",
+		icon: Sparkles,
+		slug: "equipos",
+		heroImages: [heroEquipos, heroEquipos2, heroEquipos3, heroEquipos4],
+		offeringImages: [
+			[heroEquipos2, heroEquipos3, heroEquipos4], // Torres de Iluminación
+		],
+	},
+	ambiental: { key: "ambiental", icon: Leaf, slug: "gestion-ambiental", heroImages: [heroAmbiental, heroConfiguracion, heroConfiguracion, heroConfiguracion] },
+	seguridad: { key: "seguridad", icon: Shield, slug: "seguridad-y-salud-ocupacional", heroImages: [heroSeguridad, heroConfiguracion, heroConfiguracion, heroConfiguracion] },
+	ingenieria: { key: "ingenieria", icon: Building2, slug: "ingenieria-y-arquitectura", heroImages: [heroIngenieria, heroConfiguracion, heroConfiguracion, heroConfiguracion] },
 };
 
 export const serviceKeys: ServiceKey[] = [

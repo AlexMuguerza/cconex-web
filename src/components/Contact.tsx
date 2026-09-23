@@ -260,7 +260,7 @@ export default function Contact() {
 
 						<div className="relative h-64 rounded-2xl overflow-hidden border border-soft-green">
 							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.1234567890123!2d-77.03123456789012!3d-12.098765432109876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDA1JzU1LjYiUyA3N8KwMDEnNDIuNiJX!5e0!3m2!1ses!2spe!4v1234567890123!5m2!1ses!2spe"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.5028919655787!2d-76.8921789!3d-12.005312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAwJzE5LjEiUyA3NsKwNTMnMjIuNiJX!5e0!3m2!1ses!2spe!4v1710000000000!5m2!1ses!2spe"
 								width="100%"
 								height="100%"
 								style={{ border: 0 }}

@@ -63,7 +63,7 @@ export default function Stats() {
 		},
 		{
 			icon: Clock,
-			target: 10,
+			target: 5,
 			suffix: "+",
 			label: t.stats.experiencia.label,
 			description: t.stats.experiencia.description,

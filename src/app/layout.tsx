@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 		template: "%s | CCONEX",
 	},
 	description:
-		"Soluciones Integrales en Ingeniería, Consultoría Ambiental y Seguridad Industrial. Gestión de residuos, permisos ambientales, SGSST, ISO 9001, 14001, 45001 y más. Más de 10 años de experiencia en el Perú.",
+		"Soluciones Integrales en Ingeniería, Consultoría Ambiental y Seguridad Industrial. Gestión de residuos, permisos ambientales, SGSST, ISO 9001, 14001, 45001 y más. Más de 5 años de experiencia en el Perú.",
 	keywords: [
 		"consultoría ambiental",
 		"seguridad industrial",
