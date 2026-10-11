@@ -39,6 +39,9 @@ import heroAmbiental from "@/assets/servicios/ambiental/hero.png";
 import heroAmbiental2 from "@/assets/servicios/ambiental/hero-2.png";
 import heroAmbiental3 from "@/assets/servicios/ambiental/hero-3.png";
 import heroAmbiental4 from "@/assets/servicios/ambiental/hero-4.jpg";
+import heroAmbiental5 from "@/assets/servicios/ambiental/instrumento.webp";
+import heroAmbiental6 from "@/assets/servicios/ambiental/legal.webp";
+import heroAmbiental7 from "@/assets/servicios/ambiental/participacion.webp";
 import heroSeguridad from "@/assets/servicios/seguridad/hero.png";
 import heroSeguridad2 from "@/assets/servicios/seguridad/hero-2.png";
 import heroSeguridad3 from "@/assets/servicios/seguridad/hero-3.png";
@@ -113,11 +116,11 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		key: "ambiental",
 		icon: Leaf,
 		slug: "gestion-ambiental",
-		heroImages: [heroAmbiental, heroAmbiental2, heroAmbiental3, heroAmbiental4],
+		heroImages: [heroAmbiental, heroAmbiental5, heroAmbiental6, heroAmbiental7],
 		offeringImages: [
-			[heroConfiguracion], // Asesoría Legal
-			[heroConfiguracion], // Instrumentos Ambientales
-			[heroConfiguracion], // Participación Ciudadana
+			[heroAmbiental5], // Asesoría Legal
+			[heroAmbiental6], // Instrumentos Ambientales
+			[heroAmbiental7], // Participación Ciudadana
 		],
 	},
 	seguridad: {
