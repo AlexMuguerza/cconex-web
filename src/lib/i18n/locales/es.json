@@ -618,46 +618,51 @@
         "heroDescription": "En un mundo de cambios, Cconex te brinda soporte en las normativas, lineamientos, guías, estándares y herramientas tecnológicas, para lograr de manera eficiente los objetivos comerciales de nuestros clientes.",
         "offerings": [
           {
-            "title": "Asesoría Legal y Auditorías Ambientales",
+            "title": "Asesoría Legal",
             "description": "Acompañamiento legal especializado para el cumplimiento de normativas de OEFA, MINAM y fiscalizadores sectoriales.",
             "items": [
-              "Auditorías de diagnóstico de cumplimiento legal ambiental",
-              "Trámite de autorizaciones, permisos y licencias",
-              "Levantamiento de observaciones ante fiscalizaciones"
+              "Trámite de autorizaciones y permisos ambientales.",
+              "Autorizaciones para formalizar tu empresa en EORS.",
+              "Auditorías ambientales.",
+              "Levantamiento de observaciones ante fiscalizaciones."
             ],
             "benefit": "Blindaje legal y prevención de sanciones o multas administrativas."
           },
           {
-            "title": "Instrumentos de Gestión Ambiental (IGA)",
+            "title": "Instrumentos Ambientales",
             "description": "Elaboración y actualización de estudios ambientales exigidos por la legislación peruana vigente.",
             "items": [
-              "Estudios de Impacto Ambiental (DIA, EIA-sd, EIA-d)",
-              "Planes de Manejo Ambiental, ITS, IGAC y EVAP",
-              "Informes de identificación de sitios contaminados"
+              "Estudios de impacto ambientales detallados y semidetallados.",
+              "FITSA, EVAP, DIA, ITS, IGAC.",
+              "Planes de estrategia ambiental, residuos sólidos, etc.",
+              "Informes de identificación de sitios contaminados.",
+              "Declaración de residuos sólidos y asesoría."
             ],
             "benefit": "Aprobación ágil de estudios ante las autoridades competentes."
           },
           {
-            "title": "Participación Ciudadana y Gestión Social",
+            "title": "Participación Ciudadana",
             "description": "Estrategias de vinculación comunitaria y prevención de conflictos sociales para la viabilidad de proyectos.",
             "items": [
-              "Elaboración de planes de participación ciudadana",
-              "Organización de talleres informativos y audiencias públicas",
-              "Mapeo de actores locales y resolución de controversias"
+              "Elaboración de planes de participación.",
+              "Mapeo de actores locales.",
+              "Estudio de percepciones.",
+              "Solución de conflictos sociales."
             ],
             "benefit": "Licencia social sólida y relaciones armónicas con el entorno comunitario."
           }
         ],
         "features": [
-          "Auditorías ambientales",
           "Trámite de autorizaciones y permisos ambientales",
+          "Autorizaciones para formalizar tu empresa en EORS",
+          "Auditorías ambientales",
           "Levantamiento de observaciones ante fiscalizaciones",
-          "Estudios de impacto ambiental detallados y semidetallados",
+          "Estudios de impacto ambientales detallados y semidetallados",
           "FITSA, EVAP, DIA, ITS, IGAC",
-          "Planes de estrategia ambiental y residuos sólidos",
+          "Planes de estrategia ambiental, residuos sólidos, etc.",
           "Informes de identificación de sitios contaminados",
           "Declaración de residuos sólidos y asesoría",
-          "Elaboración de planes de participación ciudadana",
+          "Elaboración de planes de participación",
           "Mapeo de actores locales",
           "Estudio de percepciones",
           "Solución de conflictos sociales"
@@ -666,28 +671,29 @@
           {
             "title": "Asesoría Legal",
             "items": [
-              "Auditorías ambientales",
-              "Trámite de autorizaciones y permisos ambientales",
-              "Levantamiento de observaciones ante fiscalizaciones"
+              "Trámite de autorizaciones y permisos ambientales.",
+              "Autorizaciones para formalizar tu empresa en EORS.",
+              "Auditorías ambientales.",
+              "Levantamiento de observaciones ante fiscalizaciones."
             ]
           },
           {
             "title": "Instrumentos Ambientales",
             "items": [
-              "Estudios de impacto ambiental detallados y semidetallados",
-              "FITSA, EVAP, DIA, ITS, IGAC",
+              "Estudios de impacto ambientales detallados y semidetallados.",
+              "FITSA, EVAP, DIA, ITS, IGAC.",
               "Planes de estrategia ambiental, residuos sólidos, etc.",
-              "Informes de identificación de sitios contaminados",
-              "Declaración de residuos sólidos y asesoría"
+              "Informes de identificación de sitios contaminados.",
+              "Declaración de residuos sólidos y asesoría."
             ]
           },
           {
             "title": "Participación Ciudadana",
             "items": [
-              "Elaboración de planes de participación",
-              "Mapeo de actores locales",
-              "Estudio de percepciones",
-              "Solución de conflictos sociales"
+              "Elaboración de planes de participación.",
+              "Mapeo de actores locales.",
+              "Estudio de percepciones.",
+              "Solución de conflictos sociales."
             ]
           }
         ],
@@ -706,50 +712,43 @@
       },
       "seguridad": {
         "title": "Seguridad y Salud Ocupacional",
-        "description": "Solución para tus cumplimientos legales en Seguridad y Salud en el trabajo. Desarrollo e implementación de planes, programas y procedimientos.",
-        "heroDescription": "Cconex S.A.C. te brinda solución para tus cumplimientos legales en Seguridad y Salud en el trabajo. Te ayudamos a desarrollar e implementar planes, programas, procedimientos, instructivos y registros.",
+        "description": "Soluciones integrales para el cumplimiento legal en Seguridad y Salud en el Trabajo. Contamos con una amplia cartera de servicios especializados para tu empresa.",
+        "heroDescription": "Cconex S.A.C. te brinda soluciones integrales para el cumplimiento legal en Seguridad y Salud en el Trabajo. Contamos con una amplia cartera de servicios especializados para tu empresa.",
         "offerings": [
           {
-            "title": "Sistemas de Gestión SST (Ley 29783)",
-            "description": "Diseño, implementación y auditoría de sistemas de gestión según normativa legal peruana y estándares ISO 45001.",
+            "title": "Servicios Especializados en Seguridad y Salud en el Trabajo",
+            "description": "Cconex S.A.C. te brinda soluciones integrales para el cumplimiento legal en Seguridad y Salud en el Trabajo. Contamos con una amplia cartera de servicios especializados para tu empresa:",
             "items": [
-              "Elaboración de matrices IPERC y mapas de riesgo",
-              "Reglamento Interno de Seguridad y Salud en el Trabajo (RISST)",
-              "Constitución e instalación del Comité de SST"
+              "Implementación del Sistema de Gestión de Seguridad",
+              "Asesoría y Soporte Legal: Soporte especializado ante inspecciones de la Sunafil y auditorías del sector.",
+              "Capacitación y Entrenamiento: Programas formativos teóricos y prácticos en Seguridad",
+              "Homologación de Proveedores",
+              "Supervisión Especializada: Servicio de supervisión en campo para los sectores de minería, construcción, retail e industria.",
+              "Consultoría en Normas ISO: Asesoría para la implementación ISO 9001, ISO 14001 y ISO 45001"
             ],
-            "benefit": "Garantía de cumplimiento legal obligatorio y reducción de accidentes laborales."
-          },
-          {
-            "title": "Asesoría SUNAFIL y Homologaciones",
-            "description": "Acompañamiento técnico para inspecciones laborales y procesos de homologación de contratistas.",
-            "items": [
-              "Preparación integral ante fiscalizaciones de SUNAFIL",
-              "Soporte documentario para homologación en grandes empresas",
-              "Auditorías internas preventivas del sistema de gestión"
-            ],
-            "benefit": "Aprobación de homologaciones con puntajes destacados y sin contingencias laborales."
-          },
-          {
-            "title": "Monitoreos Ocupacionales y Capacitaciones",
-            "description": "Evaluación de agentes físicos, químicos, biológicos, ergonómicos y psicosociales con equipos calibrados.",
-            "items": [
-              "Medición de ruido, iluminación, polvo y vibración",
-              "Estudios ergonómicos y de clima psicosocial",
-              "Capacitaciones obligatorias certificadas por especialistas"
-            ],
-            "benefit": "Ambiente de trabajo seguro, saludable y bienestar certificado para tus colaboradores."
+            "benefit": "Garantía de cumplimiento legal obligatorio, ambientes laborales seguros y prevención de sanciones de SUNAFIL."
           }
         ],
         "features": [
-          "Implementación de sistema de gestión de SSO (Ley 29783)",
-          "Soporte y asesoría para auditorías",
-          "Asesoría SUNAFIL",
-          "Capacitación y entrenamiento en SST",
-          "Homologación de proveedores",
-          "Supervisión en minería, construcción, retail e industria",
-          "Seguimiento de gestión SSOMA en proyectos y empresas",
-          "Monitoreo de agentes ocupacionales",
-          "Asesoría en normas ISO (14000, 45001, 9000, 39000, 50000)"
+          "Implementación del Sistema de Gestión de Seguridad",
+          "Asesoría y Soporte Legal ante inspecciones de la Sunafil y auditorías del sector",
+          "Capacitación y Entrenamiento en Seguridad",
+          "Homologación de Proveedores",
+          "Supervisión Especializada en campo (minería, construcción, retail e industria)",
+          "Consultoría en Normas ISO (ISO 9001, ISO 14001 y ISO 45001)"
+        ],
+        "sections": [
+          {
+            "title": "Servicios Especializados en Seguridad y Salud en el Trabajo",
+            "items": [
+              "Implementación del Sistema de Gestión de Seguridad",
+              "Asesoría y Soporte Legal: Soporte especializado ante inspecciones de la Sunafil y auditorías del sector.",
+              "Capacitación y Entrenamiento: Programas formativos teóricos y prácticos en Seguridad",
+              "Homologación de Proveedores",
+              "Supervisión Especializada: Servicio de supervisión en campo para los sectores de minería, construcción, retail e industria.",
+              "Consultoría en Normas ISO: Asesoría para la implementación ISO 9001, ISO 14001 y ISO 45001"
+            ]
+          }
         ],
         "benefits": [
           "Cumplimiento legal obligatorio garantizado",
@@ -766,82 +765,77 @@
       },
       "ingenieria": {
         "title": "Ingeniería y Arquitectura",
-        "description": "Consultoría de proyectos, expedientes técnicos, supervisión de obras y diseño integral de proyectos verdes.",
-        "heroDescription": "Realizamos expedientes técnicos para obras, supervisión durante la ejecución y diseño integral de proyectos verdes con certificaciones LEED, EDGE y BREEAM. Fomentamos proyectos sostenibles aplicando las diversas certificaciones existentes.",
+        "description": "Consultoría de proyectos, expedientes técnicos, supervisión y ejecución de obras, y diseño y acabado de interiores.",
+        "heroDescription": "Realizamos expedientes técnicos para obras, supervisión durante la ejecución, obras civiles y diseño y acabado de interiores para espacios corporativos, comerciales e industriales.",
         "offerings": [
           {
-            "title": "Consultoría y Expedientes Técnicos",
-            "description": "Desarrollo completo de expedientes técnicos para obras públicas y privadas bajo metodologías modernas de ingeniería.",
+            "title": "Consultoría de Proyectos",
+            "description": "Desarrollo y supervisión integral de proyectos de ingeniería y arquitectura con altos estándares técnicos:",
             "items": [
-              "Estudios de mecánica de suelos y topografía",
-              "Memorias descriptivas, metrados y presupuestos detallados",
-              "Diseño estructural, sanitario y eléctrico con tecnología BIM"
+              "Realizamos expedientes técnicos para obras.",
+              "Supervisión de obras durante la ejecución.",
+              "Diseñamos proyectos sostenibles, aplicando a las diversas certificaciones existentes: LEED, EDGE, BREEAM así como los incentivos del estado MiVivienda Bono Verde, según solicitud del cliente."
             ],
-            "benefit": "Expedientes sólidos que evitan sobrecostos y retrasos en la ejecución."
+            "benefit": "Expedientes sólidos, supervisión técnica rigurosa y proyectos alineados a estándares internacionales de sostenibilidad."
           },
           {
-            "title": "Supervisión y Ejecución de Obras",
-            "description": "Control riguroso de calidad, plazos y costos en obras de infraestructura civil, ambiental e industrial.",
+            "title": "Ejecución de Obras",
+            "description": "Construcción e infraestructura especializada civil, hidráulica y ambiental:",
             "items": [
-              "Supervisión de rellenos sanitarios y plataformas de acopio",
-              "Obras pluviales, canales y sistemas de agua potable",
-              "Instalación de coberturas y estructuras metálicas"
+              "Rellenos sanitarios (RINP, RESPEL, mono rellenos, patios de acopio transitorio, piscinas de AS).",
+              "Obras pluviales (Canales, alcantarillado, sistema de agua potable, riego).",
+              "Instalación de coberturas metálicas."
             ],
-            "benefit": "Construcción conforme a especificaciones técnicas y estándares de calidad."
+            "benefit": "Construcción especializada conforme a especificaciones técnicas y durabilidad garantizada."
           },
           {
-            "title": "Diseño Integral de Proyectos Verdes",
-            "description": "Diseño y consultoría arquitectónica sostenible orientada a certificaciones de eficiencia ambiental.",
+            "title": "Diseño y Acabado de Interiores",
+            "description": "Somos clave para espacios corporativos, comerciales e industriales. Transformamos tus instalaciones optimizando su funcionalidad, estética y ergonomía a través de cuatro frentes clave:",
             "items": [
-              "Asesoría para certificaciones LEED, EDGE y BREEAM",
-              "Consultoría técnica para Bono Verde Mivivienda",
-              "Arquitectura bioclimática y optimización de recursos energéticos"
+              "Diseño Arquitectónico e Interiorismo: Planificación inteligente de layouts para oficinas, retail y plantas, maximizando la luz natural, la identidad de marca y el flujo de trabajo.",
+              "Ingeniería Eléctrica (Baja/Media Tensión): Montaje y mantenimiento de redes, iluminación LED y pozos a tierra bajo las normas del CNE para garantizar seguridad y ahorro energético.",
+              "Construcción en Seco (Drywall): Instalación rápida de tabiquería, divisiones y falsos cielos con placas termoacústicas, resistentes al fuego y a la humedad.",
+              "Pisos y Revestimientos Especializados: Aplicación de porcelanatos, pisos vinílicos y resina epóxica industrial de alta resistencia, nivelación precisa y propiedades antideslizantes."
             ],
-            "benefit": "Incentivos financieros, mayor valor inmobiliario y reducción del impacto ambiental."
+            "benefit": "Espacios modernos, funcionales y de alta durabilidad que potencian la productividad y el valor de tu infraestructura."
           }
         ],
         "features": [
           "Expedientes técnicos para obras",
           "Supervisión de obras durante la ejecución",
-          "Rellenos sanitarios (RINP, RESPEL, mono rellenos, patios de acopio transitorio, piscinas de AS)",
+          "Diseño de proyectos sostenibles (LEED, EDGE, BREEAM, Bono Verde)",
+          "Rellenos sanitarios (RINP, RESPEL, mono rellenos, patios de acopio)",
           "Obras pluviales (canales, alcantarillado, agua potable, riego)",
-          "Instalación de coberturas y estructuras metálicas",
-          "Diseño y acabados de interiores (drywall, paisajismo, instalaciones eléctricas)",
-          "Diseño integral de proyectos verdes",
-          "Certificaciones LEED, EDGE, BREEAM",
-          "Incentivos Mi Vivienda Bono Verde"
+          "Instalación de coberturas metálicas",
+          "Diseño arquitectónico e interiorismo",
+          "Ingeniería eléctrica en baja y media tensión",
+          "Construcción en seco (Drywall)",
+          "Pisos y revestimientos especializados"
         ],
         "sections": [
           {
             "title": "Consultoría de Proyectos",
             "items": [
-              "Expedientes técnicos para obras",
-              "Supervisión de obras durante la ejecución"
+              "Realizamos expedientes técnicos para obras.",
+              "Supervisión de obras durante la ejecución.",
+              "Diseñamos proyectos sostenibles, aplicando a las diversas certificaciones existentes: LEED, EDGE, BREEAM así como los incentivos del estado MiVivienda Bono Verde, según solicitud del cliente."
             ]
           },
           {
             "title": "Ejecución de Obras",
             "items": [
-              "Rellenos sanitarios (RINP, RESPEL, mono rellenos, patios de acopio transitorio, piscinas de AS)",
-              "Obras pluviales (canales, alcantarillado, sistema de agua potable, riego)"
+              "Rellenos sanitarios (RINP, RESPEL, mono rellenos, patios de acopio transitorio, piscinas de AS).",
+              "Obras pluviales (Canales, alcantarillado, sistema de agua potable, riego).",
+              "Instalación de coberturas metálicas."
             ]
           },
           {
-            "title": "Infraestructura",
+            "title": "Diseño y Acabado de Interiores",
             "items": [
-              "Instalación de coberturas y estructuras metálicas",
-              "Diseño y acabados de interiores: instalaciones de drywall",
-              "Diseño y paisajismo",
-              "Instalaciones eléctricas"
-            ]
-          },
-          {
-            "title": "Diseño Integral de Proyectos Verdes",
-            "items": [
-              "Proyectos de inicio a fin previa coordinación con el cliente",
-              "Obras con entidades públicas y/o privadas",
-              "Proyectos sostenibles con certificaciones LEED, EDGE, BREEAM",
-              "Incentivos del estado Mi Vivienda Bono Verde"
+              "Diseño Arquitectónico e Interiorismo: Planificación inteligente de layouts para oficinas, retail y plantas, maximizando la luz natural, la identidad de marca y el flujo de trabajo.",
+              "Ingeniería Eléctrica (Baja/Media Tensión): Montaje y mantenimiento de redes, iluminación LED y pozos a tierra bajo las normas del CNE para garantizar seguridad y ahorro energético.",
+              "Construcción en Seco (Drywall): Instalación rápida de tabiquería, divisiones y falsos cielos con placas termoacústicas, resistentes al fuego y a la humedad.",
+              "Pisos y Revestimientos Especializados: Aplicación de porcelanatos, pisos vinílicos y resina epóxica industrial de alta resistencia, nivelación precisa y propiedades antideslizantes."
             ]
           }
         ],

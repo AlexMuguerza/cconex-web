@@ -109,9 +109,37 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 			[heroEquipos2, heroEquipos3, heroEquipos4], // Torres de Iluminación
 		],
 	},
-	ambiental: { key: "ambiental", icon: Leaf, slug: "gestion-ambiental", heroImages: [heroAmbiental, heroConfiguracion, heroConfiguracion, heroConfiguracion] },
-	seguridad: { key: "seguridad", icon: Shield, slug: "seguridad-y-salud-ocupacional", heroImages: [heroSeguridad, heroConfiguracion, heroConfiguracion, heroConfiguracion] },
-	ingenieria: { key: "ingenieria", icon: Building2, slug: "ingenieria-y-arquitectura", heroImages: [heroIngenieria, heroConfiguracion, heroConfiguracion, heroConfiguracion] },
+	ambiental: {
+		key: "ambiental",
+		icon: Leaf,
+		slug: "gestion-ambiental",
+		heroImages: [heroAmbiental, heroAmbiental2, heroAmbiental3, heroAmbiental4],
+		offeringImages: [
+			[heroAmbiental2], // Asesoría Legal
+			[heroAmbiental3], // Instrumentos Ambientales
+			[heroAmbiental4], // Participación Ciudadana
+		],
+	},
+	seguridad: {
+		key: "seguridad",
+		icon: Shield,
+		slug: "seguridad-y-salud-ocupacional",
+		heroImages: [heroSeguridad, heroSeguridad2, heroSeguridad3, heroSeguridad4],
+		offeringImages: [
+			[heroSeguridad2, heroSeguridad3, heroSeguridad4],
+		],
+	},
+	ingenieria: {
+		key: "ingenieria",
+		icon: Building2,
+		slug: "ingenieria-y-arquitectura",
+		heroImages: [heroIngenieria, heroIngenieria2, heroIngenieria3, heroIngenieria4],
+		offeringImages: [
+			[heroIngenieria2, heroIngenieria4, heroIngenieria2, heroIngenieria2], // Consultoría de Proyectos
+			[heroIngenieria2, heroIngenieria4, heroIngenieria2], // Ejecución de Obras
+			[heroIngenieria2, heroIngenieria4, heroIngenieria2], // Diseño y Acabado de Interiores
+		],
+	},
 };
 
 export const serviceKeys: ServiceKey[] = [

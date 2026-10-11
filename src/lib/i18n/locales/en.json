@@ -618,46 +618,51 @@
         "heroDescription": "In a changing world, Cconex provides support in regulations, guidelines, standards and technological tools, to efficiently achieve the commercial objectives of our clients.",
         "offerings": [
           {
-            "title": "Legal Consulting & Environmental Audits",
+            "title": "Legal Consulting",
             "description": "Specialized legal guidance ensuring strict compliance with OEFA, MINAM, and industry-specific regulations.",
             "items": [
-              "Environmental compliance diagnostic audits",
-              "Processing of required licenses, permits and authorizations",
-              "Resolution of observations raised during regulatory inspections"
+              "Processing of environmental authorizations and permits.",
+              "Authorizations to formalize your company as an EO-RS.",
+              "Environmental audits.",
+              "Resolution of observations from regulatory inspections."
             ],
             "benefit": "Legal shield preventing severe administrative sanctions and fines."
           },
           {
-            "title": "Environmental Management Instruments (IGA)",
+            "title": "Environmental Instruments",
             "description": "Preparation and updating of mandatory environmental impact instruments demanded by national laws.",
             "items": [
-              "Environmental Impact Assessments (DIA, EIA-sd, EIA-d)",
-              "Environmental Management Plans, ITS, IGAC and EVAP",
-              "Contaminated site assessment and identification reports"
+              "Detailed and semi-detailed environmental impact assessments.",
+              "FITSA, EVAP, DIA, ITS, IGAC.",
+              "Environmental strategy plans, solid waste management plans, etc.",
+              "Contaminated site identification and assessment reports.",
+              "Solid waste declarations and advisory."
             ],
             "benefit": "Expedited approval of regulatory filings before competent authorities."
           },
           {
-            "title": "Citizen Participation & Social Management",
+            "title": "Citizen Participation",
             "description": "Community outreach strategies and social conflict resolution safeguarding project viability.",
             "items": [
-              "Citizen participation plan development",
-              "Organization of public hearings and information workshops",
-              "Stakeholder mapping and conflict mitigation"
+              "Development of citizen participation plans.",
+              "Local stakeholder mapping.",
+              "Perception studies.",
+              "Social conflict resolution."
             ],
             "benefit": "Robust social license and harmonious long-term community relationships."
           }
         ],
         "features": [
-          "Environmental audits",
           "Processing of environmental authorizations and permits",
-          "Resolution of observations in inspections",
-          "Detailed and semi-detailed environmental impact studies",
+          "Authorizations to formalize your company as an EO-RS",
+          "Environmental audits",
+          "Resolution of observations from regulatory inspections",
+          "Detailed and semi-detailed environmental impact assessments",
           "FITSA, EVAP, DIA, ITS, IGAC",
-          "Environmental strategy and solid waste plans",
-          "Contaminated site identification reports",
-          "Solid waste declaration and consulting",
-          "Citizen participation plan development",
+          "Environmental strategy plans, solid waste management plans, etc.",
+          "Contaminated site identification and assessment reports",
+          "Solid waste declarations and advisory",
+          "Development of citizen participation plans",
           "Local stakeholder mapping",
           "Perception studies",
           "Social conflict resolution"
@@ -666,28 +671,29 @@
           {
             "title": "Legal Consulting",
             "items": [
-              "Environmental audits",
-              "Processing of environmental authorizations and permits",
-              "Resolution of observations in inspections"
+              "Processing of environmental authorizations and permits.",
+              "Authorizations to formalize your company as an EO-RS.",
+              "Environmental audits.",
+              "Resolution of observations from regulatory inspections."
             ]
           },
           {
             "title": "Environmental Instruments",
             "items": [
-              "Detailed and semi-detailed environmental impact studies",
-              "FITSA, EVAP, DIA, ITS, IGAC",
-              "Environmental strategy plans, solid waste, etc.",
-              "Contaminated site identification reports",
-              "Solid waste declaration and consulting"
+              "Detailed and semi-detailed environmental impact assessments.",
+              "FITSA, EVAP, DIA, ITS, IGAC.",
+              "Environmental strategy plans, solid waste management plans, etc.",
+              "Contaminated site identification and assessment reports.",
+              "Solid waste declarations and advisory."
             ]
           },
           {
             "title": "Citizen Participation",
             "items": [
-              "Participation plan development",
-              "Local stakeholder mapping",
-              "Perception studies",
-              "Social conflict resolution"
+              "Development of citizen participation plans.",
+              "Local stakeholder mapping.",
+              "Perception studies.",
+              "Social conflict resolution."
             ]
           }
         ],
@@ -706,50 +712,43 @@
       },
       "seguridad": {
         "title": "Occupational Health & Safety",
-        "description": "Solution for your legal compliance in Occupational Health and Safety. Development and implementation of plans, programs and procedures.",
-        "heroDescription": "Cconex S.A.C. provides solutions for your legal compliance in Occupational Health and Safety. We help you develop and implement plans, programs, procedures, instructions and records.",
+        "description": "Comprehensive solutions for legal compliance in Occupational Health and Safety. Extensive portfolio of specialized services for your company.",
+        "heroDescription": "Cconex S.A.C. provides comprehensive solutions for legal compliance in Occupational Health and Safety. We offer an extensive portfolio of specialized services for your company.",
         "offerings": [
           {
-            "title": "OHS Management Systems (Law 29783)",
-            "description": "Design, setup and auditing of occupational safety systems compliant with Peruvian laws and ISO 45001.",
+            "title": "Specialized Occupational Health & Safety Services",
+            "description": "Cconex S.A.C. provides comprehensive solutions for legal compliance in Occupational Health and Safety. We offer an extensive portfolio of specialized services for your company:",
             "items": [
-              "Preparation of IPERC risk matrices and hazard maps",
-              "Internal Health and Safety at Work Regulation (RISST)",
-              "Establishment and training of the OHS Committee"
+              "Implementation of the Safety Management System",
+              "Legal Advisory & Support: Specialized assistance for SUNAFIL inspections and sector audits.",
+              "Training & Instruction: Theoretical and practical training programs in Occupational Safety",
+              "Supplier & Contractor Homologation",
+              "Specialized Supervision: Field supervision service for mining, construction, retail and industrial sectors.",
+              "ISO Standards Consulting: Advisory for ISO 9001, ISO 14001, and ISO 45001 implementation"
             ],
-            "benefit": "Strict compliance with mandatory safety standards and workplace incident prevention."
-          },
-          {
-            "title": "SUNAFIL Consulting & Homologation",
-            "description": "Expert technical support for labor inspection proceedings and contractor homologation processes.",
-            "items": [
-              "Full preparation for official SUNAFIL labor inspections",
-              "Documentary compliance support for contractor homologation",
-              "Preventive internal audits of the health & safety system"
-            ],
-            "benefit": "High qualification scores in homologations without labor contingencies."
-          },
-          {
-            "title": "Occupational Monitoring & Certified Training",
-            "description": "Measurement of physical, chemical, biological, ergonomic, and psychosocial risk factors using calibrated tools.",
-            "items": [
-              "Noise, illumination, dust, and vibration field measurements",
-              "Ergonomic assessments and workplace climate evaluations",
-              "Mandatory OHS certification training courses delivered by specialists"
-            ],
-            "benefit": "A secure, certified work environment safeguarding staff wellbeing."
+            "benefit": "Guaranteed mandatory legal compliance, safer work environments, and prevention of SUNAFIL sanctions."
           }
         ],
         "features": [
-          "OHS management system implementation (Law 29783)",
-          "Audit support and consulting",
-          "SUNAFIL consulting",
-          "OHS training and coaching",
-          "Supplier homologation",
-          "Supervision in mining, construction, retail and industry",
-          "SSOMA management follow-up in projects and companies",
-          "Occupational agent monitoring",
-          "ISO standards consulting (14000, 45001, 9000, 39000, 50000)"
+          "Implementation of the Safety Management System",
+          "Legal Advisory & Support for SUNAFIL inspections and sector audits",
+          "Training & Instruction in Occupational Safety",
+          "Supplier & Contractor Homologation",
+          "Specialized Field Supervision (mining, construction, retail, industry)",
+          "ISO Standards Consulting (ISO 9001, ISO 14001, ISO 45001)"
+        ],
+        "sections": [
+          {
+            "title": "Specialized Occupational Health & Safety Services",
+            "items": [
+              "Implementation of the Safety Management System",
+              "Legal Advisory & Support: Specialized assistance for SUNAFIL inspections and sector audits.",
+              "Training & Instruction: Theoretical and practical training programs in Occupational Safety",
+              "Supplier & Contractor Homologation",
+              "Specialized Supervision: Field supervision service for mining, construction, retail and industrial sectors.",
+              "ISO Standards Consulting: Advisory for ISO 9001, ISO 14001, and ISO 45001 implementation"
+            ]
+          }
         ],
         "benefits": [
           "Guaranteed mandatory legal compliance",
@@ -766,82 +765,77 @@
       },
       "ingenieria": {
         "title": "Engineering & Architecture",
-        "description": "Project consulting, technical files, construction supervision and comprehensive green project design.",
-        "heroDescription": "We prepare technical files for construction, supervision during execution and comprehensive green project design with LEED, EDGE and BREEAM certifications. We promote sustainable projects applying existing certifications.",
+        "description": "Project consulting, technical files, works supervision and execution, and interior design and fit-out.",
+        "heroDescription": "We prepare engineering technical files, provide construction supervision, execute civil infrastructure, and deliver commercial and industrial interior design and finishing.",
         "offerings": [
           {
-            "title": "Consulting & Technical Files",
-            "description": "Complete development of engineering technical files for public and private infrastructure projects using modern engineering methodologies.",
+            "title": "Project Consulting",
+            "description": "Comprehensive engineering and architectural project development and supervision under modern technical standards:",
             "items": [
-              "Soil mechanics and detailed topographic studies",
-              "Comprehensive descriptive reports, quantity take-offs, and budgets",
-              "Structural, sanitary and electrical designs supported by BIM"
+              "Preparation of technical files and engineering plans for construction works.",
+              "On-site supervision throughout project execution.",
+              "Design of sustainable projects applying for certifications: LEED, EDGE, BREEAM, as well as Peruvian government incentives such as MiVivienda Bono Verde, according to client requirements."
             ],
-            "benefit": "Robust files that prevent budget overruns and construction delays."
+            "benefit": "Robust technical files, rigorous on-site supervision, and projects aligned with global sustainability standards."
           },
           {
-            "title": "Works Execution & Supervision",
-            "description": "Rigorous quality, timeline, and cost management across civil, environmental, and industrial infrastructure.",
+            "title": "Works Execution",
+            "description": "Specialized construction of civil, hydraulic, and environmental infrastructure:",
             "items": [
-              "Supervision of sanitary landfills and storage yards",
-              "Stormwater drainage, canals and potable water systems",
-              "Assembly of roofing systems and industrial metal structures"
+              "Sanitary landfills (RINP, RESPEL, monofills, temporary storage yards, AS evaporation ponds).",
+              "Stormwater & hydraulic works (Canals, drainage & sewerage, drinking water supply systems, irrigation).",
+              "Installation of industrial metallic roofing and structures."
             ],
-            "benefit": "Construction carried out strictly according to technical specifications."
+            "benefit": "Specialized construction conforming to rigorous technical specifications and guaranteed durability."
           },
           {
-            "title": "Comprehensive Green Projects Design",
-            "description": "Sustainable architectural consulting aimed at achieving premier green building efficiency certifications.",
+            "title": "Interior Design & Fit-Out",
+            "description": "We are a key partner for corporate, commercial, and industrial spaces. We transform your facilities by optimizing functionality, aesthetics, and ergonomics across four strategic pillars:",
             "items": [
-              "Consultancy for LEED, EDGE, and BREEAM certifications",
-              "Technical assistance for the Mi Vivienda Green Bond program",
-              "Bioclimatic architecture and energy resource optimization"
+              "Architectural & Interior Design: Smart layout planning for offices, retail, and industrial facilities, maximizing natural daylight, brand identity, and operational workflows.",
+              "Electrical Engineering (Low/Medium Voltage): Installation and maintenance of power networks, LED lighting, and earthing systems compliant with the National Electrical Code (CNE) for safety and energy efficiency.",
+              "Drywall Construction: Rapid installation of partitions, room dividers, and suspended ceilings using thermo-acoustic, fire-resistant, and moisture-resistant boards.",
+              "Specialized Flooring & Coatings: Professional application of porcelain tiles, vinyl flooring, and high-strength industrial epoxy resin with precision leveling and anti-slip properties."
             ],
-            "benefit": "Financial incentives, enhanced property market value, and diminished environmental footprint."
+            "benefit": "Modern, functional, and durable environments that boost productivity and enhance asset value."
           }
         ],
         "features": [
-          "Technical files for construction",
-          "Construction supervision during execution",
-          "Sanitary landfills (RINP, RESPEL, mono landfills, transitional storage, AS pools)",
-          "Stormwater works (channels, sewerage, potable water, irrigation)",
-          "Roofing and metal structure installation",
-          "Interior design and finishes (drywall, landscaping, electrical installations)",
-          "Comprehensive green project design",
-          "LEED, EDGE, BREEAM certifications",
-          "Mi Vivienda Green Bond incentives"
+          "Technical files for construction works",
+          "On-site supervision during execution",
+          "Sustainable project design (LEED, EDGE, BREEAM, Bono Verde)",
+          "Sanitary landfills (RINP, RESPEL, monofills, storage yards)",
+          "Stormwater and hydraulic works (canals, sewerage, water supply, irrigation)",
+          "Metallic roofing and structure installation",
+          "Architectural and interior design",
+          "Low and medium voltage electrical engineering",
+          "Drywall partition and ceiling installation",
+          "Specialized flooring and industrial coatings"
         ],
         "sections": [
           {
             "title": "Project Consulting",
             "items": [
-              "Technical files for construction",
-              "Construction supervision during execution"
+              "Preparation of technical files and engineering plans for construction works.",
+              "On-site supervision throughout project execution.",
+              "Design of sustainable projects applying for certifications: LEED, EDGE, BREEAM, as well as Peruvian government incentives such as MiVivienda Bono Verde, according to client requirements."
             ]
           },
           {
-            "title": "Construction Execution",
+            "title": "Works Execution",
             "items": [
-              "Sanitary landfills (RINP, RESPEL, mono landfills, transitional storage, AS pools)",
-              "Stormwater works (channels, sewerage, potable water system, irrigation)"
+              "Sanitary landfills (RINP, RESPEL, monofills, temporary storage yards, AS evaporation ponds).",
+              "Stormwater & hydraulic works (Canals, drainage & sewerage, drinking water supply systems, irrigation).",
+              "Installation of industrial metallic roofing and structures."
             ]
           },
           {
-            "title": "Infrastructure",
+            "title": "Interior Design & Fit-Out",
             "items": [
-              "Roofing and metal structure installation",
-              "Interior design and finishes: drywall installation",
-              "Design and landscaping",
-              "Electrical installations"
-            ]
-          },
-          {
-            "title": "Comprehensive Green Project Design",
-            "items": [
-              "End-to-end projects with prior client coordination",
-              "Works with public and/or private entities",
-              "Sustainable projects with LEED, EDGE, BREEAM certifications",
-              "Government Mi Vivienda Green Bond incentives"
+              "Architectural & Interior Design: Smart layout planning for offices, retail, and industrial facilities, maximizing natural daylight, brand identity, and operational workflows.",
+              "Electrical Engineering (Low/Medium Voltage): Installation and maintenance of power networks, LED lighting, and earthing systems compliant with the National Electrical Code (CNE) for safety and energy efficiency.",
+              "Drywall Construction: Rapid installation of partitions, room dividers, and suspended ceilings using thermo-acoustic, fire-resistant, and moisture-resistant boards.",
+              "Specialized Flooring & Coatings: Professional application of porcelain tiles, vinyl flooring, and high-strength industrial epoxy resin with precision leveling and anti-slip properties."
             ]
           }
         ],
