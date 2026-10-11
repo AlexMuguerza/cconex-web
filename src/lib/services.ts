@@ -115,9 +115,9 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		slug: "gestion-ambiental",
 		heroImages: [heroAmbiental, heroAmbiental2, heroAmbiental3, heroAmbiental4],
 		offeringImages: [
-			[heroAmbiental2], // Asesoría Legal
-			[heroAmbiental3], // Instrumentos Ambientales
-			[heroAmbiental4], // Participación Ciudadana
+			[heroConfiguracion], // Asesoría Legal
+			[heroConfiguracion], // Instrumentos Ambientales
+			[heroConfiguracion], // Participación Ciudadana
 		],
 	},
 	seguridad: {
@@ -126,7 +126,7 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		slug: "seguridad-y-salud-ocupacional",
 		heroImages: [heroSeguridad, heroSeguridad2, heroSeguridad3, heroSeguridad4],
 		offeringImages: [
-			[heroSeguridad2, heroSeguridad3, heroSeguridad4],
+			[heroConfiguracion, heroConfiguracion, heroConfiguracion],
 		],
 	},
 	ingenieria: {
@@ -135,9 +135,9 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		slug: "ingenieria-y-arquitectura",
 		heroImages: [heroIngenieria, heroIngenieria2, heroIngenieria3, heroIngenieria4],
 		offeringImages: [
-			[heroIngenieria2, heroIngenieria4, heroIngenieria2, heroIngenieria2], // Consultoría de Proyectos
-			[heroIngenieria2, heroIngenieria4, heroIngenieria2], // Ejecución de Obras
-			[heroIngenieria2, heroIngenieria4, heroIngenieria2], // Diseño y Acabado de Interiores
+			[heroConfiguracion, heroConfiguracion, heroConfiguracion, heroConfiguracion], // Consultoría de Proyectos
+			[heroConfiguracion, heroConfiguracion, heroConfiguracion], // Ejecución de Obras
+			[heroConfiguracion, heroConfiguracion, heroConfiguracion], // Diseño y Acabado de Interiores
 		],
 	},
 };
