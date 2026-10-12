@@ -36,20 +36,25 @@ import heroEquipos2 from "@/assets/servicios/equipos/equipo1.png";
 import heroEquipos3 from "@/assets/servicios/equipos/equipo2.jpeg";
 import heroEquipos4 from "@/assets/servicios/equipos/equipo3.jpeg";
 import heroAmbiental from "@/assets/servicios/ambiental/hero.png";
-import heroAmbiental2 from "@/assets/servicios/ambiental/hero-2.png";
-import heroAmbiental3 from "@/assets/servicios/ambiental/hero-3.png";
-import heroAmbiental4 from "@/assets/servicios/ambiental/hero-4.jpg";
 import heroAmbiental5 from "@/assets/servicios/ambiental/instrumento.webp";
 import heroAmbiental6 from "@/assets/servicios/ambiental/legal.webp";
 import heroAmbiental7 from "@/assets/servicios/ambiental/participacion.webp";
 import heroSeguridad from "@/assets/servicios/seguridad/hero.png";
-import heroSeguridad2 from "@/assets/servicios/seguridad/hero-2.png";
-import heroSeguridad3 from "@/assets/servicios/seguridad/hero-3.png";
-import heroSeguridad4 from "@/assets/servicios/seguridad/hero-4.png";
+import heroSeguridad2 from "@/assets/servicios/seguridad/seguridad1.webp";
+import heroSeguridad3 from "@/assets/servicios/seguridad/seguridad2.webp";
+import heroSeguridad4 from "@/assets/servicios/seguridad/seguridad3.webp";
+import heroIngenieria2 from "@/assets/servicios/ingenieria/ingenieria2.webp";
+import heroIngenieria3 from "@/assets/servicios/ingenieria/ingenieria3.webp";
+import heroIngenieria4 from "@/assets/servicios/ingenieria/ingenieria4.webp";
+import heroIngenieria5 from "@/assets/servicios/ingenieria/ingenieria5.webp";
+import heroIngenieria6 from "@/assets/servicios/ingenieria/ingenieria6.webp";
+import heroIngenieria7 from "@/assets/servicios/ingenieria/ingenieria7.webp";
+import heroIngenieria8 from "@/assets/servicios/ingenieria/ingenieria8.webp";
+import heroIngenieria9 from "@/assets/servicios/ingenieria/ingenieria9.webp";
+import heroIngenieria10 from "@/assets/servicios/ingenieria/ingenieria10.webp";
+import heroIngenieria11 from "@/assets/servicios/ingenieria/ingenieria11.webp";
 import heroIngenieria from "@/assets/servicios/ingenieria/hero.png";
-import heroIngenieria2 from "@/assets/servicios/ingenieria/hero-2.png";
-import heroIngenieria3 from "@/assets/servicios/ingenieria/hero-3.png";
-import heroIngenieria4 from "@/assets/servicios/ingenieria/hero-4.png";
+
 import heroConfiguracion from "@/assets/servicios/ambiental/configurando.jpg";
 
 export type ServiceKey =
@@ -129,7 +134,7 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		slug: "seguridad-y-salud-ocupacional",
 		heroImages: [heroSeguridad, heroSeguridad2, heroSeguridad3, heroSeguridad4],
 		offeringImages: [
-			[heroConfiguracion, heroConfiguracion, heroConfiguracion],
+			[heroSeguridad2, heroSeguridad3, heroSeguridad4],
 		],
 	},
 	ingenieria: {
@@ -138,9 +143,9 @@ export const servicesData: Record<ServiceKey, ServiceMeta> = {
 		slug: "ingenieria-y-arquitectura",
 		heroImages: [heroIngenieria, heroIngenieria2, heroIngenieria3, heroIngenieria4],
 		offeringImages: [
-			[heroConfiguracion, heroConfiguracion, heroConfiguracion, heroConfiguracion], // Consultoría de Proyectos
-			[heroConfiguracion, heroConfiguracion, heroConfiguracion], // Ejecución de Obras
-			[heroConfiguracion, heroConfiguracion, heroConfiguracion], // Diseño y Acabado de Interiores
+			[heroIngenieria2, heroIngenieria3, heroIngenieria4, heroIngenieria5], // Consultoría de Proyectos
+			[heroIngenieria6, heroIngenieria7, heroIngenieria8], // Ejecución de Obras
+			[heroIngenieria9, heroIngenieria10, heroIngenieria11], // Diseño y Acabado de Interiores
 		],
 	},
 };
