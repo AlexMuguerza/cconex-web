@@ -236,7 +236,7 @@ export default function Contact() {
 									<div>
 										<h4 className="font-medium text-dark">{t.contact.info.oficinas}</h4>
 										<p className="text-gray text-sm">
-											Av. Principal 123, San Isidro, Lima
+											Los Tulipanes Mz B Lote 1, Huachipa-Lurigancho-Lima
 										</p>
 									</div>
 								</div>
